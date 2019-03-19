@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://blogs.cornell.edu/harrington/xmlrpc.php" />
+<title>Welcome to the Harrington Lab &#8211; Vector Biology Research At Cornell University</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Welcome to the Harrington Lab &raquo; Feed" href="http://blogs.cornell.edu/harrington/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Welcome to the Harrington Lab &raquo; Comments Feed" href="http://blogs.cornell.edu/harrington/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/blogs.cornell.edu\/harrington\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.9"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='live-stream-style-css'  href='http://blogs.cornell.edu/harrington/wp-content/plugins/live-stream-widget/css/live-stream-style.css?ver=4.8.9' type='text/css' media='all' />
+<link rel='stylesheet' id='parabola-style-css'  href='http://blogs.cornell.edu/harrington/wp-content/themes/parabola/style.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='parabola_googlefont-css'  href='//fonts.googleapis.com/css?family=Titillium+Web%3A400%2C600&#038;ver=4.8.9' type='text/css' media='all' />
+<link rel='stylesheet' id='parabola-frontpage-css'  href='http://blogs.cornell.edu/harrington/wp-content/themes/parabola/styles/style-frontpage.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='tw-recent-posts-widget-css'  href='http://blogs.cornell.edu/harrington/wp-content/plugins/tw-recent-posts-widget/tw-recent-posts-widget.css?ver=1.0.5' type='text/css' media='screen' />
+<script type='text/javascript' src='http://blogs.cornell.edu/harrington/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://blogs.cornell.edu/harrington/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var live_stream_data = {"ajaxurl":"http:\/\/blogs.cornell.edu\/harrington\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blogs.cornell.edu/harrington/wp-content/plugins/live-stream-widget/js/live-stream.js?ver=4.8.9'></script>
+<script type='text/javascript' src='http://blogs.cornell.edu/harrington/wp-content/themes/parabola/js/frontend.js?ver=1.6'></script>
+<script type='text/javascript' src='http://blogs.cornell.edu/harrington/wp-content/themes/parabola/js/nivo-slider.js?ver=1.6'></script>
+<link rel='https://api.w.org/' href='http://blogs.cornell.edu/harrington/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blogs.cornell.edu/harrington/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blogs.cornell.edu/harrington/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="Cornell Blog Service" />
+
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','gaplusu');
+
+                function gaplus_track() {
+                                                gaplusu('create', 'UA-1215061-35', 'auto');
+                                                                                                    gaplusu('send', 'pageview');
+                    
+                                                gaplusu('create', 'UA-37595472-1', 'auto', {'name': 'single'});
+                                                                                                        gaplusu('single.send', 'pageview');
+                                    }
+                
+                                    gaplus_track();
+                                
+            </script>
+
+		<link rel="shortcut icon" href="https://s3.amazonaws.com/files.campus.edublogs.org/blogs.cornell.edu/dist/favicon/favicon.png" /><style type="text/css">
+/* <![CDATA[ */
+img.latex { vertical-align: middle; border: none; }
+/* ]]> */
+</style>
+<style type="text/css"> #header, #main, .topmenu, #colophon, #footer2-inner { max-width: 880px; } #container.one-column { } #container.two-columns-right #secondary { width:320px; float:right; } #container.two-columns-right #content { width:540px; float:left; } /*fallback*/ #container.two-columns-right #content { width:calc(100% - 340px); float:left; } #container.two-columns-left #primary { width:320px; float:left; } #container.two-columns-left #content { width:540px; float:right; } /*fallback*/ #container.two-columns-left #content { width:-moz-calc(100% - 340px); float:right; width:-webkit-calc(100% - 340px); width:calc(100% - 340px); } #container.three-columns-right .sidey { width:160px; float:left; } #container.three-columns-right #primary { margin-left:20px; margin-right:20px; } #container.three-columns-right #content { width:520px; float:left; } /*fallback*/ #container.three-columns-right #content { width:-moz-calc(100% - 360px); float:left; width:-webkit-calc(100% - 360px); width:calc(100% - 360px);} #container.three-columns-left .sidey { width:160px; float:left; } #container.three-columns-left #secondary {margin-left:20px; margin-right:20px; } #container.three-columns-left #content { width:520px; float:right;} /*fallback*/ #container.three-columns-left #content { width:-moz-calc(100% - 360px); float:right; width:-webkit-calc(100% - 360px); width:calc(100% - 360px); } #container.three-columns-sided .sidey { width:160px; float:left; } #container.three-columns-sided #secondary { float:right; } #container.three-columns-sided #content { width:520px; float:right; /*fallback*/ width:-moz-calc(100% - 360px); float:right; width:-webkit-calc(100% - 360px); float:right; width:calc(100% - 360px); float:right; margin: 0 180px 0 -880px; } body { font-family: "Titillium Web"; } #content h1.entry-title a, #content h2.entry-title a, #content h1.entry-title , #content h2.entry-title { font-family: inherit; } .widget-title, .widget-title a { line-height: normal; font-family: inherit; } .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, #comments #reply-title { font-family: inherit; } #site-title span a { font-family: inherit; } #access ul li a, #access ul li a span { font-family: inherit; } body { color: #333333; background-color: #EEE } a { color: #639e43; } a:hover { color: #333; } #header-full { background-color: #FFFFFF; } #site-title span a { color:#DFEED7; } #site-description { color:#333; background-color: rgba(185,218,167,0.3); padding-left: 6px; } .socials a { background-color: #639e43; } .socials-hover { background-color: #737373; } .breadcrumbs:before { border-color: transparent transparent transparent #333333; } #access a, #nav-toggle span { color: #ffffff; background-color: #737373; } @media (max-width: 650px) { #access, #nav-toggle { background-color: #737373; } } #access a:hover { color: #ffffff; background-color: #639e43; } #access > .menu > ul > li > a:after, #access > .menu > ul ul:after { border-color: transparent transparent #639e43 transparent; } #access ul li:hover a:after { border-bottom-color:#B9DAA7;} #access ul li.current_page_item > a, #access ul li.current-menu-item > a, /*#access ul li.current_page_parent > a, #access ul li.current-menu-parent > a,*/ #access ul li.current_page_ancestor > a, #access ul li.current-menu-ancestor > a { color: #eee; background-color: #666666; } #access ul li.current_page_item > a:hover, #access ul li.current-menu-item > a:hover, /*#access ul li.current_page_parent > a:hover, #access ul li.current-menu-parent > a:hover,*/ #access ul li.current_page_ancestor > a:hover, #access ul li.current-menu-ancestor > a:hover { color: #ffffff; } #access ul ul { box-shadow: 3px 3px 0 rgba(102,102,102,0.3); } .topmenu ul li a { color: #666666; } .topmenu ul li a:before { border-color: #639e43 transparent transparent transparent; } .topmenu ul li a:hover:before{border-top-color:#B9DAA7} .topmenu ul li a:hover { color: #666666; background-color: #FFFFFF; } div.post, div.page, div.hentry, div.product, div[class^='post-'], #comments, .comments, .column-text, .column-image, #srights, #slefts, #frontpage blockquote, .page-title, .page-header, article.post, article.page, article.hentry, .contentsearch, #author-info, #nav-below, .yoyo > li, .woocommerce #mainwoo { background-color: #FFFFFF; } div.post, div.page, div.hentry, .sidey .widget-container, #comments, .commentlist .comment-body, article.post, article.page, article.hentry, #nav-below, .page-header, .yoyo > li { border-color: #DFEED7; } #author-info, #entry-author-info { border-color: #F1F8ED; } #entry-author-info #author-avatar, #author-info #author-avatar { border-color: #DFEED7; } article.sticky { box-shadow:0 0 1px rgba(185,218,167,1) inset; border-color:#FFFFFF} .sidey .widget-container { color: #333333; background-color: #FFFFFF; } .sidey .widget-title { color: #FFFFFF; background-color: #737373; } .sidey .widget-title:after { border-color: transparent transparent #639e43; } .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 { color: #444444; } .entry-title, .entry-title a, .page-title { color: #444444; } .entry-title a:hover { color: #222; } #content h3.entry-format { color: #ffffff; background-color: #737373; border-color: #737373; } #content h3.entry-format { color: #ffffff; background-color: #737373; border-color: #737373; } .comments-link { background-color: #F1F8ED; } .comments-link:before { border-color: #F1F8ED transparent transparent; } #footer { color: #eee; background-color: #aaa; } #footer2 { color: #eee; background-color: #375825; border-color:rgba(255,255,255,.1); } #footer a { color: #639e43; } #footer a:hover { color: #333; } #footer2 a { color: #639e43; } #footer2 a:hover { color: #fff; } #footer .widget-container { color: #333333; background-color: #FFFFFF; } #footer .widget-title { color: #FFFFFF; background-color: #737373; } #footer .widget-title:after { border-color: transparent transparent #639e43; } .footermenu ul li a:after { border-color: transparent transparent #639e43 transparent; } a.continue-reading-link { color:#ffffff !important; background:#737373; border-color:##DFEED7; } a.continue-reading-link:hover { background-color:#639e43; } .file, .button, #respond .form-submit input#submit { background-color: #FFFFFF; border-color: #B9DAA7; box-shadow: 0 -10px 10px 0 #F1F8ED inset; } .file:hover, .button:hover, #respond .form-submit input#submit:hover { background-color: #F1F8ED; } .entry-content tr th, .entry-content thead th { color: #FFFFFF; background-color: #444444; } .entry-content fieldset, #content tr td { border-color: #B9DAA7; } hr { background-color: #B9DAA7; } input[type="text"], input[type="password"], input[type="email"], input[type="file"], textarea, select, input[type="color"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="month"],input[type="number"],input[type="range"], input[type="search"],input[type="tel"],input[type="time"],input[type="url"],input[type="week"] { background-color: #F1F8ED; border-color: #B9DAA7 #DFEED7 #DFEED7 #B9DAA7; color: #333333; } input[type="submit"], input[type="reset"] { color: #333333; background-color: #FFFFFF; border-color: #B9DAA7; box-shadow: 0 -10px 10px 0 #F1F8ED inset; } input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, textarea:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="range"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover { background-color: rgb(241,248,237); background-color: rgba(241,248,237,0.4); } .entry-content code { border-color: #B9DAA7; background-color: #F1F8ED; } .entry-content pre { background-color: #F1F8ED; } .entry-content blockquote { border-color: #639e43; background-color: #F1F8ED; } abbr, acronym { border-color: #333333; } span.edit-link { color: #333333; background-color: #DFEED7; border-color: #F1F8ED; } .meta-border .entry-meta span, .meta-border .entry-utility span.bl_posted { border-color: #F1F8ED; } .meta-accented .entry-meta span, .meta-accented .entry-utility span.bl_posted { background-color: #DFEED7; border-color: #F1F8ED; } .comment-meta a { color: #333333; } .comment-author { background-color: #F1F8ED; } .comment-details:after { border-color: transparent transparent transparent #F1F8ED; } #respond .form-allowed-tags { color: #999999; } .reply a { background-color: #F1F8ED; border-color: #DFEED7; } .reply a:hover { background-color: #737373;color: #639e43; } .nav-next a:hover { background:-moz-linear-gradient(left, #FFFFFF, #F1F8ED); background:-webkit-linear-gradient(left, #FFFFFF, #F1F8ED); background:-ms-linear-gradient(left, #FFFFFF, #F1F8ED); background:-o-linear-gradient(left, #FFFFFF, #F1F8ED); background:linear-gradient(left, #FFFFFF, #F1F8ED); } .nav-previous a:hover { background: -moz-linear-gradient(left, #F1F8ED, #FFFFFF); background: -webkit-linear-gradient(left, #F1F8ED, #FFFFFF); background: -ms-linear-gradient(left, #F1F8ED, #FFFFFF); background: -o-linear-gradient(left, #F1F8ED, #FFFFFF); background: linear-gradient(left, #F1F8ED, #FFFFFF); } .pagination .current { font-weight: bold; } .pagination span, .pagination a { background-color: #FFFFFF; } .pagination a:hover { background-color: #737373;color:#639e43} .page-link em {background-color: #737373; color:#ffffff; color:#639e43;} .page-link a em {color:#B9DAA7;} .page-link a:hover em {background-color:#639e43;} #searchform input[type="text"] {color:#999999;} #toTop {border-color:transparent transparent #375825;} #toTop:after {border-color:transparent transparent #FFFFFF;} #toTop:hover:after {border-bottom-color:#639e43;} .caption-accented .wp-caption { background-color:rgb(99,158,67); background-color:rgba(99,158,67,0.8); color:#FFFFFF} .meta-themed .entry-meta span { color: #999999; background-color: #F1F8ED; border-color: #DFEED7; } .meta-themed .entry-meta span:hover { background-color: #DFEED7; } .meta-themed .entry-meta span a:hover { color: #333333; } #content p, #content ul, #content ol, #content, #frontpage blockquote { text-align:Default ; } #content p, #content ul, #content ol, .widget-area, .widget-area a, table, table td { font-size:15px; word-spacing:Default; letter-spacing:Default; } #content p, #content ul, #content ol, .widget-area, .widget-area a { line-height:1.7em; } #site-title a, #site-description, #access a, .topmenu ul li a, .footermenu a, .entry-meta span, .entry-utility span, #content h3.entry-format, span.edit-link, h3#comments-title, h3#reply-title, .comment-author cite, .reply a, .widget-title, #site-info a, .nivo-caption h2, a.continue-reading-link, .column-image h3, #front-columns h3.column-header-noimage, .tinynav, .page-link { text-transform: none; }#content h1.entry-title, #content h2.entry-title { font-size:26px ;} .widget-title, .widget-title a { font-size:16px ;} #content .entry-content h1 { font-size: 32px;} #content .entry-content h2 { font-size: 28px;} #content .entry-content h3 { font-size: 24px;} #content .entry-content h4 { font-size: 20px;} #content .entry-content h5 { font-size: 16px;} #content .entry-content h6 { font-size: 12px;} #site-title span a { font-size:38px ;} #access ul li a { font-size:15px ;} #access ul ul ul a {font-size:13px;} .nocomments, .nocomments2 {display:none;} #header-container > div { margin:20px 0 0 240px;} #content p, #content ul, #content ol, #content dd, #content pre, #content hr { margin-bottom: 1.0em; } #header-widget-area { width: 33%; } #branding { height:100px; } </style> 
+<style type="text/css"> .slider-wrapper { max-width: 1050px ; } #slider{ max-width: 1036px ; height: 386px ; border:7px solid #ffffff; } #front-text1 h1, #front-text2 h1{ color: #639e43; } #front-columns > div { width: 32%; } #front-columns > div#column3 { margin-right: 0; } .column-image img { height:201px;} .nivo-caption { background-color: rgb(68,68,68); background-color: rgba(68,68,68,0.7); } .nivo-caption, .nivo-caption a { color: #ffffff; } .theme-default .nivoSlider { background-color: #ffffff; } .theme-default .nivo-controlNav:before, .theme-default .nivo-controlNav:after { border-top-color:#ffffff; } .theme-default .nivo-controlNav { background-color:#ffffff; } .slider-bullets .nivo-controlNav a { background-color: #737373; } .slider-bullets .nivo-controlNav a:hover { background-color: #737373; } .slider-bullets .nivo-controlNav a.active {background-color: #639e43; } .slider-numbers .nivo-controlNav a { color:#737373; background-color:#EEE;} .slider-numbers .nivo-controlNav a:hover { color: #737373; background-color:#FFFFFF } .slider-numbers .nivo-controlNav a.active { color:#639e43;} .column-image h3{ color: #333333; background-color: rgb(255,255,255); background-color: rgba(255,255,255,0.6); } .columnmore { background-color: #EEE; } .columnmore:before { border-bottom-color: #EEE; } #front-columns h3.column-header-noimage { background: #FFFFFF; } </style>
+
+<link rel='stylesheet' id='parabola_style_mobile'  href='http://blogs.cornell.edu/harrington/wp-content/themes/parabola/styles/style-mobile.css?ver=1.6' type='text/css' media='all' /><script type="text/javascript">var cryout_global_content_width = 560;</script><!--[if lt IE 9]>
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('section');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+</script>
+<![endif]-->
+<script type="text/javascript">
+function makeDoubleDelegate(function1, function2) { /* concatenate functions */
+    return function() { if (function1) function1(); if (function2) function2(); }
+}
+function parabola_onload() {
+	jQuery(".entry-content").fitVids(); };
+jQuery(document).ready(function(){
+	parabola_mobilemenu_init(); });
+/* make sure not to lose previous onload events */
+window.onload = makeDoubleDelegate(window.onload, parabola_onload );
+</script>
+</head>
+<body class="home blog parabola-image-five caption-accented meta-accented parabola-menu-left">
+
+<div id="toTop"> </div>
+<div id="wrapper" class="hfeed">
+
+
+<div id="header-full">
+
+<header id="header">
+
+
+		<div id="masthead">
+
+			<div id="branding" role="banner" >
+
+				<img id="bg_image" alt="" title="" src="http://blogs.cornell.edu/harrington/files/2013/12/cropped-Untitled-copy-26tl11h.jpg"  /><div id="header-container">
+<div><h1 id="site-title"><span> <a href="http://blogs.cornell.edu/harrington/" title="Welcome to the Harrington Lab" rel="home">Welcome to the Harrington Lab</a> </span></h1><div id="site-description" >Vector Biology Research At Cornell University</div></div></div>								<div style="clear:both;"></div>
+
+			</div><!-- #branding -->
+			<a id="nav-toggle"><span>&nbsp;</span></a>
+			<nav id="access" role="navigation">
+
+				<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+<div class="menu"><ul id="prime_nav" class="menu"><li id="menu-item-568" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-568"><a href="http://blogs.cornell.edu/harrington/"><span>Home</span></a></li>
+<li id="menu-item-494" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-494"><a href="http://blogs.cornell.edu/harrington/news/"><span>News</span></a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="http://blogs.cornell.edu/harrington/research/"><span>Research</span></a></li>
+<li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="http://blogs.cornell.edu/harrington/research/members/"><span>Members</span></a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a href="http://blogs.cornell.edu/harrington/research/principal-investigator/"><span>Principal Investigator</span></a></li>
+<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="http://blogs.cornell.edu/harrington/research/teaching/"><span>Teaching</span></a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-77"><a href="http://blogs.cornell.edu/harrington/research/undergraduate-alumni/"><span>Lab Alumni</span></a>
+<ul  class="sub-menu">
+	<li id="menu-item-352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-352"><a href="http://blogs.cornell.edu/harrington/past-graduate-and-post-graduate-students/"><span>Past Graduate and Post-Graduate Students</span></a></li>
+	<li id="menu-item-349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349"><a href="http://blogs.cornell.edu/harrington/past-undergraduates/"><span>Past Undergraduates</span></a></li>
+</ul>
+</li>
+<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="http://blogs.cornell.edu/harrington/research/prospective-students/"><span>Prospective Students</span></a></li>
+<li id="menu-item-297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-297"><a href="http://blogs.cornell.edu/harrington/recent-publications/"><span>Publications</span></a></li>
+<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-314"><a href="http://blogs.cornell.edu/harrington/tick-and-mosquito-fact-sheets/"><span>Tick &#038; Mosquito Fact Sheets</span></a>
+<ul  class="sub-menu">
+	<li id="menu-item-569" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-569"><a href="http://blogs.cornell.edu/harrington/files/2014/01/Tick-Biology-for-the-Homeowner-updated-2013-1fhxi2o.pdf"><span>Tick Biology for the Homeowner</span></a></li>
+	<li id="menu-item-638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-638"><a href="http://blogs.cornell.edu/harrington/files/2014/01/Mosquito-Biology-for-the-Homeowner_final-2014-18iwdiw.pdf"><span>Mosquito Biology for the Homeowner</span></a></li>
+</ul>
+</li>
+<li id="menu-item-609" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-609"><a href="http://entomology.cals.cornell.edu/"><span>Department of Entomology</span></a></li>
+<li id="menu-item-832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-832"><a href="http://blogs.cornell.edu/harrington/press-brief-on-zika-virus-in-dc/"><span>Press brief on Zika virus in DC</span></a></li>
+<li id="menu-item-866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-866"><a href="http://blogs.cornell.edu/harrington/tigernet/"><span>TigerNET</span></a></li>
+<li id="menu-item-899" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-899"><a href="http://blogs.cornell.edu/harrington/httpneregionalvectorcenter-com/"><span>Northeast Regional Center for Excellence in Vector Borne Diseases</span></a></li>
+<li id="menu-item-1073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1073"><a href="http://blogs.cornell.edu/harrington/malaria-biology-and-control-syllabus/"><span>Malaria Biology and Control syllabus</span></a></li>
+</ul></div>
+			</nav><!-- #access -->
+
+		</div><!-- #masthead -->
+
+	<div style="clear:both;height:1px;width:1px;"> </div>
+
+</header><!-- #header -->
+</div><!-- #header-full -->
+<div id="main">
+	<div  id="forbottom" >
+		
+		<div style="clear:both;"> </div>
+
+		
+<script type="text/javascript">
+     jQuery(document).ready(function() {
+	// Slider creation
+     jQuery('#slider').nivoSlider({
+		effect: 'sliceUp',
+       	animSpeed: 600,
+				pauseTime: 8000     });
+     // Flash animation for columns
+     jQuery('.column-image > img').stop().css({"opacity":"0.999"});
+     jQuery('#front-columns > div > a ').hover(
+          function() {
+            jQuery(this).find('.column-header-image').stop().css('display','block').animate({bottom:'30px',opacity:1},{queue:false,duration:200});
+     		jQuery(this).find('img').stop().animate({opacity:'0.7'},{queue:false,duration:600});
+          }, function () {
+     		jQuery(this).find('.column-header-image').stop().animate({bottom:'-50px',opacity:0},{queue:false,duration:200});
+     		jQuery(this).find('img').stop().animate({opacity:'0.999'},{queue:false,duration:200});
+     	})
+	});
+</script> 
+
+<div id="frontpage">
+<div class="slider-wrapper theme-default slider-navhover slider-none">
+     <div class="ribbon"></div>
+     <div id="slider" class="nivoSlider">
+	            <a href='#'>
+                 <img src='https://blogs.cornell.edu/harrington/files/2018/06/20171113-131322-lab-cropped-uxssqd.jpg' alt="Harrington Lab members" title="#caption0"  />
+            </a>                 <a href='#'>
+                 <img src='https://blogs.cornell.edu/harrington/files/2018/06/20171113-132136-1mj5w5t.jpg' alt="Garrett investigates Anopheles mating behavior" title="#caption1"  />
+            </a>                 <a href='#'>
+                 <img src='http://blogs.cornell.edu/harrington/files/2013/12/photo-1q44myf.jpg' alt="Senior party at Shipwreck golf" title="#caption2"  />
+            </a>                 <a href='#'>
+                 <img src='https://blogs.cornell.edu/harrington/files/2018/06/20171113-134016-alex-cropped-2-1akfwjf.jpg' alt="Alex rears her CRISPR lines " title="#caption3"  />
+            </a>                 <a href='#'>
+                 <img src='https://blogs.cornell.edu/harrington/files/2018/06/20171113-135709-ethan-cropped-2ij3zsh.jpg' alt="Ethan examines a mosquito" title="#caption4"  />
+            </a>          </div>
+                 <div id="caption0" class="nivo-html-caption">
+                <h2>Harrington Lab members</h2>            </div>
+	            <div id="caption1" class="nivo-html-caption">
+                <h2>Garrett investigates Anopheles mating behavior</h2>            </div>
+	            <div id="caption2" class="nivo-html-caption">
+                <h2>Senior party at Shipwreck golf</h2>            </div>
+	            <div id="caption3" class="nivo-html-caption">
+                <h2>Alex rears her CRISPR lines </h2>            </div>
+	            <div id="caption4" class="nivo-html-caption">
+                <h2>Ethan examines a mosquito</h2>            </div>
+	     </div>
+<div id="front-columns">
+     <div id="column1">
+     	<a  href="">
+					</a>
+
+			
+	</div>	
+     <div id="column2">
+     	<a  href="">
+					</a>
+
+			
+	</div>	
+     <div id="column3">
+     	<a  href="">
+					</a>
+
+			
+	</div>	
+</div>
+</div> <!-- frontpage -->
+	<div style="clear:both;"></div>
+	</div> <!-- #forbottom -->
+	</div><!-- #main -->
+
+
+	<footer id="footer" role="contentinfo">
+		<div id="colophon">
+		
+			
+
+			<div id="footer-widget-area"  role="complementary"  class="footerone" >
+
+				<div id="first" class="widget-area">
+					<ul class="xoxo">
+								<li id="recent-posts-5" class="widget-container widget_recent_entries">		<h3 class="widget-title">News</h3>		<ul>
+					<li>
+				<a href="http://blogs.cornell.edu/harrington/2019/03/13/congratulations-ethan-on-winning-the-eb-john-henry-comstock-award/">Congratulations Ethan! on winning the EB John Henry Comstock Award!!</a>
+							<span class="post-date">March 13, 2019</span>
+						</li>
+					<li>
+				<a href="http://blogs.cornell.edu/harrington/2019/01/08/new-spring-2019-course-entom-6530-control-of-disease-vectors-seminar/">New Spring 2019 Course! ENTOM 6530 Control of Disease Vectors Seminar</a>
+							<span class="post-date">January 8, 2019</span>
+						</li>
+					<li>
+				<a href="http://blogs.cornell.edu/harrington/2018/12/11/new-spring-2019-course-entom-6520-malaria-biology-and-control/">New Spring 2019 Course ENTOM 6520: Malaria Biology and Control !</a>
+							<span class="post-date">December 11, 2018</span>
+						</li>
+					<li>
+				<a href="http://blogs.cornell.edu/harrington/2018/12/11/great-job-to-our-undergraduates-on-presenting-your-research-at-the-fall-harrington-lab-symposium/">Great job to our undergraduates on presenting your research at the fall Harrington lab symposium!</a>
+							<span class="post-date">December 11, 2018</span>
+						</li>
+					<li>
+				<a href="http://blogs.cornell.edu/harrington/2018/09/25/upcoming-seminar-hosted-by-the-lab-dr-ben-matthews/">Upcoming seminar hosted by the lab!  Dr. Ben Matthews</a>
+							<span class="post-date">September 25, 2018</span>
+						</li>
+				</ul>
+		</li>							</ul>
+				</div><!-- #first .widget-area -->
+
+
+
+			</div><!-- #footer-widget-area -->
+			
+		</div><!-- #colophon -->
+
+		<div id="footer2">
+			<div id="footer2-inner">
+					<div style="text-align:center;padding:5px 0 2px;text-transform:uppercase;font-size:11px;margin:0 auto;">
+	Powered by <a target="_blank" href="http://www.cryoutcreations.eu" title="Parabola Theme by Cryout Creations">Pa&#1103;abola</a> &amp; <a target="_blank" href="http://wordpress.org/"
+			title="Semantic Personal Publishing Platform">  WordPress.		</a>
+	</div><!-- #site-info -->
+				</div>
+		</div><!-- #footer2 -->
+
+	</footer><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<style type="text/css">#wp-admin-bar-abm-login{display:block!important}body .wp-video-shortcode video,body video.wp-video-shortcode{margin:0;padding:0;background:0 0;border:none;box-shadow:none;min-width:0;height:auto;min-height:0}.screen-reader-text:not(button){clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}</style><div id="global-footer-content" ><div id="global-footer-content-inner" >Hosted by <a href="http://campuspress.com">CampusPress</a>
+
+<script src="https://embanner.univcomm.cornell.edu/OWC-emergency-banner.js" type="text/javascript"> </script></div></div><script type='text/javascript' src='http://blogs.cornell.edu/harrington/wp-includes/js/wp-embed.min.js?ver=4.8.9'></script>
+
+</body>
+</html>

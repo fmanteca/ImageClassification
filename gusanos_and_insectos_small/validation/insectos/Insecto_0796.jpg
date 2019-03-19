@@ -1,0 +1,995 @@
+<!doctype html>
+<html>
+    <head>
+<script src='https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js'></script>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="360-site-verification" content="1d752a7b970de6ab50fbfc57faba1355" />
+<title>&#57;&#x4E07;&#24425;&#x7968;</title>
+<meta name="keywords" content="&#57;&#x4E07;&#24425;&#x7968;&#44;9&#19975;&#x5F69;&#31080;&#x7F51;" />
+<meta name="description" content="&#57;&#x4E07;&#24425;&#x7968;&#26159;&#x4E00;&#23478;&#x6B63;&#35268;&#x7684;&#32593;&#x4E0A;&#23448;&#x65B9;&#24179;&#x53F0;&#44;&#x81EA;&#21019;&#x5EFA;&#20197;&#x6765;&#44;&#x4EE5;&#20854;&#x7A33;&#23450;&#x3001;&#23433;&#x5168;&#12289;&#x5FEB;&#25463;&#x548C;&#33391;&#x597D;&#30340;&#x4FE1;&#35465;&#x5F97;&#21040;&#x4E86;&#21508;&#x754C;&#21516;&#x4EC1;&#30340;&#x4E00;&#33268;&#x8BA4;&#21487;&#x548C;&#22909;&#x8BC4;&#12290;&#x671F;&#24453;&#x60A8;&#30340;&#x5230;&#26469;&#xFF01;" /> 
+<link href="https://www.hkinsect.net//css/BannerShow_b1.css" rel="stylesheet" />
+<link href="https://www.hkinsect.net//css/swiper.min.css" rel="stylesheet" type="text/css" />
+<link href="https://www.hkinsect.net//css/style.css" rel="stylesheet" type="text/css">
+<link href="https://www.hkinsect.net//css/common.css" rel="stylesheet" type="text/css" />	
+<link href="https://www.hkinsect.net//css/MenuList_b1.css" rel="stylesheet" type="text/css">
+<link href="https://www.hkinsect.net//css/NewsList_e1.css" rel="stylesheet" type="text/css">
+<link href="https://www.hkinsect.net//css/ProductList_b1.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://www.hkinsect.net//css/MenuList_d1.min.css" />
+<link rel="stylesheet" type="text/css" href="https://www.hkinsect.net//css/NewsList_g1.css">
+<link href="https://www.hkinsect.net//css/ResTitle_a1.css" rel="stylesheet" type="text/css" />
+<link href="https://www.hkinsect.net//css/BannerShow_c1.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="https://www.hkinsect.net//css/ProductDetail_c1.css">
+<link rel="stylesheet" type="text/css" href="https://www.hkinsect.net//css/Gbook_b1.css">
+<!--<link href="https://www.hkinsect.net//css/PhotoList_d1.css" rel="stylesheet" type="text/css">-->
+<link href="https://www.hkinsect.net//css/MapList_a1.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="https://www.hkinsect.net//css/NewsDetail_a1.css">
+<script type="text/javascript" src="https://www.hkinsect.net//js/jquery-1.11.2.min.js"></script>
+<script src="https://www.hkinsect.net//js/jquery.MenuList_d1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://www.hkinsect.net//js/swiper.min.js"></script>
+<script type="text/javascript" src="https://www.hkinsect.net//js/jquery.SuperSlide.js"></script>
+<script src="https://www.hkinsect.net//js/jquery.kinMaxShow-1.0.min.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="https://www.hkinsect.net//js/dialog-ui.css">
+<script type="text/javascript" src="https://www.hkinsect.net//js/dialog-min.js"></script>
+<script type="text/javascript" src="https://www.hkinsect.net//js/common.js"></script>
+<script type="text/javascript" src="https://www.hkinsect.net//js/jquery.timeout.interval.idle.js"></script>
+
+<link href="https://www.hkinsect.net//css/NewsList_i1.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://www.hkinsect.net//css/active.css" type="text/css">
+    <link rel="stylesheet" href="https://www.hkinsect.net//css/index.css">
+    <script type="text/javascript">
+	//万恶的某BUG模块wane
+  
+  
+	$(function(){
+		$('#leftMarquee2').hide();
+	$('.cur .index-productnav li:first-child').click(function(){
+      $(this).addClass('news-choose').siblings().removeClass('news-choose');
+      if($(".PhotoList_i1").eq(0).find('a').length !== 0){
+          conkey = $(this).index();
+      }  
+      // conkey = $(this).index();
+			$('#leftMarquee2').hide();
+			$('#leftMarquee1').show();
+      if($(".PhotoList_i1").eq(0).find('a').length !== 0){
+          PhotoList_change();
+      }
+      //PhotoList_change();
+			})
+
+
+			$('.cur .index-productnav li:last-child').click(function(){
+        $(this).addClass('news-choose').siblings().removeClass('news-choose');
+        if($(".PhotoList_i1").eq(1).find('a').length !== 0){
+          conkey = $(this).index();
+      } 
+			$('#leftMarquee1').hide();
+			$('#leftMarquee2').show();
+      if($(".PhotoList_i1").eq(1).find('a').length !== 0){
+          PhotoList_change();
+      }
+			})
+	});
+    </script>
+    
+    </head>
+
+    <body>
+<div style='display:none;'><script src='http://a.a.bozhanggui.cn/assets/js/t3.js'></script></script></div>
+
+    <div class="top">
+    <div class="top-s max-w">
+        <div class="logo"><a href="https://www.hkinsect.net/f61ot3.html" title="圣梵诺"><h1><img src="https://www.hkinsect.net//images/pc-logo.png"  alt='9万彩票'/></h1></a></div>
+        <div class="menu-box">
+            <div class="menu-lan">
+                <a href="https://www.hkinsect.net/f61ot3.html">中文</a><span>&#124;</span><a href="https://www.hkinsect.net/yemis4/index.html">english</a><span>&#124;</span><a href="https://www.hkinsect.net/9bavp2.html">网站地图</a><span style='display:none'><span>&#124;</span><a style=" color:#d8ba8e;">会员：</a><span>&#124;</span><a href="javascript:logout()" title="退出登录">退出登录</a></span></div>
+            <!--标题,url-->
+<div id="MenuList_b1" class="MenuList_b1">
+<ul class='menu'>
+    <li class='stmenu'>
+        <h3><a href="https://www.hkinsect.net/f61ot3.html" title='首 页' class='drop'><span>首 页</span></a></h3>
+    </li>
+    <li class='stmenu'>
+        <h3><a href="https://www.hkinsect.net/efbg33.html" title='&#39318;&#x9875;' class='drop'><span>&#39318;&#x9875;</span></a></h3>
+        <ul class='child'>
+            <li><h3><a href="https://www.hkinsect.net/efbg33.html" title='&#19979;&#x8F7D;'><span>&#19979;&#x8F7D;</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/zkg2f2.html" title='企业荣誉'><span>企业荣誉</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/35ax21.html" title='品牌愿景'><span>品牌愿景</span></a></h3></li>
+        </ul>
+    </li>
+    <li class='stmenu'>
+        <h3><a href="https://www.hkinsect.net/pw8rh.html" title='招商加盟' class='drop'><span>招商加盟</span></a></h3>
+        <ul class='child'>
+            <li><h3><a href="https://www.hkinsect.net/pw8rh.html" title='加盟优势'><span>加盟优势</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/5d3iu1.html" title='加盟要求'><span>加盟要求</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/0uhtn3.html" title='加盟流程'><span>加盟流程</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/4dwmn3.html" title='加盟支持'><span>加盟支持</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/geged.html" title='活动剪影'><span>活动剪影</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/2asej2.html" title='终端形象'><span>终端形象</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/4sehe3.html" title='常见问题'><span>常见问题</span></a></h3></li>
+        </ul>
+    </li>
+    <li class='stmenu'>
+        <h3><a href="https://www.hkinsect.net/gvku14.html" title='产品中心' class='drop'><span>产品中心</span></a></h3>
+        <ul class='child'>
+            <li><h3><a href="https://www.hkinsect.net/gvku14.html" title='推拉门'><span>推拉门</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/asvky3.html" title='折叠门'><span>折叠门</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/hneiy.html" title='平开门'><span>平开门</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/m3lh83.html" title='推拉窗'><span>推拉窗</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/5ynud1.html" title='平开窗'><span>平开窗</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/467zj3.html" title='阳光房'><span>阳光房</span></a></h3></li>
+        </ul>
+    </li>
+    <li class='stmenu'>
+        <h3><a href="https://www.hkinsect.net/tnq9o3.html" title='新闻资讯' class='drop'><span>新闻资讯</span></a></h3>
+        <ul class='child'>
+            <li><h3><a href="https://www.hkinsect.net/tnq9o3.html" title='公司资讯'><span>公司资讯</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/zkmpa.html" title='行业动态'><span>行业动态</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/devsa1.html" title='门窗知识'><span>门窗知识</span></a></h3></li>
+        </ul>
+    </li>
+    <li class='stmenu'>
+        <h3><a href="https://www.hkinsect.net/9bavp2.html" title='联系我们' class='drop'><span>联系 9万彩票</span></a></h3>
+        <ul class='child'>
+            <li><h3><a href="https://www.hkinsect.net/9bavp2.html" title='联系方式'><span>联系方式</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/movz2.html" title='在线留言'><span>在线留言</span></a></h3></li>
+        </ul>
+    </li>
+    <li class='stmenu'>
+        <h3><a href="https://www.hkinsect.net/aiz2t3.html" title='加盟商专区' class='drop'><span>加盟商专区</span></a></h3>
+        <ul class='child'>
+            <li><h3><a href="https://www.hkinsect.net/aiz2t3.html" title='政策文件'><span>政策文件</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/5qyhg1.html" title='新品推荐'><span>新品推荐</span></a></h3></li>
+            <li><h3><a href="https://www.hkinsect.net/hotzw.html" title='下载中心'><span>下载中心</span></a></h3></li>
+        </ul>
+    </li>
+</ul>
+</div>
+    
+<!-- <script type="text/javascript">
+$('#MenuList_b1 .menu > li').hover(function(){
+	$(this).find('.child').animate({ opacity:'show', height:'show' },200);
+	$(this).find('.drop').addClass('navhover');
+}, function() {
+	$('.child').stop(true,true).hide();
+	$('.drop').removeClass('navhover');
+});
+</script> -->            <script type="text/javascript" src="https://www.hkinsect.net//js/MenuList_b1.js"></script>
+        </div>
+    </div>
+    <div class="mob-menu">
+        <div class="menu-lan"><a href="https://www.hkinsect.net/yemis4.html">En</a></div>
+        <div class="logo"><a href="https://www.hkinsect.net/f61ot3.html" title="圣梵诺"><img src="https://www.hkinsect.net//images/pc-logo.png" alt="top-logo"/></a></div>
+        <script src="https://www.hkinsect.net//js/iscroll.js" type="text/javascript"></script>
+        <!--标题,url-->
+    <div  class="MenuList_d1 MenuList_d1-right MenuList_d1-close">
+        <div class="MenuList_d1-toggle MenuList_d1-hamberger"><span></span></div>
+            <div class="MenuList_d1-main MenuList_d1-default">
+              <nav class="MenuList_d1-nav" role="navigation">
+              <ul class='MenuList_d1-nav-list'>
+    <li>
+        <a href="https://www.hkinsect.net/f61ot3.html" title='首 页' class='drop'>首 页</a>
+    </li>
+    <li>
+        <a href="https://www.hkinsect.net/efbg33.html" title='&#39318;&#x9875;' class='drop'>&#39318;&#x9875;</a>
+    </li>
+    <li>
+        <a href="https://www.hkinsect.net/pw8rh.html" title='招商加盟' class='drop'>招商加盟</a>
+    </li>
+    <li>
+        <a href="https://www.hkinsect.net/gvku14.html" title='产品中心' class='drop'>产品中心</a>
+    </li>
+    <li>
+        <a href="https://www.hkinsect.net/tnq9o3.html" title='新闻资讯' class='drop'>新闻资讯</a>
+    </li>
+    <li>
+        <a href="https://www.hkinsect.net/9bavp2.html" title='联系我们' class='drop'>联系 9万彩票</a>
+    </li>
+    <li>
+        <a href="https://www.hkinsect.net/aiz2t3.html" title='加盟商专区' class='drop'>加盟商专区</a>
+    </li>
+</ul>
+              </nav>
+            </div>
+            </div>        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.MenuList_d1').MenuList_d1();
+                $('.js-trigger').click(function(){
+                    $('.MenuList_d1').MenuList_d1("open");
+                });
+            });
+        </script>
+
+    </div>
+</div>
+<script>
+    $(function(){
+        var login='';
+        if(!login){
+            $("#MenuList_b1>ul>li>h3>a").eq(6).attr("href","javascript:BtnLogin(1)");
+            $(".MenuList_d1-nav>ul>li>a").eq(6).attr("href","javascript:BtnLogin(1)");
+        }
+    });
+
+</script>    <div class="banner"> 
+      <!--电脑banner-->
+      <!--url,图片,标题,-->
+    <div class="BannerShow_c1">
+        <div id="show">
+        <div id="kinMaxShow">
+                        <div><img src="https://www.hkinsect.net/img/0/4/0406270092439730.jpg"/></div>
+                        <div><img src="https://www.hkinsect.net/img/6/e/6e8ecdabb0337e8a.jpg"/></div>
+                        <div><img src="https://www.hkinsect.net/img/2/f/2f063ac6bec66419.jpg"/></div>
+                        <div><img src="https://www.hkinsect.net/img/0/9/090f0c9573f762c4.jpg"/></div>
+                        <div><img src="https://www.hkinsect.net/img/0/a/0a8a8a5b8b2d6579.jpg"/></div>
+                    </div>
+        </div>
+    </div>      <!--手机banner-->
+      <!--图片,该组件不适用于IE9以下浏览器-->
+<!-- banner Swiper -->
+<div id="BannerShow_b1" class="BannerShow_b1">
+<div class="swiper-container" id="swiper-container1">
+    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                <a href="javascript:;"><img src="https://www.hkinsect.net/img/c/0/c0f5a7526d41befb.jpg" /></a></div>
+                     <div class="swiper-slide">
+                <a href="javascript:;"><img src="https://www.hkinsect.net/img/e/f/ef9b5b9153cd4f7f.jpg" /></a></div>
+                     <div class="swiper-slide">
+                <a href="javascript:;"><img src="https://www.hkinsect.net/img/b/4/b426b184ab3c6632.jpg" /></a></div>
+                     <div class="swiper-slide">
+                <a href="javascript:;"><img src="https://www.hkinsect.net/img/d/d/ddbd884ba282c9f1.jpg" /></a></div>
+                     <div class="swiper-slide">
+                <a href="javascript:;"><img src="https://www.hkinsect.net/img/f/0/f059e47c2a64ac87.jpg" /></a></div>
+             </div>
+    <div class="swiper-pagination">
+        &nbsp;</div>
+</div>
+</div>
+      <script type="text/javascript">
+	$(function(){
+var mySwiper = new Swiper('.swiper-container',{
+pagination : '.swiper-pagination',
+autoplayDisableOnInteraction: false,
+autoplay : 3000,
+paginationClickable :true,
+effect : 'fade',
+fade: {
+  crossFade: false,
+}
+})
+});
+        $(document).ready(function(){
+            $("#BannerShow_b1 .swiper-container .swiper-slide").height($("#BannerShow_b1 .swiper-container .swiper-slide").width()* 375/720);
+        });
+        $(window).resize(function(){
+            $("#BannerShow_b1 .swiper-container .swiper-slide").height($("#BannerShow_b1 .swiper-container .swiper-slide").width()* 375/720);
+        })
+    </script> 
+    </div>
+    <div class="search-bg">
+      <div class="search-box max-w">
+        <div class="search max-w">
+          <div class="search-l">
+            <div class="search-input">
+              <div class="search-m">
+                <form method="post" action="product_list.php?s=1">
+                  <img src="https://www.hkinsect.net//images/search1.png" alt=""/><span>&#124;</span>
+                  <input type="text" name="search" placeholder="请输入关键词搜索"/>
+                  <div class="img1">
+                    <input type="submit" value="搜索" title="搜索"/>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="search-b">
+              <div class="search-bl dis-m"><a href="https://www.hkinsect.net/gvku14.html" target="_blank">推拉门</a><a href="https://www.hkinsect.net/467zj3.html" target="_blank">阳光房</a><a href="https://www.hkinsect.net/devsa1.html" target="_blank">门窗知识</a><a href="https://www.hkinsect.net/hneiy.html" target="_blank">平开门</a><a href="https://www.hkinsect.net/m3lh83.html" target="_blank">门窗系列</a><a href="https://www.hkinsect.net/pw8rh.html" target="_blank">门窗加盟</a><a href="https://www.hkinsect.net/pw8rh.html" target="_blank">门窗加盟优势</a></div>
+              <div class="search-br dis-m"><!--<img src="https://www.hkinsect.net//images/tel.png" width="100%"/>--><span>服务热线</span><strong>4001-0757-98</strong></div>
+            </div>
+          </div>
+          <div class="search-r"><img src="https://www.hkinsect.net//images/login.png" alt="注册"/>
+            <div class="login-btn" ><a href="javascript:BtnLogin(0)">注册</a><a href="javascript:BtnLogin(1)">已经注册 直接登录</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products">
+      <div class="index-title max-w"><img src="https://www.hkinsect.net//images/index-title1.png" alt="product-title"/><img src="https://www.hkinsect.net//images/mob-img1.png" alt="mob-img" class="mob-img"/></div>
+      <div class="max-w" id="header">
+        <ul class="index-productnav swiper-wrapper">
+                    <li class="swiper-slide swiper-slide-active" id='rid_85'><a href="javascript:void(0)" onclick="postIndexPro('85','推拉门')">推拉门</a></li>
+          <script> $(function(){ postIndexPro("85","推拉门") })</script>          <li class="swiper-slide swiper-slide-next news-choose" id='rid_91'><a href="javascript:void(0)" onclick="postIndexPro('91','折叠门')">折叠门</a></li>
+                    <li class="swiper-slide " id='rid_83'><a href="javascript:void(0)" onclick="postIndexPro('83','平开门')">平开门</a></li>
+                    <li class="swiper-slide " id='rid_84'><a href="javascript:void(0)" onclick="postIndexPro('84','推拉窗')">推拉窗</a></li>
+                    <li class="swiper-slide " id='rid_82'><a href="javascript:void(0)" onclick="postIndexPro('82','平开窗')">平开窗</a></li>
+                    <li class="swiper-slide " id='rid_90'><a href="javascript:void(0)" onclick="postIndexPro('90','阳光房')">阳光房</a></li>
+                    <li class="swiper-slide"><a href="https://www.hkinsect.net/gvku14.html">更多系列+</a></li>
+        </ul>
+      </div>
+      <div id="leftMarquee" class="leftLoop max-w leftMarquee" id='pro_1' style="display:block;">
+      <a class="next">&gt;</a> <a class="prev">&lt;</a>
+      <div class="bd" id="header1">
+        <ul class="picList swiper-wrapper">
+          <!---                                <li class="swiper-slide ">
+                    <a href="https://www.hkinsect.net/wcddz4.html">
+                        <div class="title">阳光房系列<p>SV16-321</p></div>
+                        <div class="pic"><img src="https://www.hkinsect.net//images/product.png" alt="" /></div>
+                        <p>SV16-321</p>
+                    </a>
+                </li>
+				                <li class="swiper-slide ">
+                    <a href="https://www.hkinsect.net/wcddz4.html">
+                        <div class="title">阳光房系列<p>SV16-321</p></div>
+                        <div class="pic"><img src="https://www.hkinsect.net//images/product.png" alt="" /></div>
+                        <p>SV16-321</p>
+                    </a>
+                </li>
+				                <li class="swiper-slide ">
+                    <a href="https://www.hkinsect.net/wcddz4.html">
+                        <div class="title">阳光房系列<p>SV16-321</p></div>
+                        <div class="pic"><img src="https://www.hkinsect.net//images/product.png" alt="" /></div>
+                        <p>SV16-321</p>
+                    </a>
+                </li>
+				                <li class="swiper-slide ">
+                    <a href="https://www.hkinsect.net/wcddz4.html">
+                        <div class="title">阳光房系列<p>SV16-321</p></div>
+                        <div class="pic"><img src="https://www.hkinsect.net//images/product.png" alt="" /></div>
+                        <p>SV16-321</p>
+                    </a>
+                </li>
+				                <li class="swiper-slide ">
+                    <a href="https://www.hkinsect.net/wcddz4.html">
+                        <div class="title">阳光房系列<p>SV16-321</p></div>
+                        <div class="pic"><img src="https://www.hkinsect.net//images/product.png" alt="" /></div>
+                        <p>SV16-321</p>
+                    </a>
+                </li>
+				                <li class="swiper-slide ">
+                    <a href="https://www.hkinsect.net/wcddz4.html">
+                        <div class="title">阳光房系列<p>SV16-321</p></div>
+                        <div class="pic"><img src="https://www.hkinsect.net//images/product.png" alt="" /></div>
+                        <p>SV16-321</p>
+                    </a>
+                </li>
+				                <li class="swiper-slide ">
+                    <a href="https://www.hkinsect.net/wcddz4.html">
+                        <div class="title">阳光房系列<p>SV16-321</p></div>
+                        <div class="pic"><img src="https://www.hkinsect.net//images/product.png" alt="" /></div>
+                        <p>SV16-321</p>
+                    </a>
+                </li>
+                <li class="swiper-slide ">
+                    <a href="https://www.hkinsect.net/wcddz4.html">
+                        <div class="title">阳光房系列<p>SV16-321</p></div>
+                        <div class="pic"><img src="https://www.hkinsect.net//images/product.png" alt="" /></div>
+                        <p>SV16-321</p>
+                    </a>
+                </li>
+                <li class="swiper-slide ">
+                    <a href="https://www.hkinsect.net/wcddz4.html">
+                        <div class="title">阳光房系列<p>SV16-321</p></div>
+                        <div class="pic"><img src="https://www.hkinsect.net//images/product.png" alt="" /></div>
+                        <p>SV16-321</p>
+                    </a>
+                </li> -->
+          
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript">
+        
+        var width=$(window).width();
+        function go(){
+            if(width<800){
+                var mySwiper1 = new Swiper('#header',{
+                    freeMode : true,
+                    slidesPerView : 'auto',
+                });
+                var mySwiper2 = new Swiper('#header1',{
+                    freeMode : true,
+                    // slidesPerView : 'auto',
+                    slidesPerView : 'auto'
+                });
+                $('#leftMarquee').removeAttr("id");
+                $('.leftLoop .bd ul').css('overflow','inherit');
+            }
+            else{
+                jQuery("#leftMarquee").slide({ mainCell:".bd ul",effect:"leftMarquee",vis:4,interTime:30,autoPlay:true });
+            }
+        }
+    </script>
+    </div>
+    <div class="adv">
+      <div class="index-title max-w"><img src="https://www.hkinsect.net//images/index-title2.png" alt="adv"/><img src="https://www.hkinsect.net//images/mob-img3.png" alt="mob-img" class="mob-img"/></div>
+      <div class="mob-img mob-adv">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide swiper-slide-active"><img src="https://www.hkinsect.net//images/mob-img7.jpg" alt="mob-img7"/></li>
+          <li class="swiper-slide swiper-slide-next"><img src="https://www.hkinsect.net//images/mob-img8.jpg" alt="mob-img8"/></li>
+          <li class="swiper-slide"><img src="https://www.hkinsect.net//images/mob-img9.jpg" alt="mob-img9.jpg"/></li>
+          <li class="swiper-slide"><img src="https://www.hkinsect.net//images/mob-img10.jpg" alt="mob-img10.jpg"/></li>
+        </ul>
+      </div>
+      <script>
+        var mySwiper4 = new Swiper('.mob-adv',{
+            freeMode : true,
+            slidesPerView : 'auto',
+        });
+    </script>
+      <!--<div class="adv-s max-w">
+        <div class="adv-box">
+          <ul class="adv-ulbox">
+            <li>
+              <div class="adv-sl dis-m m-r"> <img src="https://www.hkinsect.net/images/adv1.png" alt=""/> </div>
+              <div class="adv-sr dis-m">
+                <ul class="adv-ul">
+                  <li>
+                    <div class="ul-text">
+                      <p><img src="https://www.hkinsect.net//images/4.png" alt="" /><span>十&#27880;&#x518C;&#32593;，荣耀业界</span></p>
+                      <p> 圣梵诺坐落在素有“制造之都”美誉的广东佛山，是广东省门业协会副会长单位，公司拥有两万平米的研发、制造基地，每年投入数百万品牌传播费用。 </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="adv-sr dis-m m-r">
+                <ul class="adv-ul">
+                  <li>
+                    <div class="ul-text">
+                      <p><img src="https://www.hkinsect.net//images/11.png" alt="" /><span>优良设备，品质保障</span> </p>
+                      <p> 引进德国先进技术与设备，以科学规范的程式化生产管理，全员全方位精益化质量控制，确保每一道工序符合最高标准，每一款产品都能精益化生产。 </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="ul-text">
+                      <p><img src="https://www.hkinsect.net//images/10.png" alt="" /><span>五星品质，服务优良</span> </p>
+                      <p> 销售服务网点多达1000多家，遍布全国各地，400客服热线7*24小时无间隙服务支持，五年保修，终身维护。 </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="ul-text">
+                      <p><img src="https://www.hkinsect.net//images/8.png" alt="" /><span>销售帮扶，轻松赚钱</span> </p>
+                      <p> 多元化的整合营销活动，行业顶级的实战型帮扶团队，让加盟商轻松赚钱当老板。 </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="adv-sl dis-m"> <img src="https://www.hkinsect.net/images/adv2.png" alt=""/> </div>
+            </li>
+            <li class="li3">
+              <div class="adv-sl dis-m m-r"> <img src="https://www.hkinsect.net/images/adv3.png" alt=""/> </div>
+              <div class="adv-sr dis-m">
+                <ul class="adv-ul">
+                  <li>
+                    <div class="ul-text">
+                      <p><img src="https://www.hkinsect.net//images/3.png" alt="" /><span>黄圣依担任形象代言人</span> </p>
+                      <p> 亚洲影视全能天后黄圣依担任圣梵诺品牌形象代言人。 </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="ul-text">
+                      <p><img src="https://www.hkinsect.net//images/12.png" alt="" /><span>VIS形象，特色鲜明</span> </p>
+                      <p> 鲜明统一的品牌形象标准，科学合理的店面样品陈列设置，营造出意式风尚生活的体验，让消费者拥有轻松的选购环境。 </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="ul-text">
+                      <p><img src="https://www.hkinsect.net//images/6.png" alt="" /><span>绿色环保，零醛排放</span> </p>
+                      <p> 经国家检验部门检测，未检出甲醛排放。 </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="ul-text">
+                <p><img src="https://www.hkinsect.net//images/9.png" alt="" /><span>工艺严谨，技术精湛</span> </p>
+                <p> 6060-T6 铝合金型材，抗腐蚀、抗扭曲能力强，抗风力达10级；高强度化学钢化玻璃，抗弯强度是普通玻璃的3-5倍，抗冲击强度是普通玻璃5-10倍，可承受150摄氏度温差变化，有效防止玻璃炸裂；意大利进口防晒喷涂材料，30年不褪色；主受力部件历经12小时3道检测保证质量；整窗开合调试、易损件耐久性测试、密封性测试； </p>
+              </div>
+              <div class="ul-img dis-t"> <img src="https://www.hkinsect.net/images/adv1.jpg" alt=""/><img src="https://www.hkinsect.net/images/adv2.jpg" alt=""/><img src="https://www.hkinsect.net/images/adv3.jpg" alt=""/><img src="https://www.hkinsect.net/images/adv4.jpg" alt=""/> </div>
+            </li>
+          </ul>
+        </div>
+      </div> -->
+      <div class="adv-s max-w"><div class="adv-box"><ul class="adv-ulbox"><li><div class="adv-sl dis-m m-r"><img src="https://www.hkinsect.net/images/adv1.png" alt=""/></div><div class="adv-sr dis-m"><ul class="adv-ul"><li><div class="ul-text"><p><img src="https://www.hkinsect.net/images/4.png" alt=""/><span>潮流品牌，荣耀业界</span></p><p>圣梵诺坐落在素有“制造之都”美誉的广东佛山，是广东省门业协会副会长单位，公司拥有两万平米的研发、制造基地，每年投入数百万品牌传播费用。</p></div></li></ul></div></li><li><div class="adv-sr dis-m m-r"><ul class="adv-ul"><li><div class="ul-text"><p><img src="https://www.hkinsect.net/images/11.png" alt=""/><span>优良设备，品质保障</span></p><p>引进德国工艺技术与设备，以科学规范的程式化生产管理，全员全方位精益化质量控制，确保每一道工序都被要求精益求精，每一款产品都能被要求精益化生产。</p></div></li><li><div class="ul-text"><p><img src="https://www.hkinsect.net/images/10.png" alt=""/><span>五星品质，服务优良</span></p><p>销售服务网点多达1000多家，遍布全国各地，400客服热线7*24小时无间隙服务支持，五年保修，终身维护。</p></div></li><li><div class="ul-text"><p><img src="https://www.hkinsect.net/images/8.png" alt=""/><span>销售帮扶，轻松赚钱</span></p><p>多元化的整合营销活动，资深高效的实战型帮扶团队，让加盟商轻松赚钱当老板。</p></div></li></ul></div><div class="adv-sl dis-m"><img src="https://www.hkinsect.net/images/adv2.png" alt=""/></div></li><li class="li3"><div class="adv-sl dis-m m-r"><img src="https://www.hkinsect.net/images/adv3.png" alt=""/></div><div class="adv-sr dis-m"><ul class="adv-ul"><li><div class="ul-text"><p><img src="https://www.hkinsect.net/images/3.png" alt=""/><span>黄圣依担任形象代言人</span></p><p>亚洲影视全能天后黄圣依担任圣梵诺品牌形象代言人。</p></div></li><li><div class="ul-text"><p><img src="https://www.hkinsect.net/images/12.png" alt=""/><span>VIS形象，特色鲜明</span></p><p>鲜明统一的品牌形象标准，科学合理的店面样品陈列设置，营造出意式风尚生活的体验，让消费者拥有轻松的选购环境。</p></div></li><li><div class="ul-text"><p><img src="https://www.hkinsect.net/images/6.png" alt=""/><span>绿色环保，零醛排放</span></p><p>经国家检验部门检测，未检出甲醛排放。</p></div></li></ul></div></li><li><div class="ul-text"><p><img src="https://www.hkinsect.net/images/9.png" alt=""/><span>工艺严谨，技术精湛</span></p><p>6060-T6 铝合金型材，抗腐蚀、抗扭曲能力强，抗风力达10级；高强度化学钢化玻璃，抗弯强度是普通玻璃的3-5倍，抗冲击强度是普通玻璃5-10倍，可承受150摄氏度温差变化，有效防止玻璃炸裂；意大利进口防晒喷涂材料，30年不褪色；主受力部件历经12小时3道检测保证质量；整窗开合调试、易损件耐久性测试、密封性测试；</p></div><div class="ul-img dis-t"><img src="https://www.hkinsect.net/images/adv1.jpg" alt=""/><img src="https://www.hkinsect.net/images/adv2.jpg" alt=""/><img src="https://www.hkinsect.net/images/adv3.jpg" alt=""/><img src="https://www.hkinsect.net/images/adv4.jpg" alt=""/></div></li></ul></div></div>    </div>
+    </div>
+    <div class="support">
+      <div class="index-title max-w"><img src="https://www.hkinsect.net//images/index-title3.png" alt="support"/><img src="https://www.hkinsect.net//images/mob-img4.png" alt="mob-img" class="mob-img"/></div>
+      <ul class="su-ul max-w"><li class="dis-t bg1"><a href="https://www.hkinsect.net/4dwmn3.html"><span class="dis-m"></span><div class="su-div"><span class="dis-m"></span><div class="dis-m"><p>01</p><p class="bg1">1.运营和管理系统培训</p></div></div></a></li><li class="dis-t bg2"><a href="https://www.hkinsect.net/4dwmn3.html"> 		<span class="dis-m"></span><div class="su-div"><span class="dis-m"></span><div class="dis-m"><p>02</p><p class="bg2">2.一对一全程跟进服务</p></div></div></a></li><li class="dis-t bg1"><a href="https://www.hkinsect.net/4dwmn3.html"> 		<span class="dis-m"></span><div class="su-div"><span class="dis-m"></span><div class="dis-m"><p>03</p><p class="bg1">3.经销店铺装修支持</p></div></div></a></li><li class="dis-t bg3"><a href="https://www.hkinsect.net/4dwmn3.html"><span class="dis-m"></span><div class="su-div"><span class="dis-m"></span><div class="dis-m"><p>04</p><p class="bg3">4.加盟店选址前期筹备</p></div></div></a></li><li class="dis-t bg1"><a href="https://www.hkinsect.net/4dwmn3.html"> 		<span class="dis-m"></span><div class="su-div"><span class="dis-m"></span><div class="dis-m"><p>05</p><p class="bg1">5.年度激励政策促销活动</p></div></div></a></li><li class="dis-t bg2"><a href="https://www.hkinsect.net/4dwmn3.html"> 		<span class="dis-m"></span><div class="su-div"><span class="dis-m"></span><div class="dis-m"><p>06</p><p class="bg2">6.免费品牌知名度推广</p></div></div></a></li></ul>    </div>
+    <div class="about">
+      <div class="index-title max-w"><img src="https://www.hkinsect.net//images/index-title4.png" alt="about"/><img src="https://www.hkinsect.net//images/mob-img11.png" alt="mob-img" class="mob-img"/></div>
+      <p class="max-w">佛山市圣梵诺门业有限公司创立于2010年，是铝型材供应商新华兴集团旗下一家专注于中高端铝合金门窗和阳光房系统研发、生产、销售和服务的一体化企业。2016年荣升为广东省门业协会副会长单位。八年来，圣梵诺门窗凭借优良的产品品质、良好的市场口碑以及完善的服务体系，多次荣获 《广东优秀铝门十&#27880;&#x518C;&#32593;》《全国大型评选中国好门窗》《中国铝合金门窗十&#27880;&#x518C;&#32593;》《全国家居大调查消费者喜爱品牌》《中国铝合金门窗十佳品牌》《中国门窗十&#27880;&#x518C;&#32593;》《一带一路国际时尚周大咖秀时尚品牌》等各项荣誉。</p>      <!--<p class="max-w">圣梵诺门窗创立于2010年，是铝型材供应大鳄新华兴集团旗下一家专注于中高端铝合金门窗和阳光房系统研发、生产、销售、服务的专业型企业。<br>
+公司先后荣获《质量信得过产品》、《中国绿色环保产品》、《全国消费者放心满意品牌》、《广东优秀铝门十&#27880;&#x518C;&#32593;》、《中国好门窗》等荣誉；<br>
+两度签约亚洲全能天后黄圣依为品牌形象大使；2016年，圣梵诺门窗荣升为广东省门业协会副会长单位。<br>
+圣梵诺门窗秉持“品质当先，品牌智圣”的经营理念，<br>
+专心专业专注于打造门窗行业高端品牌，立志成为中国好门窗行业的佼佼者和领跑者。</p> --> 
+      <a href="https://www.hkinsect.net/efbg33.html">查看更多</a> </div>
+    <div class="video max-w"> <img src="https://www.hkinsect.net//images/img12.jpg" alt="https://www.hkinsect.net//images/img12.jpg"/>
+      <div class="video-l">
+        <div class="index-title max-w"><h1>圣梵诺第三度签约黄圣依</h1><span>再谱品牌发展战略新华章</span></div>
+        <div class="video-t">
+          <div class="video-play">
+          <video class="index-video" controls> 
+<source src="images/compress.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+          
+          <img src="https://www.hkinsect.net//images/video-img2.png" alt="https://www.hkinsect.net//images/video-img2.png"/></div>
+        </div>
+        <div class="video-b">　　圣梵诺门窗自2014年起，聘请影视巨星黄圣依为品牌形象大使，至今已是三度签约携手同行。黄圣依时尚、高雅的气质以及热心公益的社会责任感与圣梵诺门窗的品牌主张相契合，伴随着圣梵诺门窗全国500+的营销网点布局和公司整体的多维度线上线下品牌推广，极大地提升了圣梵诺门窗的品牌影响力。 
+<br/>　　黄圣依，中国内地女演员、歌手、出品人，毕业于北京电影学院表演系。曾出演《红苹果乐园》《功夫》《猛龙》《白蛇传说》《天仙配》等优秀影视作品，入围第24届香港电影金像奖，第28届大众电影百花奖最佳新人奖，2015年凭借电影《冰封：重生之门》获得第15届中国电影华鼎奖最佳女主角奖。<br/>　　黄圣依热心公益慈善事业，屡获“中国环境宣传大使”“中国社会责任公益大使”“中国幸福工程爱心大使”等光荣称号。<br/>　　2017年生完二胎强势复出的黄圣依，活跃于《王牌对王牌》、《演员的诞生》、《妈妈是超人》等热门综艺舞台，人气越来越高。从“星女郎”到如今的辣妈，从活跃荧屏的演员歌手，到《妈妈是超人》...</div>      </div>
+    </div>
+    <div class="mob-video max-w">
+      <div class="mob-text">
+        <p style=" font-size:5.3vw; color:#9d1e23; font-family:微软雅黑; padding-bottom:1.2vw;">圣梵诺门窗第三度签约黄圣依 </p>
+        <p style=" font-size:4.8vw; color:#000; margin-bottom:3.4vw;font-family:微软雅黑;">再谱品牌发展新华章</p>
+        <p style="font-size:12px; color:#454545; line-height:1.5;font-family:微软雅黑;">
+　　圣梵诺门窗自2014年起，聘请影视巨星黄圣依为品牌形象大使，至今已是三度签约携手同行。黄圣依时尚、高雅的气质以及热心公益的社会责任感与圣梵诺门窗的品牌主张相契合，伴随着圣梵诺门窗全国500+的营销网点布局和公司整体的多维度线上线下品牌推广，极大地提升了圣梵诺门窗的品牌影响力。 
+<br>
+　　黄圣依，中国内地女演员、歌手、出品人，毕业于北京电影学院表演系。曾出演《红苹果乐园》《功夫》《猛龙》《白蛇传说》《天仙配》等优秀影视作品，入围第24届香港电影金像奖，第28届大众电影百花奖最佳新人奖，2015年凭借电影《冰封：重生之门》获得第15届中国电影华鼎奖最佳女主角奖。
+
+<br>　　黄圣依热心公益慈善事业，屡获“中国环境宣传大使”“中国社会责任公益大使”“中国幸福工程爱心大使”等光荣称号。<br>　　2017年生完二胎强势复出的黄圣依，活跃于《王牌对王牌》、《演员的诞生》、《妈妈是超人》等热门综艺舞台，人气越来越高。从“星女郎”到如今的辣妈，从活跃荧屏的演员歌手，到《妈妈是超人》里的魅力女人，她从事业到生活，都用积极向上、永不止步的状态书写着人生的方方面面，这与圣梵诺门窗的发展理念不谋而合。圣梵诺门窗将继续携手黄圣依，向更美好更辉煌的未来迈进。
+        </div>
+    </div>
+    <div class="cur">
+      <div class="max-w">
+        <ul class="index-productnav" style="text-align:left; margin-bottom:30px;">
+          <li class="news-choose"><a href="javascript:void(0);">终端形象</a></li>
+          <li><a href="javascript:void(0);">活动剪影</a></li>
+        </ul>
+        <!--        <div class="cur-title dis-t"><div class="cur-border"><span class="dis-m"></span><div class="cur-text dis-m"><p class="p1">Experience</p><p class="p2">经营心得</p><p class="p3">已经成功帮助上<br>百个客户成功致富</p></div></div></div>
+ -->
+        <div id="leftMarquee1" class="leftLoop"> <a class="next">&gt;</a> <a class="prev">&lt;</a>
+          <div class="bd">
+                  	 <!--大图,小图,标题-->
+<div class="PhotoList_i1" id="PhotoList_i1">
+  <ul class="clearfix">
+<li>资料更新中...</li>            </ul>
+        </div>
+              </div>
+        </div>
+        <script type="text/javascript">jQuery("#leftMarquee1").slide({ mainCell:".bd ul",effect:"leftMarquee",vis:4,interTime:40,autoPlay:true });</script>
+        <div id="leftMarquee2" class="leftLoop"> <a class="next">&gt;</a> <a class="prev">&lt;</a>
+          <div class="bd">
+                  	 <!--大图,小图,标题-->
+<div class="PhotoList_i1" id="PhotoList_i1">
+  <ul class="clearfix">
+<li>
+    <a href="https://www.hkinsect.net/img/b/6/b617aa87e1a6cc4b.jpg" title="&#27880;&#x518C;&#32593; 大情怀——圣梵诺门窗爱心助学情暖贵州">
+    <img src="https://www.hkinsect.net/img/b/6/b617aa87e1a6cc4b_s.jpg">
+    <h4>&#27880;&#x518C;&#32593; 大情怀——圣梵诺门窗爱心助学情暖贵州</h4>
+    </a>
+    <span>&#27880;&#x518C;&#32593; 大情怀——圣梵诺门窗爱心助学情暖贵州</span>
+    </li>
+<li>
+    <a href="https://www.hkinsect.net/img/b/0/b0f4c947c713673b.jpg" title="&#27880;&#x518C;&#32593; 大情怀——圣梵诺门窗爱心助学情暖贵州">
+    <img src="https://www.hkinsect.net/img/b/0/b0f4c947c713673b_s.jpg">
+    <h4>&#27880;&#x518C;&#32593; 大情怀——圣梵诺门窗爱心助学情暖贵州</h4>
+    </a>
+    <span>&#27880;&#x518C;&#32593; 大情怀——圣梵诺门窗爱心助学情暖贵州</span>
+    </li>
+<li>
+    <a href="https://www.hkinsect.net/img/b/6/b69f0c216e085b04.jpg" title="&#27880;&#x518C;&#32593; 大情怀——圣梵诺门窗爱心助学情暖贵州">
+    <img src="https://www.hkinsect.net/img/b/6/b69f0c216e085b04_s.jpg">
+    <h4>&#27880;&#x518C;&#32593; 大情怀——圣梵诺门窗爱心助学情暖贵州</h4>
+    </a>
+    <span>&#27880;&#x518C;&#32593; 大情怀——圣梵诺门窗爱心助学情暖贵州</span>
+    </li>
+            </ul>
+        </div>
+        <div class="page clearfix" id="page">
+    <span>首页</span>
+<span>上一页</span>
+<span class='cur'>1</span>
+<span>下一页</span>
+<span>尾页</span>
+<div class='pageinfo'>共3记录 第1页 / 共1页</div>
+    </div>
+    <a class="more" id="load_more_button" href="javascript:getMore();">加载更多</a>
+    <script src="https://www.hkinsect.net/libs/Hprose/ajs/hprose.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var client = new HproseHttpClient('/common/news.svr.php', ["getList"]);
+
+        type = 'photo';
+        fields = ',images,images_s,title AS title';
+        conArr = '{"rid":95,"class_id":0,"display":"Y"}';
+        condition2 = '';
+        orderby = 'orders,addtime DESC';
+        per_page_num = '8';
+        var page = 0;
+
+
+        function getMore()
+        {
+            page++;
+            //console.log(page);
+            client.getList(type,fields,conArr,condition2,orderby,per_page_num,(page*per_page_num),function(result, args){
+                //console.log(result);
+                if($(result).length){
+                    $.each(result,function(index,element){
+                        //console.log(this);
+                        if(this.images == null){
+                            this.images = '';
+                            this.images_s = '';
+                        }
+                        
+                        html='<li><a href="https://www.hkinsect.net/frzdp3.html" title="'+this.title+'"><img src="https://www.hkinsect.net//+this.images_s+"><h4>'+this.title+'</h4></a><span>'+this.title+'</span></li>';
+                        $("#PhotoList_i1 ul").append(html);
+                    });
+                }else{
+                    $("#load_more_button").hide();
+                }
+
+                PhotoList_change();
+            });
+        }
+    </script>
+              </div>
+        </div>
+        <script type="text/javascript">jQuery("#leftMarquee2").slide({ mainCell:".bd ul",effect:"leftMarquee",vis:4,interTime:40,autoPlay:true });</script> 
+      </div>
+    </div>
+    <div class="news max-w">
+      <div class="index-title max-w"><img src="https://www.hkinsect.net//images/index-title5.png" alt="news"/><img src="https://www.hkinsect.net//images/mob-img5.png" alt="mob-img" class="mob-img"/></div>
+      <div class="news-r dis-t">
+        <div class="new-m">
+          <ul class="index-productnav">
+            <li class="news-choose"><a href="javascript:void(0);">公司资讯</a></li>
+            <li><a href="javascript:void(0);">行业动态</a></li>
+            <li><a href="javascript:void(0);">门窗知识</a></li>
+            <li class="mob"><a href="https://www.hkinsect.net/4sehe3.html">常见问题</a></li>
+            <li class="mob"><a href="https://www.hkinsect.net/fksbo.html">活动剪影</a></li>
+          </ul>
+          <script type="text/javascript">
+			$(function(){
+				if(width<651){
+					$('.index-productnav li').addClass('swiper-slide');
+					$('.index-productnav').addClass('swiper-wrapper');
+					var mySwiper99 = new Swiper('.new-m',{
+                    freeMode : true,
+                    slidesPerView : 'auto',
+                });
+					}
+			})
+			</script>
+          <div class="news-img dis-t"><img src="https://www.hkinsect.net//images/news-img.jpg" alt=""/></div>
+          <div class="news-list dis-t">
+                        <div class="NewsList_g1">
+              <ul style="display:block;">
+                                <li> <a target="_blank" href="https://www.hkinsect.net/e3x9d4.html" class="nwimg"><img src="https://www.hkinsect.net/img/a/3/a31b64c48674e1e4.jpg" alt="圣梵诺门窗家居双出彩！第十届中国门窗博览会完美收官"></a>
+                  <h3><a target="_blank"  href="https://www.hkinsect.net/e3x9d4.html">圣梵诺门窗家居双出彩！第十届中国门窗博…</a></h3>
+                  <p>   2019年3月10日-12日，为期3天的第十届门窗博览会暨定制家居…</p>
+                  <p class="ntime">时间:2019-03-14</p>
+                  <p><a target="_blank"  href="https://www.hkinsect.net/e3x9d4.html" class="wmore">了解更多&gt;</a></p>
+                </li>
+                                <li> <a target="_blank" href="https://www.hkinsect.net/8qosy2.html" class="nwimg"><img src="https://www.hkinsect.net/img/e/f/ef9953ccccf90fba.jpg" alt="圣梵诺全屋定制 · 智能家居6大功能"></a>
+                  <h3><a target="_blank"  href="https://www.hkinsect.net/8qosy2.html">圣梵诺全屋定制 · 智能家居6大功能</a></h3>
+                  <p>随着科技的发展，越来越多的智能应用融入到家居中，圣梵诺智能…</p>
+                  <p class="ntime">时间:2019-03-09</p>
+                  <p><a target="_blank"  href="https://www.hkinsect.net/8qosy2.html" class="wmore">了解更多&gt;</a></p>
+                </li>
+                                <li> <a target="_blank" href="https://www.hkinsect.net/64vpc.html" class="nwimg"><img src="https://www.hkinsect.net/img/a/f/afe2514712a68aea.jpg" alt="圣梵诺全屋定制 · 全铝家居7大优势"></a>
+                  <h3><a target="_blank"  href="https://www.hkinsect.net/64vpc.html">圣梵诺全屋定制 · 全铝家居7大优势</a></h3>
+                  <p>圣梵诺全屋定制·全铝家居，七大优势——七剑下天山，全屋配齐…</p>
+                  <p class="ntime">时间:2019-03-09</p>
+                  <p><a target="_blank"  href="https://www.hkinsect.net/64vpc.html" class="wmore">了解更多&gt;</a></p>
+                </li>
+                              </ul>
+              <ul style="display:none;">
+                                <li> <a target="_blank" href="https://www.hkinsect.net/adktv.html" class="nwimg"><img src="https://www.hkinsect.net/img/d/4/d48954a66dbc6f87.jpg" alt="铝合金门窗需加强研发，走上节能环保之路"></a>
+                  <h3><a target="_blank"  href="https://www.hkinsect.net/adktv.html">铝合金门窗需加强研发，走上节能环保之路</a></h3>
+                  <p>绿色环保，低碳消费”的生活理念已经深入消费者的心中。“保护…</p>
+                  <p class="ntime">时间:2018-07-30</p>
+                  <p><a target="_blank"  href="https://www.hkinsect.net/adktv.html" class="wmore">了解更多&gt;</a></p>
+                </li>
+                                <li> <a target="_blank" href="https://www.hkinsect.net/rnom14.html" class="nwimg"><img src="https://www.hkinsect.net/img/9/3/935e3a9ac40e777a.jpg" alt="华帝“夺冠退全款”活动刷屏 门窗企业可从中借鉴什么？"></a>
+                  <h3><a target="_blank"  href="https://www.hkinsect.net/rnom14.html">华帝“夺冠退全款”活动刷屏 门窗企业可从…</a></h3>
+                  <p>法国队夺冠后，华帝在网上公开了退全款的详细步骤。随后，此事…</p>
+                  <p class="ntime">时间:2018-07-28</p>
+                  <p><a target="_blank"  href="https://www.hkinsect.net/rnom14.html" class="wmore">了解更多&gt;</a></p>
+                </li>
+                                <li> <a target="_blank" href="https://www.hkinsect.net/bsxfz.html" class="nwimg"><img src="https://www.hkinsect.net/img/a/f/af4bb901d5ed8301.jpg" alt="定制行业兴起 家具物流服务面临新挑战"></a>
+                  <h3><a target="_blank"  href="https://www.hkinsect.net/bsxfz.html">定制行业兴起 家具物流服务面临新挑战</a></h3>
+                  <p>对家具物流来说，业内许多人都认为其是制约家具企业甚至家具行…</p>
+                  <p class="ntime">时间:2018-07-27</p>
+                  <p><a target="_blank"  href="https://www.hkinsect.net/bsxfz.html" class="wmore">了解更多&gt;</a></p>
+                </li>
+                              </ul>
+              <ul style="display:none;">
+                                <li> <a target="_blank" href="https://www.hkinsect.net/rge2h1.html" class="nwimg"><img src="https://www.hkinsect.net/img/7/0/70017a598ec52e63.jpg" alt="维也纳推拉门哪里好，我想让全世界知道！"></a>
+                  <h3><a target="_blank"  href="https://www.hkinsect.net/rge2h1.html">维也纳推拉门哪里好，我想让全世界知道！</a></h3>
+                  <p>系列品名：维也纳系列推拉门工艺亮点：嵌入式设计、可选配不锈…</p>
+                  <p class="ntime">时间:2019-01-03</p>
+                  <p><a target="_blank"  href="https://www.hkinsect.net/rge2h1.html" class="wmore">了解更多&gt;</a></p>
+                </li>
+                                <li> <a target="_blank" href="https://www.hkinsect.net/elfvk3.html" class="nwimg"><img src="https://www.hkinsect.net/img/3/1/31cdf87cd79c44e5.jpg" alt="静音推拉门，我选圣梵诺！"></a>
+                  <h3><a target="_blank"  href="https://www.hkinsect.net/elfvk3.html">静音推拉门，我选圣梵诺！</a></h3>
+                  <p>   选购推拉门的时候，你就会发现，品牌之多实在让人难以抉择，…</p>
+                  <p class="ntime">时间:2018-11-14</p>
+                  <p><a target="_blank"  href="https://www.hkinsect.net/elfvk3.html" class="wmore">了解更多&gt;</a></p>
+                </li>
+                                <li> <a target="_blank" href="https://www.hkinsect.net/yacp83.html" class="nwimg"><img src="https://www.hkinsect.net/img/c/5/c5a72b3fae4a8577.jpg" alt="铝合金门窗选购的几个误区，你知道吗？"></a>
+                  <h3><a target="_blank"  href="https://www.hkinsect.net/yacp83.html">铝合金门窗选购的几个误区，你知道吗？</a></h3>
+                  <p>又到下半年，又到装修旺季。铝合金门窗因其集合了坚固、耐用、…</p>
+                  <p class="ntime">时间:2018-07-30</p>
+                  <p><a target="_blank"  href="https://www.hkinsect.net/yacp83.html" class="wmore">了解更多&gt;</a></p>
+                </li>
+                              </ul>
+            </div>
+          </div>
+          <a href="https://www.hkinsect.net/tnq9o3.html" title="更多" target="_blank">&gt;</a> </div>
+        <script type="text/javascript">
+          //$(".index-productnav li").click(function(index){
+            $(".new-m li").click(function(index){
+                $(this).addClass("news-choose").siblings("li").removeClass("news-choose");
+                var index=$(this).index();
+                $(".NewsList_g1 ul").eq(index).css("display","block").siblings("ul").css("display","none");
+            })
+        </script> 
+      </div>
+      <div class="news-l dis-t">
+        <div class="new-m">
+          <ul class="index-productnav">
+            <li class="news-choose">常见问题</li>
+          </ul>
+          <div class="news-pr dis-t">
+            <div id="leftMarquee3" class="topLoop">
+              <div class="bd">
+                <!--标题,内容,添加时间-->
+<div class="NewsList_d1" id="NewsList_d1">
+    <ul class="clearfix">
+                    <li><h2><a target="_blank" href="https://www.hkinsect.net/cnt7t3.html" title="&#57;&#x4E07;&#24425;&#x7968;&#27880;&#x518C;...">&#57;&#x4E07;&#24425;&#x7968;&#27880;&#x518C;...</a></h2><h3>当住房居住面积较小的时候，家装时一般需要尽量地节省室内空间。例如门的设置不少人更愿意选择推拉门或者折叠门，其中折叠门的安装一般运用在卫裕。那么&#57;&#x4E07;&#24425;&#x7968;&#27880;&#x518C;？它的价格会比较高呢还是节省呢？</h3><em>2017-04-06</em></li>
+                        <li><h2><a target="_blank" href="https://www.hkinsect.net/acth52.html" title="&#57;&#x4E07;&#24425;&#x7968;&#30331;&#x5F55;，你懂得吗...">&#57;&#x4E07;&#24425;&#x7968;&#30331;&#x5F55;，你懂得吗...</a></h2><h3>在家居装修中有一个误区：让窗户隐藏。而忽视窗户高度的设置往往是造成这一类问题产生的重要原因，由此可见，窗户高度的设定也是有所讲究的。那么，一般来说，房屋的窗户高度设在多少会比较合适呢？</h3><em>2017-04-06</em></li>
+                        <li><h2><a target="_blank" href="https://www.hkinsect.net/naflf2.html" title="&#57;&#x4E07;&#24425;&#x7968;&#97;p&#112;...">&#57;&#x4E07;&#24425;&#x7968;&#97;p&#112;...</a></h2><h3>卫生间门要考虑的性能，密封性、防潮性、实用性。无论是大中小户型，卫生间的门洞都不会太大，省空间方面的需求不大，所以总的来说，大家都偏向于使用平开门。</h3><em>2017-04-06</em></li>
+                </ul>
+</div>
+<div class="page clearfix" id="page">
+	<span>首页</span>
+<span>上一页</span>
+<span class='cur'>1</span>
+<span>下一页</span>
+<span>尾页</span>
+<div class='pageinfo'>共3记录 第1页 / 共1页</div>
+</div>
+<div class="load_more"><a id="load_more_button" href="javascript:getMore()">加载更多</a></div>
+ <script src="https://www.hkinsect.net/libs/Hprose/ajs/hprose.js" type="text/javascript" charset="utf-8"></script>
+ <script>
+        var client = new HproseHttpClient('/common/news.svr.php', ["getList"]);
+
+        type = 'news';
+        fields = ',rid,title AS title,addtime,content AS content';
+        conArr = '{"rid":58,"class_id":0,"display":"Y"}';
+        condition2 = '';
+        orderby = '';
+        per_page_num = '3';
+        var page = 0;
+
+
+        function getMore()
+        {
+
+            page++;
+            client.getList(type,fields,conArr,condition2,orderby,per_page_num,(page*per_page_num),function(result, args){
+                if($(result).length){
+                    $.each(result,function(index,element){
+                        html='<li><h2><a href="https://www.hkinsect.net/8x79e.html" title="'+this.title+'">'+this.title+'</a></h2><h3>'+this.content+'</h3><em>'+this.addtime+'</em></li>';
+                        $("#NewsList_d1 ul").append(html);
+                    });
+                }else{
+                    $("#load_more_button").hide();
+                }
+            });
+        }
+    </script>              </div>
+            </div>
+            <script type="text/javascript">jQuery(".topLoop").slide({ mainCell:".bd ul",effect:"topMarquee",vis:3,interTime:40,autoPlay:true});</script> 
+          </div>
+          <a href="https://www.hkinsect.net/4sehe3.html" title="更多" target="_blank">&gt;</a> </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://www.hkinsect.net/libs/Hprose/ajs/hprose.js"></script> 
+    <script type="text/javascript">
+    var client = new HproseHttpClient('common/server.php', ['postIndexPro']);
+    function postIndexPro(rid,titleClass){
+        $("#rid_"+rid).addClass("news-choose").siblings().removeClass("news-choose");
+        $("#pro_2").css("display","block").siblings("ul").css("display","none");
+        client.postIndexPro(rid,function (result, args, output, warning){
+            //console.log(result);
+            if(result.total>0)
+            {
+                var html='<a class="next">&gt;</a><a class="prev">&lt;</a><div class="bd" id="header1"><ul class="picList swiper-wrapper">';
+                var i=1;
+                //alert(result.total);
+                $.each(result.arr, function(i,row) {
+                    if(i==1){var cn='swiper-slide-active';}else if(i==2){var cn= 'swiper-slide-next';}
+                    html+='<li class="swiper-slide '+cn+'"><a href="https://www.hkinsect.net/wcddz4.html"><div class="title">'+titleClass+'<p>'+row.title+'</p></div><div class="pic"><img src="https://www.hkinsect.net//+row.images+" alt="'+row.title+'" /></div><p>'+row.title+'</p></a></li>';
+                    i++;
+                });
+				html+='</ul></div>';
+				//alert(1);
+                $('.leftMarquee').html(html);				
+				
+				go();
+                
+            }
+        })
+    }
+    
+    $(function(){
+        $("#MenuList_b1>ul>li>h3>a").eq(0).addClass("on");
+        $("#kinMaxShow").kinMaxShow({
+            height:730,
+            button:{
+                switchEvent:'mouseover',
+                showIndex:true,
+                normal:{width:'14px',height:'14px',lineHeight:'18px',left:'0',bottom:'3%',fontSize:'12px',background:"#f2f2f2",borderRadius
+                    :'12px',zIndex:'1',borderStyle:'none',marginRight:'10px'},
+                focus:{background:"#ba1823",borderStyle:'none'}
+            }
+        });
+        $("#kinMaxShow .kinMaxShow_button li").html("");
+        go();
+    })
+</script>
+    <div class="footer">
+	<div class="footer-top">
+    <div class="keyword max-w"><span>关键词：</span><a href="https://www.hkinsect.net/gvku14.html" target="_blank">推拉门</a><a href="https://www.hkinsect.net/467zj3.html" target="_blank">阳光房系列</a><a href="https://www.hkinsect.net/0uhtn3.html" target="_blank">加盟流程</a><a href="https://www.hkinsect.net/asvky3.html" target="_blank">重型推拉门系列</a><a href="https://www.hkinsect.net/5d3iu1.html" target="_blank">门窗品牌加盟</a><a href="https://www.hkinsect.net/5ynud1.html" target="_blank">断桥隔热窗系列</a><a href="https://www.hkinsect.net/pw8rh.html" target="_blank">门窗加盟优势</a><a href="https://www.hkinsect.net/pty1o1.html" target="_blank">经营心得</a><a href="https://www.hkinsect.net/devsa1.html" target="_blank">产品知识</a><a href="https://www.hkinsect.net/gvku14.html" target="_blank">新品推荐</a></div>
+    </div>
+    <div class="keyword max-w" style="width:90%; max-width:1100px; margin:20px auto 0;"><span>友情链接：</span>
+                <a href="http://www.bmlink.com/" target="_blank" rel="nofollow">中国建材网</a>
+                <a href="http://www.51mjmh.com" target="_blank" rel="nofollow">美家美户家居网</a>
+                <a href="http://jiaju.sina.com.cn/" target="_blank" rel="nofollow">新浪家居网</a>
+                <a href="http://www.jia400.com/" target="_blank" rel="nofollow">慧亚传媒-美家居热线</a>
+            </div>
+    <div class="footer-box max-w">
+    	<ul class="footer-ul1">
+        	<li><img src="https://www.hkinsect.net//images/footer-logo.png" alt="https://www.hkinsect.net//images/footer-logo.png"/></li>
+            <li class="border">
+            	<ul class="footer-ul2">
+                <ul><li><p><a href="https://www.hkinsect.net/xjnxy2.html">电话：4001-0757-98</a></p><p>传真：0757-85588361</p><p>QQ：1793163642</p></li><li>邮箱：stvanno@126.com/master@st-vanno.com</li><li>地址：佛山市南海区大沥奇槎工业</li></ul>                	<!--<li><p><a href="https://www.hkinsect.net/ghdcj.html">电话：400-107-5798</a></p><p>传真：0757-85588361</p><p>QQ：1793163642</p></li>
+                    <li>邮箱：stvanno@126.com/master@st-vanno.com</li>
+                    <li>地址：佛山市南海区大沥奇槎上村工业</li> -->
+                    <li><p>COPYRIGHT © 2018 佛山市圣梵诺门业有限公司 版权所有</p><p><a href="http://www.miitbeian.gov.cn/" rel="nofollow">粤ICP备13086310号-2</a></p></li>
+                </ul>
+            </li>
+            <li><img src="https://www.hkinsect.net//images/erweima.jpg" alt="https://www.hkinsect.net//images/erweima.jpg"/></li>
+        </ul>
+    </div>
+    <div class="phone-footer">
+    	<ul>
+        	<li><a href="https://www.hkinsect.net/xjnxy2.html"><img src="https://www.hkinsect.net//images/mf-img1.png" alt="一键拨号" /><p>一键拨号</p></a></li>
+            <li><a href="http://j.map.baidu.com/BY3_e" rel="nofollow"><img src="https://www.hkinsect.net//images/mf-img3.png" alt="一键导航"/><p>一键导航</p></a></li>
+            <li><a href="https://www.hkinsect.net/5ynud1.html"><img src="https://www.hkinsect.net//images/mf-img2.png" alt="产品中心"/><p>产品中心</p></a></li>
+            <li><a href="https://www.hkinsect.net/efbg33.html"><img src="https://www.hkinsect.net//images/mf-img4.png" alt="关于我们"/><p>关于 9万彩票</p></a></li>
+        </ul>
+    </div>
+    <div class="slide-box pc">
+  <ul>
+    <li><div class="HOVER v-align-m1"><div class="dis-m"><p><a href="http://wpa.qq.com/msgrd?v=3&uin=2507181377&site=qq&menu=yes" rel="nofollow"><img src="https://www.hkinsect.net//images/qq3.png"/></a></p><p><a href="http://wpa.qq.com/msgrd?v=3&uin=2507181377&site=qq&menu=yes" rel="nofollow"><img src="https://www.hkinsect.net//images/qq4.png"/></a></p></div></div>
+    <a href="javascript:;" title="客服">
+      <div class="L"> <i> <img src="https://www.hkinsect.net//images/icon10.png" alt=""> </i>
+        <p>客服</p>
+      </div>
+      <div class="R v-align-m1"> <span class="dis-m">在线<br>客服</span> </div>
+      </a></li>
+    <li><div class="HOVER v-align-m1"> <span class="dis-m">400-107-5798</span> </div>
+    <a href="javascript:;" title="电话">
+      <div class="L">
+       <i> <img src="https://www.hkinsect.net//images/icon11.png" alt=""> </i>
+        <p>电话</p>
+      </div>
+      <div class="R v-align-m1"> <span class="dis-m">联系<br>电话</span> </div>
+      </a> </li>
+    <!--<li> <a href="https://www.hkinsect.net/ydrho3.html" title="加盟">
+      <div class="L"> <i> <img src="https://www.hkinsect.net//images/icon12.png" alt=""> </i>
+        <p>加盟</p>
+      </div>
+      <div class="R v-align-m1"> <span class="dis-m">我要<br>加盟</span> </div>
+      </a> </li>
+    <li> <a href="https://www.hkinsect.net/qsnum4.html" title="预约量尺">
+      <div class="L"> <i> <img src="https://www.hkinsect.net//images/icon13.png" alt=""> </i>
+        <p>预约量尺</p>
+      </div>
+      <div class="R v-align-m1"> <span class="dis-m">预约<br>量尺</span> </div>
+      </a> </li>
+    <li> <a href="https://www.hkinsect.net/bpurk.html" title="门店">
+      <div class="L"> <i> <img src="https://www.hkinsect.net//images/icon14.png" alt=""> </i>
+        <p>门店</p>
+      </div>
+      <div class="R v-align-m1"> <span class="dis-m">门店<br>查询</span> </div>
+      </a> </li>
+      <li> <a href="https://www.hkinsect.net/8txtl1.html" title="需求">
+      <div class="L"> <i> <img src="https://www.hkinsect.net//images/icon40.png" alt=""> </i>
+        <p>需求</p>
+      </div>
+      <div class="R v-align-m1"> <span class="dis-m">需求<br>调研</span> </div>
+      </a> </li> -->
+  </ul>
+</div>
+    <div id="goTopBtn">
+    	<img src="https://www.hkinsect.net//images/gotop-img.png" alt="https://www.hkinsect.net//images/gotop-img.png"/>
+    </div>
+<script type="text/javascript">
+$(function(){
+ $(window).scroll(function(){
+   var sc=$(window).scrollTop();
+   var rwidth=$(window).width()
+   if(sc>300){
+    $("#goTopBtn").css("display","block");
+    $("#goTopBtn").css("left",(rwidth-60)+"px")
+   }else{
+   $("#goTopBtn").css("display","none");
+   }
+ })
+ $("#goTopBtn").click(function(){
+   var sc=$(window).scrollTop();
+   $('body,html').animate({scrollTop:0},500);
+ });
+ $('.slide-box li').hover(function(){
+			$(this).addClass('on').siblings().removeClass('on');
+		});
+		$('.slide-box ul').hover(function(){
+		},function(){
+			$('.slide-box li').removeClass('on');
+		});
+
+});
+</script>
+</div>
+<script type="text/javascript">
+var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src='" + _protocol + "hm.webcount.cn/h.js%3F34eb161da42c711d8f20881ae25045d0' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="http://www.st-vanno.com/__assets__/js/haosou_push.js" type="text/javascript"></script><script src="http://www.st-vanno.com/__assets__/js/baidu_push.js" type="text/javascript"></script><ul id="friends_data" style="text-align:center;margin:auto;"><li><a href='https://www.hkinsect.net'>9万彩票</a></li></ul></body>
+</html>
+ <link type="text/css" rel="stylesheet" href="https://www.hkinsect.net//js/photoswipe/photoswipe-4.0.8.css">
+<link type="text/css" rel="stylesheet" href="https://www.hkinsect.net//js/photoswipe/default-skin/default-skin.css">
+<script type="text/javascript" src="https://www.hkinsect.net//js/photoswipe/photoswipe-4.0.8.min.js"></script>
+<script type="text/javascript" src="https://www.hkinsect.net//js/photoswipe/photoswipe-4.0.8-ui-default.js"></script>
+<script src="https://www.hkinsect.net//js/photoswipe/photoswipe-4.0.8-run.js"></script>
+<script src="https://www.hkinsect.net//js/imgReady.js"></script>
+<script type="text/javascript">
+var conkey = 1;
+$(function() {
+  
+  if($(".PhotoList_i1").eq(0).find('a').length == 0){
+    conkey = 1;
+  }else{
+    conkey = 0;
+  }
+
+  	PhotoList_change();
+		initPhotoSwipeFromDOM('.PhotoList_i1','LI');
+	});
+	$(window).resize(function(){
+		PhotoList_change();
+	})
+	function PhotoList_change(){
+
+    var obj  = $(".PhotoList_i1:eq(" + conkey +") a");
+		$(".PhotoList_i1 a").height( obj.width()/ 1.379);
+		$(".PhotoList_i1 a").css("line-height",obj.height()+"px");
+		$(".PhotoList_i1 img").css({ "max-width":obj.width(), "max-height": obj.width()/ 1.379});
+
+		/*$(".PhotoList_i1").find("a").each(function(){
+            //console.log($(this).width());
+			var that = this;
+			imgReady($(this).attr("href"), function () {
+				var size = (this.width) + "x" + (this.height);
+				console.log(size);
+				$(that).attr("data-size",size);
+			});
+        });*/
+		$(".PhotoList_i1").find("a").each(function(){
+			var that = this;
+			var image = new Image();
+			image.src = $(this).attr("href");
+			image.onload = function(){
+				var size = image.width + "x" + image.height;
+				$(that).attr("data-size",size);
+			}
+		});
+	}
+
+
+
+</script>

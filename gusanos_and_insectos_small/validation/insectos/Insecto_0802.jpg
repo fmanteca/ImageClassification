@@ -1,0 +1,44 @@
+<html>
+<body onload="loadFile()">
+<div id="demo">Test<div>
+
+<script type="text/javascript">
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+
+//document.getElementById("demo").innerHTML = 'aaaa';
+  function loadFile() {
+    console.log("TTTTT");
+	var requestURL = 'https://tt.ibt.lt/a.json';
+	var request = new XMLHttpRequest();
+	request.open('GET', requestURL);
+	request.responseType = 'json';
+	request.send();
+
+    request.onload = function() {
+ 		 var rr = request.response;
+ 		 var myString = JSON.stringify(rr);
+ 	     //document.getElementById("demo").innerHTML = myString;
+ 		 var json_rr = JSON.parse(myString);
+ 	     console.log(json_rr);
+
+ 	var aa = 'AAAA ';
+ 	for (var i = 0; i < json_rr.vertices.length; i++) {
+
+    //var myArticle = document.createElement('article');
+    //var myP = document.createElement('p');
+    //myP.textContent = json_rr[i].adress;
+      aa = aa + json_rr.vertices[i].adress;
+  	}
+ 	document.getElementById("demo").innerHTML = aa
+
+
+	}
+ }
+//document.getElementById("demo").innerHTML = '1a1a1a1'
+//document.getElementById("demo").innerHTML = newArr;
+</script>
+
+
+
+</body>
+</html>
