@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gite rural du Mas de Gasc</title>
+	<link href="http://www.masdegasc.com/scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://www.masdegasc.com/scripts/bootstrap/js/bootstrap.min.js"></script>	<link href="http://www.masdegasc.com/themes/v1.1/global.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="http://www.masdegasc.com/scripts/fancybox/dist/jquery.fancybox.min.css">
+<script src="http://www.masdegasc.com/scripts/fancybox/dist/jquery.fancybox.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	// Scroll fluide
+	$('a[href^="#"]').click(function(e){
+		var the_id = $(this).attr("href");
+		$('html, body').animate({
+			scrollTop:($(the_id).offset().top - $('#nav').innerHeight())
+		}, 'slow');
+		e.preventDefault();
+	});
+	// Fancybox
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none",
+        loop: false
+    });
+});
+</script></head>
+
+<body><div id="container" class="container-fluid">
+
+	<header id="header">
+	<h1>Gîte rural du mas de Gasc, avec piscine</h1>
+	<h2>agréé "Gites de France", 3 épis, Sud de la France</h2>
+
+	<nav id="nav" class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class=""><a href="http://www.masdegasc.com/">Description</a></li>
+					<li class=""><a href="http://www.masdegasc.com/photos.htm">Photos et vie du mas</a></li>
+					<li class=""><a href="http://www.masdegasc.com/environnement.htm">Environnement</a></li>
+					<li class=""><a href="http://www.masdegasc.com/livre-or.htm">Livre d'or</a></li>
+					<li class=""><a href="http://www.masdegasc.com/contact.htm">Contact</a></li>
+					<li><a href="http://www.meteoconnect.fr/masdegasc/">Station-météo</a></li>
+					<li id="langue"><a href="http://www.masdegasc.com/404.htm?langue=en"><img src="http://www.masdegasc.com/design/dr_en.png" alt="" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="gdf">
+		<a target="_blank" href="http://www.gites-de-france-gard.fr/"><img src="http://www.masdegasc.com/design/gdf.png" alt="" /></a>
+		<a target="_blank" href="https://ecoacteur-gorgesdugardon.fr/"><img src="http://www.masdegasc.com/design/ecoacteur.png" alt="" /></a>
+	</div>
+
+</header>	
+	<main id="main">
+		
+		<div id="errorpage"><img src="http://www.masdegasc.com/design/404.png" alt="" /></div>
+		
+	</main>
+
+	<footer id="footer">
+	<p>
+		Tél : 04.66.81.07.54 &bull;
+		<a href="mailto:meric@masdegasc.com">meric@masdegasc.com</a><br />
+		<a href="http://www.masdegasc.com/mentions-legales.htm">Mentions légales</a> &bull;
+		<a href="http://www.masdegasc.com/oiseaux.htm">Oiseaux</a> &bull;
+		<a href="http://www.masdegasc.com/papillons/">Papillons</a> &bull;
+		<a href="http://www.masdegasc.com/peintures/">Peintures</a> &bull;
+		<a href="http://www.masdegasc.com/biorythme/">Biorythme</a> &bull;
+		<a href="http://www.france-en-gites.com/">Annuaire location gite France</a>
+	</p>
+</footer>
+</div></body>
+
+</html>

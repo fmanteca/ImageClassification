@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Chrome, Firefox OS, Opera and Vivaldi -->
+  <meta name="theme-color" content="#6b7178">
+  <!-- Windows Phone -->
+  <meta name="msapplication-TileColor" content="#b10202">
+  <meta name="msapplication-TileImage" content="/sites/all/themes/unlv_internal_2015/global/logos/start-screen-tile.png">
+  <meta name="format-detection" content="telephone=no">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#6b7178">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/sites/all/themes/unlv_internal_2015/global/logos/apple-touch-icon.png">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.unlv.edu/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.unlv.edu/sciences" />
+<link rel="shortlink" href="https://www.unlv.edu/node/134431" />
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous"><meta name="google-site-verification" content="OA77oRkY8Nl1DmtEgtXbO01AKGSH2h4PImvBxCiRgdc" /><meta property="fb:pages" content="324378595057" /><!-- Begin Inspectlet JS Code -->
+    <script type="text/javascript" id="inspectletjs">
+    (function() {
+    var insp_ab_loader = true; // set this boolean to false to disable the A/B testing loader
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 527406690]);
+    var ldinsp = function(){
+    if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=527406690&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x);if(typeof insp_ab_loader != "undefined" && insp_ab_loader){ var adlt = function(){ var e = document.getElementById('insp_abl'); if(e){ e.parentNode.removeChild(e); __insp.push(['ab_timeout']); }}; var adlc = "body{ visibility: hidden !important; }"; var adln = typeof insp_ab_loader_t != "undefined" ? insp_ab_loader_t : 1200; insp.onerror = adlt; var abti = setTimeout(adlt, adln); window.__insp_abt = abti; var abl = document.createElement('style'); abl.id = "insp_abl"; abl.type = "text/css"; if(abl.styleSheet) abl.styleSheet.cssText = adlc; else abl.appendChild(document.createTextNode(adlc)); document.head.appendChild(abl); } };
+    setTimeout(ldinsp, 0);
+    })();
+    </script>
+    <!-- End Inspectlet JS Code --> 
+  <title>College of Sciences Home | College of Sciences | University of Nevada, Las Vegas</title>
+  <link type="text/css" rel="stylesheet" href="https://www.unlv.edu/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.unlv.edu/sites/default/files/css/css_9KkQ01o2yEebuZ04kxcFdgiUdcBtxo0ju3PNutWOkC4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.unlv.edu/sites/default/files/css/css_JKOKMg1kxY-4xtWCpsZdZqcQiRFKEW4mG_9tCG2J9Ps.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.unlv.edu/sites/default/files/css/css_TP8jVnCXpwMfiupNlM9Hf5aUMivCmxa0LlEurGCDJ6U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700|Roboto+Condensed:400,100,300,700|Roboto+Mono|Roboto+Slab:400,100,300,400,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.2/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.unlv.edu/sites/default/files/css/css_ISEYzwWQGbjUI6bTG7is4GFKGg3-QE9yu5yIigeRynk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.unlv.edu/sites/default/files/css/css_d9usVmLzwxTf2qy_oSaA-CYFF5R8Vh1xAVKzVKtJ1bs.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="https://www.unlv.edu/sites/default/files/js/js_xvYJgU6LChHqbcSh4y1AvdXfD5QBIwT3GVGVUeuksbM.js"></script>
+<script src="https://www.unlv.edu/sites/default/files/js/js_4rck9RkHEK_Q2thEWNS_Do_PlGWkTbGuI-J0fNRUnso.js"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script>document.createElement( "picture" );</script>
+<script src="https://www.unlv.edu/sites/default/files/js/js_Jqs0VGk8lvjv6-ybrkbSJzRdMZNq4AZ9s8a3rCei_1M.js"></script>
+<script src="https://www.unlv.edu/sites/default/files/js/js_Cg7bZyjJtpEv3q2crhm0AbVLfmsV2GWaLdN3Ymkdr68.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/balance-text/3.1.1/balancetext.min.js"></script>
+<script src="https://www.unlv.edu/sites/default/files/js/js_8TATFSAG1B0ekdMdjtqEf46gv3r1YdDvYfJ5PTOwmHY.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"unlv_internal_2015","theme_token":"B-aL7DnOki1kT2Zoj5r7HhyOQuFkyVwxbu-lDVak_Dw","js":{"sites\/all\/modules\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/picture\/picture.min.js":1,"sites\/all\/modules\/flickr_lightbox\/js\/flickr_lightbox.js":1,"0":1,"sites\/all\/modules\/important_messages\/js\/important_messages.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.2\/js\/bootstrap.min.js":1,"1":1,"sites\/all\/modules\/global_includes\/js\/gen-functions.js":1,"sites\/all\/modules\/global_includes\/js\/views-reset-btn-fix.js":1,"sites\/all\/modules\/lazyloader\/jquery.lazyloader.js":1,"sites\/all\/libraries\/lightbox2\/dist\/js\/lightbox.min.js":1,"sites\/all\/modules\/image_caption\/image_caption.js":1,"\/\/cdnjs.cloudflare.com\/ajax\/libs\/balance-text\/3.1.1\/balancetext.min.js":1,"sites\/all\/themes\/unlv_internal_2015\/js\/global.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/picture\/picture_wysiwyg.css":1,"sites\/all\/modules\/siteimprove\/css\/siteimprove.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/lazyloader\/lazyloader.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/lightbox2\/dist\/css\/lightbox.min.css":1,"sites\/all\/modules\/page_section_restrictor\/css\/page_section_restrictor.css":1,"\/\/fonts.googleapis.com\/css?family=Roboto:400,100,300,500,700|Roboto+Condensed:400,100,300,700|Roboto+Mono|Roboto+Slab:400,100,300,400,700":1,"\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.7.0\/css\/font-awesome.min.css":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.2\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/3.3.2\/overrides.min.css":1,"sites\/all\/themes\/unlv_internal_2015\/css\/style.css":1,"sites\/all\/themes\/unlv_internal_2015\/css\/bootstrap-4-alpha.css":1,"sites\/all\/themes\/unlv_internal_2015\/css\/base.css":1,"sites\/all\/themes\/unlv_internal_2015\/css\/layout.css":1,"sites\/all\/themes\/unlv_internal_2015\/css\/content.css":1,"sites\/all\/themes\/unlv_internal_2015\/css\/legacy.css":1,"sites\/all\/modules\/global_includes\/css\/global-includes.css":1,"sites\/all\/modules\/flickr_lightbox\/css\/flickr_lightbox.css":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"better_exposed_filters":{"views":{"unlv_tokens_news_center_mixed":{"displays":{"unlv_tokens_news_center_mixed_units_cards_horizontal":{"filters":[]}}},"unlv_tokens_stories":{"displays":{"embed_unithome":{"filters":[]}}},"unlv_tokens_news_center_in_the_news":{"displays":{"unlv_tokens_news_center_in_the_news_units":{"filters":[]}}},"unlv_tokens_news_center_accomplishment":{"displays":{"unlv_tokens_news_center_accomplishment_units":{"filters":[]}}},"unlv_tokens_news_center_experts":{"displays":{"unlv_tokens_news_center_experts_units_random":{"filters":[]}}},"unlv_tokens_events":{"displays":{"embed_rightcolumn":{"filters":[]}}}}},"picture":{"mappings":[["CKEditor - Third Width","third_ckeditor"],["CKEditor - Full Width","full_size_ckeditor"],["CKEditor - Half Width","half_ckeditor"],["CKEditor - Don\u0027t Resize","default_image_ckeditor"],["Not Set","not_set"]],"label":"Image size (required)"},"bootstrap":{"anchorsFix":0,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+  <!-- Custom Head -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N3KMGF');</script>
+</head>
+<body class="navbar-is-fixed-top html not-front not-logged-in no-sidebars page-node page-node- page-node-134431 node-type-secondary-page">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3KMGF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable sr-only sr-only-focusable" tabindex="1">Skip to main content</a>
+  </div>
+    <header role="banner" aria-label="header">
+	<nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-top">
+      <div class="container">
+        <div class="row">
+          <div class="unlv-name col-xs-5">
+            <a href="/" tabindex="-1" role="presentation" aria-hidden="true">University of Nevada, Las Vegas</a>
+          </div><!--end .unlv-name-->
+    
+          <div id="audience-container" class="col-xs-7">
+						<ul id="audience" role="navigation" aria-label="audiences"><li class="menu-13034 first"><a href="/students" title="Students">Students</a></li>
+<li class="menu-13035"><a href="/facultystaff" title="Faculty/Staff">Faculty/Staff</a></li>
+<li class="menu-18657"><a href="/about-alumni" title="">Alumni</a></li>
+<li class="menu-13037"><a href="/donors" title="Donors">Donors</a></li>
+<li class="menu-13038 last"><a href="/community" title="Community">Community</a></li>
+</ul>          </div><!--end #audience-container-->
+
+          <div id="dropdown-container" class="col-xs-7">
+            <div id="audience-dropdown-container" class="dropdown">
+              <a class="btn btn-default dropdown-toggle" role="button" id="audience-dropdown" data-toggle="dropdown" aria-haspopup="true" tabindex="7 ">Audiences <span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-menu-right" role="navigation" aria-label="audiences dropdown"><li class="menu-13034 first"><a href="/students" title="Students">Students</a></li>
+<li class="menu-13035"><a href="/facultystaff" title="Faculty/Staff">Faculty/Staff</a></li>
+<li class="menu-18657"><a href="/about-alumni" title="">Alumni</a></li>
+<li class="menu-13037"><a href="/donors" title="Donors">Donors</a></li>
+<li class="menu-13038 last"><a href="/community" title="Community">Community</a></li>
+</ul>                        
+            </div><!--end #audience-dropdown-container-->
+                
+            <div id="topic-dropdown-container" class="dropdown">
+              <a class="btn btn-default dropdown-toggle" role="button" id="topic-dropdown" data-toggle="dropdown" aria-haspopup="true" tabindex="6">Topics <span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-menu-right" role="navigation" aria-label="topics dropdown"><li class="menu-13004 first"><a href="/about" title="About">About</a></li>
+<li class="menu-13005"><a href="/academics" title="Academics">Academics</a></li>
+<li class="menu-13032"><a href="/apply" title="Admissions">Admissions</a></li>
+<li class="menu-13033"><a href="/athletics" title="Athletics">Athletics</a></li>
+<li class="menu-13006"><a href="/campuslife" title="Campus Life">Campus Life</a></li>
+<li class="menu-13031 last"><a href="/about-research" title="Research">Research</a></li>
+</ul>                        
+            </div><!--end #topic-dropdown-container-->
+          </div><!--end #dropdown-container-->
+
+				</div><!--end .row-->
+			</div><!--end .container-->
+		</div><!--end .navbar-top-->
+
+    <div class="navbar-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="menu-button-container">
+            <a role="button" id="menu-button" href="#" tabindex="4" data-toggle="tooltip" data-placement="right" title="" data-original-title="Menu" onclick="void(0)">
+              <span class="sr-only" aria-label="open Sciences menu">Menu</span>
+            </a>
+          </div><!--end .menu-button-container-->
+                    
+          <div class="unlv-logo-container">
+            <h1 class="clear-margins clear-padding"><a class="transition" href="/" tabindex="2">U-N-L-V</a></h1>
+          </div><!--end .unlv-logo-container-->
+ 
+          <div class="website-title">
+            <h1>
+                                  <a href="/sciences" tabindex="3">
+                      <span class="short-title">Sciences</span>
+                      <span class="full-title">College of Sciences</span>
+                    </a>
+                						</h1>
+          </div><!--end .website-title-->
+                    
+          <div id="topic-container">
+            <ul id="topics" role="navigation" aria-label="topics"><li class="menu-13004 first"><a href="/about" title="About">About</a></li>
+<li class="menu-13005"><a href="/academics" title="Academics">Academics</a></li>
+<li class="menu-13032"><a href="/apply" title="Admissions">Admissions</a></li>
+<li class="menu-13033"><a href="/athletics" title="Athletics">Athletics</a></li>
+<li class="menu-13006"><a href="/campuslife" title="Campus Life">Campus Life</a></li>
+<li class="menu-13031 last"><a href="/about-research" title="Research">Research</a></li>
+</ul>          </div><!--end #topic-container-->
+                    
+          <div class="search-button-container">
+            <a role="button" class="search-button transition pull-right text-hide" href="#" id="search-button" tabindex="5" data-toggle="tooltip" data-placement="left" title="" data-original-title="Find" onclick="void(0)" aria-label="open find region">Find</a>
+          </div><!--end .search-button-container-->
+                
+        </div><!--end .row-->
+			</div><!--end .container-->
+		</div><!--end .navbar-bottom-->  
+	</nav>
+</header>
+
+<div id="navigation" role="navigation" aria-label="Sciences navigation">
+
+  <div class="scroller" id="navigation-scroller" tabindex="-1">
+    <div class="nav-close"><a href="#" id="menu-close">close Sciences menu</a></div>
+                <h2>Sciences</h2>  <div class="region region-section-menu">
+    
+<div id="block-menu-block-1" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-menu-sciences parent-mlid-0 menu-level-1">
+  <ul class="menu-sections"><li class="first last expanded active-trail active menu-mlid-13663 active"><a href="/sciences" class="active-trail active">Sciences Home</a><ul class="menu-section-level-2"><li class="first leaf menu-mlid-7274"><a href="/sciences/about" title="College of Sciences - About">About</a></li>
+<li class="leaf menu-mlid-7275"><a href="/sciences/academic-programs" title="College of Sciences - Academic Programs">Academic Programs</a></li>
+<li class="leaf menu-mlid-7277"><a href="/sciences/admissions" title="College of Sciences - Admissions">Admissions</a></li>
+<li class="leaf menu-mlid-7278"><a href="/sciences/advising" title="College of Sciences - Advising">Advising</a></li>
+<li class="leaf menu-mlid-7279"><a href="/sciences/research" title="College of Sciences - Research">Research</a></li>
+<li class="leaf menu-mlid-17953"><a href="/sciences/community-outreach" title="Community Outreach">Community Outreach</a></li>
+<li class="leaf menu-mlid-7281"><a href="/sciences/support" title="College of Sciences - Support the College">Support the College</a></li>
+<li class="leaf menu-mlid-7282"><a href="/sciences/student-resources" title="College of Sciences - Student Resources">Student Resources</a></li>
+<li class="leaf menu-mlid-7283"><a href="/sciences/alumni" title="College of Sciences - Alumni and Friends">Alumni and Friends</a></li>
+<li class="leaf menu-mlid-13767"><a href="/sciences/news" title="Our Stories">News</a></li>
+<li class="last leaf menu-mlid-7287"><a href="/sciences/contact" title="College of Sciences - Contact">Contact</a></li>
+</ul></li>
+</ul></div>
+
+</div>  </div>
+          </div> <!--end .scroller-->    
+</div> <!-- #navigation -->
+
+<div id="search" role="search">
+  <div class="scroller" id="search-scroller" tabindex="-1">
+    <div class="nav-close"><a href="#" id="search-close">close find region</a></div>
+         
+    <h2>Find</h2>
+
+    <div id="global-search-tabs">
+      <ul class="nav nav-tabs">
+        <li role="presentation"><a id="findtab-search" href="#search-tab">Search</a></li>
+        <li role="presentation"><a id="findtab-az-index" href="#a-z-tab" aria-label="eh to zee index">A-Z Index</a></li>
+        <li role="presentation"><a id="findtab-directories" href="#directories-tab">Directories</a></li>
+      </ul>
+    
+      <div id="search-tab">
+                      <div class="region region-search">
+    <section id="block-block-56" class="block block-block clearfix">
+
+      
+  <script>
+  (function() {
+    var cx = '002367027510554248077:krw4pudpzig';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+<!--
+<div class="alert alert-warning alert-dismissible fade in" role="alert">
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true">×</span>
+</button>
+<a href="https://www.unlv.edu/outages">Important Notice:<br>Major IT service outages April 7-10</a>
+</div>
+-->
+
+<!-- QUICK LINKS-->
+
+<div id="quicklinks">
+<h3 class="label text-center">Quick Links</h3>
+<div class="flex-three-column">
+<div class="grid">
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="/academics/books">Bookstore</a></div>
+<div><i class="fas fa-book fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">Bookstore</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="/calendar">Calendar</a></div>
+<div><i class="far fa-calendar-alt fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">Calendar</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="/maps">Campus Maps</a></div>
+<div><i class="fas fa-map-marker-alt fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">Campus&nbsp;Maps</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="/academics/degrees">Degrees</a></div>
+<div><i class="fas fa-graduation-cap fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">Degrees</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="https://www.library.unlv.edu">Libraries</a></div>
+<div><i class="far fa-book fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">Libraries</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="https://my.unlv.nevada.edu">MyUNLV</a></div>
+<div><i class="fas fa-feather-alt fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">MyUNLV</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="/news">News Center</a></div>
+<div><i class="far fa-newspaper fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">News Center</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="/rebelcard">RebelCard</a></div>
+<div><i class="far fa-id-card fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">RebelCard</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="https://rebelmail.unlv.edu">Rebelmail</a></div>
+<div><i class="far fa-envelope fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">Rebelmail</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="/directories/social-media">Social Media</a></div>
+<div><i class="fas fa-share-alt fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">Social Media</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="https://oit.unlv.edu/unlvmail">UNLV Mail</a></div>
+<div><i class="far fa-envelope-open fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">UNLV Mail</div>
+</div>
+</div><!--end .cell-->
+
+<div class="cell text-center">
+<div class="click-region">
+<div class="click-region-link"><a href="https://webcampus.unlv.edu">WebCampus</a></div>
+<div><i class="fas fa-globe fa-2x" aria-hidden="true"></i></div>
+<div class="text-xs">WebCampus</div>
+</div>
+</div><!--end .cell-->
+
+</div><!--end .grid-->
+</div><!--end .flex-two-column-->
+</div><!--/#frequent-links-->
+</section>
+  </div>
+                 
+      </div>
+      
+      <div id="a-z-tab">
+                      <div class="region region-az-tab">
+    <section id="block-block-61" class="block block-block clearfix">
+
+      
+  <div class="text-center"><i class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i><br />
+<span class="text-xs">Loading</span></div>
+
+</section>
+  </div>
+                </div>
+      
+      <div id="directories-tab">
+                      <div class="region region-directories-tab">
+    <section id="block-block-55" class="block block-block clearfix">
+
+      
+  <ul class="list-group">
+<li><a class="list-group-item" href="/directories">Directories Home</a></li>
+<li><a class="list-group-item" href="/directories/a-z">A-Z Index</a></li>
+<li><a class="list-group-item" href="/directories/academic-units">Colleges, Schools, and Departments</a></li>
+<li><a class="list-group-item" href="/directories/admin-units">Administrative Units</a></li>
+<li><a class="list-group-item" href="/directories/research-centers-institutes">Research Centers and Institutes</a></li>
+<li><a class="list-group-item" href="/directories/resources-services">Resources and Services</a></li>
+<li><a class="list-group-item" href="https://web.oit.unlv.edu/eel">Employee Directory</a></li>
+<li><a class="list-group-item" href="/directories/contact">Contact UNLV</a></li>
+<li><a class="list-group-item" href="/directories/social-media">Social Media Directory</a></li>
+<li><a class="list-group-item" href="/directories/mobile">UNLV Mobile Apps</a></li>
+</ul>
+
+</section>
+  </div>
+                </div>
+      
+    </div><!--end #global-search-tabs-->
+  </div><!--end .scroller-->  
+</div><!--end #search-->
+
+<div class="system-container container">
+  <div class="row">
+    <div class="col-sm-12">
+            <div id="main-content"></div>
+                                                      </div>
+  </div>
+</div> <!-- /.system-container -->
+
+<div id="content" class="unlv-node-published">
+  <div id="content-main" role="main" aria-label="main content">
+
+     
+  
+        
+			  <!-- If there is primary or secondary content, then make this column smaller. -->
+                  
+          
+            <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  
+
+<article id="node-134431" class="node node-secondary-page clearfix" about="/sciences" typeof="sioc:Item foaf:Document">
+    <header>
+            <span property="dc:title" content="College of Sciences Home" class="rdf-meta element-hidden"></span>      </header>
+      
+
+<section class="hero text-white" id="entity_5118">
+
+<div><picture >
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.unlv.edu/sites/default/files/styles/2000_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=Xbe_V4GS&amp;timestamp=1477421872 1x" media="(min-width : 1920px)" />
+<source srcset="https://www.unlv.edu/sites/default/files/styles/1920_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=jnjUOIzE&amp;timestamp=1477421872 1x" media="(min-width : 1700px)" />
+<source srcset="https://www.unlv.edu/sites/default/files/styles/1520_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=SWrUvqt_&amp;timestamp=1477421872 1x" media="(min-width : 1500px)" />
+<source srcset="https://www.unlv.edu/sites/default/files/styles/1500_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=8vuRIHfz&amp;timestamp=1477421872 1x" media="(min-width : 1280px)" />
+<source srcset="https://www.unlv.edu/sites/default/files/styles/1280_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=3txdb3s0&amp;timestamp=1477421872 1x" media="(min-width : 1024px)" />
+<source srcset="https://www.unlv.edu/sites/default/files/styles/1024_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=GaV1vfxO&amp;timestamp=1477421872 1x" media="(min-width : 960px)" />
+<source srcset="https://www.unlv.edu/sites/default/files/styles/960_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=qmNCESYv&amp;timestamp=1477421872 1x" media="(min-width : 768px)" />
+<source srcset="https://www.unlv.edu/sites/default/files/styles/768_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=5vX1FYag&amp;timestamp=1477421872 1x" media="(min-width : 640px)" />
+<source srcset="https://www.unlv.edu/sites/default/files/styles/640_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=u68oHR9X&amp;timestamp=1477421872 1x" media="(min-width : 480px)" />
+<source srcset="https://www.unlv.edu/sites/default/files/styles/480_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=HWBA1h-s&amp;timestamp=1477421872 1x" media="(min-width : 320px)" />
+<source srcset="https://www.unlv.edu/sites/default/files/styles/320_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=RbP5M0_n&amp;timestamp=1477421872 1x" media="(min-width : 1px)" />
+<!--[if IE 9]></video><![endif]-->
+<!--[if lt IE 9]>
+<img  src="https://www.unlv.edu/sites/default/files/styles/768_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=5vX1FYag&amp;timestamp=1477421872" alt="" title="" />
+<![endif]-->
+<!--[if !lt IE 9]><!-->
+<img  srcset="https://www.unlv.edu/sites/default/files/styles/768_width/public/hero_video/image/D68824_71-College-of-Sciences-Hero.jpg?itok=5vX1FYag&amp;timestamp=1477421872 768w" alt="" title="" />
+<!-- <![endif]-->
+</picture></div><div class="overlay"></div>
+  <div class="hero-text">
+    <div class="hero-text-inner">
+    <h2>Shaping the Future of Science</h2><p>Education. Discovery. Innovation.</p>
+    </div> <!--/.hero-text-inner-->
+  </div> <!--/.hero-text-->
+
+</section> <!-- /# id=entity_5118 -->
+      <section  id="entity_136085" class="padding-top-lg padding-bottom-lg bg-blue-gray-200" role="region" arial-label="50th Anniversary Announcement">
+      <div class="container">
+              
+          
+<div class="row row-padding-top-none row-padding-bottom-none padding-lg" id="entity_136084">
+    
+<div  id="entity_136081" class="col-xs-12 col-sm-3">
+  
+
+<div id="entity_136080">
+
+
+<figure>
+  <img class="pg-image-field img-responsive" src="https://www.unlv.edu/sites/default/files/pg_images/27/Sciences-50th-Logo_No-Circle_Color.png" alt="50th Anniversary College of Sciences logo">
+  </figure>
+
+
+</div> <!-- /#  id="entity_136080" (photo_container) -->
+       
+</div> <!-- /# id="entity_136081" (column) -->
+
+<div  id="entity_136083" class="col-xs-12 col-sm-9">
+  
+<div class="content-area-start"></div><p class="margin-bottom-md">Fifty years ago, the College of Science and Mathematics was formed. The following year, Robert Smith began serving as founding dean, with nearly 500 undergraduate and 41 graduate students enrolled. This fall, there are approximately 2,500 undergraduate students and 250 graduate students in five core academic areas: biological sciences, chemistry, geoscience, mathematics, and physics (and astronomy).</p>
+<div class="text-left" id="entity_149157">
+    
+<a role="button" role="region" arial-label="50th Anniversary Events " class="btn btn-red btn-lg clear-margin-bottom btn-block btn-inline-xs" href="https://www.unlv.edu/sciences/50-anniversary-events">50th Anniversary Events</a>
+
+<a role="button" role="region" arial-label="Laboratory Tours Sign Up" class="btn btn-default btn-lg clear-margin-bottom btn-block btn-inline-xs" href="https://docs.google.com/forms/d/1urONbkQdkBpSv-EAvPLBHDT2gGMG6IVWUuwOa1dSF_8/edit?ts=5c4a9e52https%3A//docs.google.com/forms/d/1urONbkQdkBpSv-EAvPLBHDT2gGMG6IVWUuwOa1dSF_8/edit%3Fts%3D5c4a9e52">Laboratory Tours Sign Up</a>
+
+<a role="button" role="region" arial-label="History and Photos" class="btn btn-gray btn-lg clear-margin-bottom btn-block btn-inline-xs" href="https://www.unlv.edu/sites/default/files/page_files/27/50thAnniversary-HistoryPowerPoint.pdf">History and Photos</a>
+      
+</div> <!-- /# id="entity_149157" (button) -->
+      
+</div> <!-- /# id="entity_136083" (column) -->
+      
+</div> <!-- /# id="entity_136084" (row) -->
+        
+           
+      </div> <!-- /.container -->
+    </section> <!-- /# id="entity_136085" (section) -->
+          <section  id="entity_94103" class="padding-top-lg padding-bottom-lg bg-blue" role="region" arial-label="Tiles">
+      <div class="container">
+       <header><div class="content-area-start"></div><h3 class="text-center margin-bottom-md">Departments &amp; Programs</h3>
+</header>       
+          
+<div class="row row-padding-top-none row-padding-bottom-none padding-lg" id="entity_94102">
+    
+<div  id="entity_94097" class="col-xs-12 col-sm-4">
+  
+
+<div id="entity_94096">
+  <div class="click-region">
+    <div class="click-region-link">
+            <a href="/chemistry">Chemistry and Biochemistry</a>
+            </div> <!-- /.click-region -->
+    <div class="tile ar-6-4">
+      
+              <div class="tile-image zoom">
+          <img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D69658_12-Chemistry-%26-Biochemistry.jpg" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="800" height="600" alt="Chemistry and Biochemistry" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D69658_12-Chemistry-%26-Biochemistry.jpg" width="800" height="600" alt="Chemistry and Biochemistry" /></noscript>                    </div> <!-- /.tile-image -->
+              
+      <div class="tile-text tile-footer light">
+        <div class="tile-overlay bg-dark-orange"></div>
+        <div class="tile-text-inner">
+                    <div class="tile-title h4" aria-hidden="true">Chemistry and Biochemistry</div>
+                </div><!--end .tile-text-inner-->
+      </div><!--end .tile-text-->
+     
+    </div> <!-- /.tile -->
+  </div> <!-- /.click-region -->
+</div> <!-- /#  id="entity_94096" (tile-v2) -->
+      
+</div> <!-- /# id="entity_94097" (column) -->
+
+<div  id="entity_94099" class="col-xs-12 col-sm-4">
+  
+
+<div id="entity_94098">
+  <div class="click-region">
+    <div class="click-region-link">
+            <a href="http://geoscience.unlv.edu/">Geoscience</a>
+            </div> <!-- /.click-region -->
+    <div class="tile ar-6-4">
+      
+              <div class="tile-image zoom">
+          <img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D66133_32-Geoscience.jpg" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="800" height="600" alt="Geoscience" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D66133_32-Geoscience.jpg" width="800" height="600" alt="Geoscience" /></noscript>                    </div> <!-- /.tile-image -->
+              
+      <div class="tile-text tile-footer light">
+        <div class="tile-overlay bg-dark-orange"></div>
+        <div class="tile-text-inner">
+                    <div class="tile-title h4" aria-hidden="true">Geoscience</div>
+                </div><!--end .tile-text-inner-->
+      </div><!--end .tile-text-->
+     
+    </div> <!-- /.tile -->
+  </div> <!-- /.click-region -->
+</div> <!-- /#  id="entity_94098" (tile-v2) -->
+      
+</div> <!-- /# id="entity_94099" (column) -->
+
+<div  id="entity_94101" class="col-xs-12 col-sm-4">
+  
+
+<div id="entity_94100">
+  <div class="click-region">
+    <div class="click-region-link">
+            <a href="/lifesciences">Life Sciences</a>
+            </div> <!-- /.click-region -->
+    <div class="tile ar-6-4">
+      
+              <div class="tile-image zoom">
+          <img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D67128_06-Life-Sciences.jpg" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="800" height="600" alt="Life Sciences" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D67128_06-Life-Sciences.jpg" width="800" height="600" alt="Life Sciences" /></noscript>                    </div> <!-- /.tile-image -->
+              
+      <div class="tile-text tile-footer light">
+        <div class="tile-overlay bg-dark-orange"></div>
+        <div class="tile-text-inner">
+                    <div class="tile-title h4" aria-hidden="true">Life Sciences</div>
+                </div><!--end .tile-text-inner-->
+      </div><!--end .tile-text-->
+     
+    </div> <!-- /.tile -->
+  </div> <!-- /.click-region -->
+</div> <!-- /#  id="entity_94100" (tile-v2) -->
+      
+</div> <!-- /# id="entity_94101" (column) -->
+      
+</div> <!-- /# id="entity_94102" (row) -->
+
+<div class="row row-padding-top-none row-padding-bottom-none padding-lg" id="entity_94126">
+    
+<div  id="entity_94121" class="col-xs-12 col-sm-4">
+  
+
+<div id="entity_94120">
+  <div class="click-region">
+    <div class="click-region-link">
+            <a href="/math">Mathematical Sciences</a>
+            </div> <!-- /.click-region -->
+    <div class="tile ar-6-4">
+      
+              <div class="tile-image zoom">
+          <img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D69986_03-Mathematical-Sciences.jpg" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="800" height="600" alt="" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D69986_03-Mathematical-Sciences.jpg" width="800" height="600" alt="" /></noscript>                    </div> <!-- /.tile-image -->
+              
+      <div class="tile-text tile-footer light">
+        <div class="tile-overlay bg-dark-orange"></div>
+        <div class="tile-text-inner">
+                    <div class="tile-title h4" aria-hidden="true">Mathematical Sciences</div>
+                </div><!--end .tile-text-inner-->
+      </div><!--end .tile-text-->
+     
+    </div> <!-- /.tile -->
+  </div> <!-- /.click-region -->
+</div> <!-- /#  id="entity_94120" (tile-v2) -->
+      
+</div> <!-- /# id="entity_94121" (column) -->
+
+<div  id="entity_94123" class="col-xs-12 col-sm-4">
+  
+
+<div id="entity_94122">
+  <div class="click-region">
+    <div class="click-region-link">
+            <a href="http://www.physics.unlv.edu/">Physics and Astronomy</a>
+            </div> <!-- /.click-region -->
+    <div class="tile ar-6-4">
+      
+              <div class="tile-image zoom">
+          <img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D67664_16-Physics_%26_Astronomy.jpg" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="800" height="600" alt="Physics and Astronomy" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D67664_16-Physics_%26_Astronomy.jpg" width="800" height="600" alt="Physics and Astronomy" /></noscript>                    </div> <!-- /.tile-image -->
+              
+      <div class="tile-text tile-footer light">
+        <div class="tile-overlay bg-dark-orange"></div>
+        <div class="tile-text-inner">
+                    <div class="tile-title h4" aria-hidden="true">Physics and Astronomy</div>
+                </div><!--end .tile-text-inner-->
+      </div><!--end .tile-text-->
+     
+    </div> <!-- /.tile -->
+  </div> <!-- /.click-region -->
+</div> <!-- /#  id="entity_94122" (tile-v2) -->
+      
+</div> <!-- /# id="entity_94123" (column) -->
+
+<div  id="entity_94125" class="col-xs-12 col-sm-4">
+  
+
+<div id="entity_94124">
+  <div class="click-region">
+    <div class="click-region-link">
+            <a href="/chemistry/radiochemistry">Radiochemistry</a>
+            </div> <!-- /.click-region -->
+    <div class="tile ar-6-4">
+      
+              <div class="tile-image zoom">
+          <img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D68675_05-Radiochemistry_0.jpg" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="800" height="600" alt="Radiochemistry" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D68675_05-Radiochemistry_0.jpg" width="800" height="600" alt="Radiochemistry" /></noscript>                    </div> <!-- /.tile-image -->
+              
+      <div class="tile-text tile-footer light">
+        <div class="tile-overlay bg-dark-orange"></div>
+        <div class="tile-text-inner">
+                    <div class="tile-title h4" aria-hidden="true">Radiochemistry</div>
+                </div><!--end .tile-text-inner-->
+      </div><!--end .tile-text-->
+     
+    </div> <!-- /.tile -->
+  </div> <!-- /.click-region -->
+</div> <!-- /#  id="entity_94124" (tile-v2) -->
+      
+</div> <!-- /# id="entity_94125" (column) -->
+      
+</div> <!-- /# id="entity_94126" (row) -->
+
+<div class="row row-padding-top-none row-padding-bottom-none padding-lg" id="entity_94133">
+    
+<div  id="entity_94128" class="col-xs-12 col-sm-4">
+  
+
+<div id="entity_94127">
+  <div class="click-region">
+    <div class="click-region-link">
+            <a href="/sciences/wrm">Water Resources Management</a>
+            </div> <!-- /.click-region -->
+    <div class="tile ar-6-4">
+      
+              <div class="tile-image zoom">
+          <img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D65375-11-WRM.jpg" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="800" height="600" alt="Water Resources Management" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D65375-11-WRM.jpg" width="800" height="600" alt="Water Resources Management" /></noscript>                    </div> <!-- /.tile-image -->
+              
+      <div class="tile-text tile-footer light">
+        <div class="tile-overlay bg-dark-orange"></div>
+        <div class="tile-text-inner">
+                    <div class="tile-title h4" aria-hidden="true">Water Resources Management</div>
+                </div><!--end .tile-text-inner-->
+      </div><!--end .tile-text-->
+     
+    </div> <!-- /.tile -->
+  </div> <!-- /.click-region -->
+</div> <!-- /#  id="entity_94127" (tile-v2) -->
+      
+</div> <!-- /# id="entity_94128" (column) -->
+
+<div  id="entity_94130" class="col-xs-12 col-sm-4">
+  
+
+<div id="entity_94129">
+  <div class="click-region">
+    <div class="click-region-link">
+            <a href="/sciences/fast-track">Pre-Professional Programs</a>
+            </div> <!-- /.click-region -->
+    <div class="tile ar-6-4">
+      
+              <div class="tile-image zoom">
+          <img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D71092_14-Pre-Professional.jpg" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="800" height="600" alt="Pre-Professional Programs" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D71092_14-Pre-Professional.jpg" width="800" height="600" alt="Pre-Professional Programs" /></noscript>                    </div> <!-- /.tile-image -->
+              
+      <div class="tile-text tile-footer light">
+        <div class="tile-overlay bg-dark-orange"></div>
+        <div class="tile-text-inner">
+                    <div class="tile-title h4" aria-hidden="true">Pre-Professional Programs</div>
+                </div><!--end .tile-text-inner-->
+      </div><!--end .tile-text-->
+     
+    </div> <!-- /.tile -->
+  </div> <!-- /.click-region -->
+</div> <!-- /#  id="entity_94129" (tile-v2) -->
+      
+</div> <!-- /# id="entity_94130" (column) -->
+
+<div  id="entity_94132" class="col-xs-12 col-sm-4">
+  
+
+<div id="entity_94131">
+  <div class="click-region">
+    <div class="click-region-link">
+            <a href="/sciences/academic-programs#science">Minors</a>
+            </div> <!-- /.click-region -->
+    <div class="tile ar-6-4">
+      
+              <div class="tile-image zoom">
+          <img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D70169_35-Minors.jpg" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="800" height="600" alt="Minors" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/paragraphs/tiles/D70169_35-Minors.jpg" width="800" height="600" alt="Minors" /></noscript>                    </div> <!-- /.tile-image -->
+              
+      <div class="tile-text tile-footer light">
+        <div class="tile-overlay bg-dark-orange"></div>
+        <div class="tile-text-inner">
+                    <div class="tile-title h4" aria-hidden="true">Minors</div>
+                </div><!--end .tile-text-inner-->
+      </div><!--end .tile-text-->
+     
+    </div> <!-- /.tile -->
+  </div> <!-- /.click-region -->
+</div> <!-- /#  id="entity_94131" (tile-v2) -->
+      
+</div> <!-- /# id="entity_94132" (column) -->
+      
+</div> <!-- /# id="entity_94133" (row) -->
+        
+           
+      </div> <!-- /.container -->
+    </section> <!-- /# id="entity_94103" (section) -->
+          <section  id="entity_94141" class="padding-top-md padding-bottom-md bg-blue-gray-200" role="region" arial-label="Stats">
+      <div class="container">
+              
+          
+<div class="row row-padding-top-none row-padding-bottom-none padding-lg" id="entity_94140">
+    
+<div  id="entity_94135" class="col-xs-12 col-sm-4">
+  
+<div id="entity_94134">
+
+<div class="stat padding-bottom-sm padding-top-sm">
+  <div class="stat-icon"><i aria-hidden="true" class="fa fa-trophy fa-3x"></i></div><!--/.stat-icon-->
+  <div class="stat-value">
+    $11,104,91  </div><!--/.stat-value-->
+  <div class="stat-label">Awards received in FY 2017</div><!--/.stat-label-->
+</div><!-- /#  id="entity_94134" -->
+
+
+</div> <!-- /#  id="entity_94134" (stat) -->
+      
+</div> <!-- /# id="entity_94135" (column) -->
+
+<div  id="entity_94137" class="col-xs-12 col-sm-4">
+  
+<div id="entity_94136">
+
+<div class="stat padding-bottom-sm padding-top-sm">
+  <div class="stat-icon"><i aria-hidden="true" class="fa fa-users fa-3x"></i></div><!--/.stat-icon-->
+  <div class="stat-value">
+    2,909  </div><!--/.stat-value-->
+  <div class="stat-label">Students</div><!--/.stat-label-->
+</div><!-- /#  id="entity_94136" -->
+
+
+</div> <!-- /#  id="entity_94136" (stat) -->
+      
+</div> <!-- /# id="entity_94137" (column) -->
+
+<div  id="entity_94139" class="col-xs-12 col-sm-4">
+  
+<div id="entity_94138">
+
+<div class="stat padding-bottom-sm padding-top-sm">
+  <div class="stat-icon"><i class="fa fa-level-up fa-3x"></i></div><!--/.stat-icon-->
+  <div class="stat-value">
+    78.1%  </div><!--/.stat-value-->
+  <div class="stat-label">1st year retention rate of Fall 2016 student cohort</div><!--/.stat-label-->
+</div><!-- /#  id="entity_94138" -->
+
+
+</div> <!-- /#  id="entity_94138" (stat) -->
+      
+</div> <!-- /# id="entity_94139" (column) -->
+      
+</div> <!-- /# id="entity_94140" (row) -->
+        
+           
+      </div> <!-- /.container -->
+    </section> <!-- /# id="entity_94141" (section) -->
+          <section  id="entity_94168" class="padding-top-lg padding-bottom-lg bg-blue" role="region" arial-label="What's Happening">
+      <div class="container">
+       <header><div class="content-area-start"></div><h3>What's Happening</h3>
+</header>       
+          
+<div class="row row-padding-top-none row-padding-bottom-none padding-lg" id="entity_94167">
+    
+<div  id="entity_94161" class="col-xs-12 col-sm-8">
+  
+<div class="content-area-start"></div><p><div class="view view-unlv-tokens-news-center-mixed view-id-unlv_tokens_news_center_mixed view-display-id-unlv_tokens_news_center_mixed_units_cards_horizontal view-dom-id-549966f20f1dc7a708d1dba79f7c6b3f">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region no-background">
+<div class="click-region-link"><a href="/news/article/developing-head-anatomy">Developing a Head for Anatomy</a></div>
+<div class="card">
+<div class="row">
+<div class="col-sm-6 card-image">
+<img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/styles/768_width/public/articles/main-images/waxskull.jpg?itok=oQqV1KTT" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="768" height="512" alt="woman working on wax model of skull" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/styles/768_width/public/articles/main-images/waxskull.jpg?itok=oQqV1KTT" width="768" height="512" alt="woman working on wax model of skull" /></noscript>
+</div>
+<div class="col-sm-6 card-text">
+<div class="card-block">
+<div class="details">Mar. 26, 2019</div>
+<div class="h4 clear-margins" aria-hidden="true">Developing a Head for Anatomy</div>
+<div><p>UNLV dental students build up models rather than dissect cadavers to learn the physical landmarks of the jaw.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region no-background">
+<div class="click-region-link"><a href="/news/release/round-earth-clues-how-science-proves-our-home-globe">Round Earth Clues: How Science Proves that our Home is a Globe</a></div>
+<div class="card">
+<div class="row">
+<div class="col-sm-6 card-image">
+<img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/styles/768_width/public/releases/main-images/Flat%20Earth_0.jpg?itok=eIurT_bH" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="768" height="512" alt="An image of the Earth depicted as a flat surface." /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/styles/768_width/public/releases/main-images/Flat%20Earth_0.jpg?itok=eIurT_bH" width="768" height="512" alt="An image of the Earth depicted as a flat surface." /></noscript>
+</div>
+<div class="col-sm-6 card-text">
+<div class="card-block">
+<div class="details">Mar. 11, 2019</div>
+<div class="h4 clear-margins" aria-hidden="true">Round Earth Clues: How Science Proves that our Home is a Globe</div>
+<div><p>As the Flat Earth Theory gains resurgence with a new Netflix documentary, a UNLV astronomer explains how it fizzles.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region no-background">
+<div class="click-region-link"><a href="/news/article/geometry-walking-prosthetics">The Geometry of Walking with Prosthetics</a></div>
+<div class="card">
+<div class="row">
+<div class="col-sm-6 card-image">
+<img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/styles/768_width/public/articles/main-images/issacs.jpg?itok=zB_o3UP4" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="768" height="512" alt="A portrait of doctoral student Michael Issacs" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/styles/768_width/public/articles/main-images/issacs.jpg?itok=zB_o3UP4" width="768" height="512" alt="A portrait of doctoral student Michael Issacs" /></noscript>
+</div>
+<div class="col-sm-6 card-text">
+<div class="card-block">
+<div class="details">Feb. 14, 2019</div>
+<div class="h4 clear-margins" aria-hidden="true">The Geometry of Walking with Prosthetics</div>
+<div><p>Ph.D. student Michael Isaacs goes back to the basics to helping people with disabilities walk.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region no-background">
+<div class="click-region-link"><a href="/news/article/search-memories">In Search of Memories</a></div>
+<div class="card">
+<div class="row">
+<div class="col-sm-6 card-image">
+<img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/styles/768_width/public/articles/main-images/BhagyaDeSilvaD72431_001.jpg?itok=5QcyD7QU" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="768" height="512" alt="Bhagya De Silva portrait" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/styles/768_width/public/articles/main-images/BhagyaDeSilvaD72431_001.jpg?itok=5QcyD7QU" width="768" height="512" alt="Bhagya De Silva portrait" /></noscript>
+</div>
+<div class="col-sm-6 card-text">
+<div class="card-block">
+<div class="details">Jan. 17, 2019</div>
+<div class="h4 clear-margins" aria-hidden="true">In Search of Memories</div>
+<div><p>Doctoral student Bhagya De Silva traveled more than nine thousand miles to mine for better Alzheimer&#039;s Treatments.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region no-background">
+<div class="click-region-link"><a href="/news/release/unlv-startup-uses-genes-create-personalized-diets">UNLV Startup Uses Genes to Create Personalized Diets</a></div>
+<div class="card">
+<div class="row">
+<div class="col-sm-6 card-image">
+<img typeof="foaf:Image" class="img-responsive" data-src="https://www.unlv.edu/sites/default/files/styles/768_width/public/releases/main-images/FoodGenesAndMe.jpg?itok=W99GmXR4" src="https://www.unlv.edu/sites/all/modules/lazyloader/image_placeholder.gif" width="768" height="512" alt="dna strand made of veggies atop a dinner plate with silverware at sides" /><noscript><img typeof="foaf:Image" class="img-responsive" src="https://www.unlv.edu/sites/default/files/styles/768_width/public/releases/main-images/FoodGenesAndMe.jpg?itok=W99GmXR4" width="768" height="512" alt="dna strand made of veggies atop a dinner plate with silverware at sides" /></noscript>
+</div>
+<div class="col-sm-6 card-text">
+<div class="card-block">
+<div class="details">Jan. 16, 2019</div>
+<div class="h4 clear-margins" aria-hidden="true">UNLV Startup Uses Genes to Create Personalized Diets</div>
+<div><p>Food Genes and Me is a site and software that lets users figure out health risks and how to solve them within minutes.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></p>
+
+<div align="right"><a class="btn btn-xs btn-primary" href="/news/unit/academic/15619/more" role="button">More News</a></div>
+      
+</div> <!-- /# id="entity_94161" (column) -->
+
+<div  id="entity_94166" class="col-xs-12 col-sm-4">
+  
+
+<div id="entity_94162">
+
+    <div class="card text-default">
+      <div class="card-header bg-orange-dark text-light"><h4 class="label">Announcements</h4>
+</div>      
+        
+      <div class="card-block padding-sm">
+        <div class="content-area-start"></div>        
+        <p><div class="view view-unlv-tokens-stories view-id-unlv_tokens_stories view-display-id-embed_unithome view-dom-id-20eac41418dc0e7bda526a12db323f2d">
+        
+  
+  
+      <div class="view-content">
+      <div class="plain-list">    <ul class="list-unstyled">          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region padding-small ">
+<div class="click-region-link"><a href="/news-story/april-18-russell-frank-astronomy-lecture-george-djorgovski">April 18 Russell Frank Astronomy Lecture: George Djorgovski</a></div>
+<div class="details">Mar. 7, 2019</div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">April 18 Russell Frank Astronomy Lecture: George Djorgovski</div>
+</div></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region padding-small ">
+<div class="click-region-link"><a href="/news-story/feb-28-juanita-greer-white-distinguished-lecturer-hopi-hoekstra">Feb. 28 Juanita Greer White Distinguished Lecturer: Hopi Hoekstra</a></div>
+<div class="details">Feb. 14, 2019</div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">Feb. 28 Juanita Greer White Distinguished Lecturer: Hopi Hoekstra</div>
+</div></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region padding-small ">
+<div class="click-region-link"><a href="/news-story/college-host-events-part-50th-anniversary">College to Host Events as Part of 50th Anniversary</a></div>
+<div class="details">Jan. 11, 2019</div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">College to Host Events as Part of 50th Anniversary</div>
+</div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></p>
+                        
+        <div class="clearfix"></div>  
+      </div><!--end .card-block-->
+
+       
+
+      <div class="card-footer"><div align="right"><a class="btn btn-xs btn-primary" href="/sciences/announcements" role="button">More Announcements</a></div>
+</div> <!--end .card-footer-->    </div><!--end .card-->
+
+
+</div> <!-- /#  id="entity_94162" (card-v2) -->
+
+<div id="entity_94163">
+
+    <div class="card text-default">
+      <div class="card-header bg-orange-dark text-light"><h4 class="label">In The News</h4>
+</div>      
+        
+      <div class="card-block padding-sm">
+        <div class="content-area-start"></div>        
+        <p><div class="view view-unlv-tokens-news-center-in-the-news view-id-unlv_tokens_news_center_in_the_news view-display-id-unlv_tokens_news_center_in_the_news_units view-dom-id-5660174460e3b35f4d6ec69e621af063">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul class="list-unstyled">          <li class="views-row views-row-1 views-row-odd views-row-first click-region padding-small">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region-link"><a href="https://globaluniversityventuring.com/changing-attitudes-sustainability-nutrition-and-wellness/">Changing attitudes – sustainability, nutrition and wellness</a></div>
+<div class="details">Mar. 27, 2019 | Global University Venturing</div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">Changing attitudes – sustainability, nutrition and wellness</div>
+<div class="clearfix"></div></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even click-region padding-small">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region-link"><a href="https://www.pbs.org/newshour/show/decades-after-proof-of-its-carcinogenic-properties-asbestos-still-surrounds-us">The stunning truth about asbestos use in the U.S.</a></div>
+<div class="details">Mar. 14, 2019 | PBS</div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">The stunning truth about asbestos use in the U.S.</div>
+<div class="clearfix"></div></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last click-region padding-small">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region-link"><a href="https://www.reviewjournal.com/news/the-water-question/part-4-not-quite-completed-drought-plan-for-colorado-seen-as-first-step-1608964/">PART 4: Not-quite-completed drought plan for Colorado seen as a first step</a></div>
+<div class="details">Mar. 6, 2019 | Las Vegas Review Journal</div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">PART 4: Not-quite-completed drought plan for Colorado seen as a first step</div>
+<div class="clearfix"></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></p>
+                        
+        <div class="clearfix"></div>  
+      </div><!--end .card-block-->
+
+       
+
+      <div class="card-footer"><div align="right"><a class="btn btn-xs btn-primary" href="/news/unit/academic/15619/in-the-news" role="button">More In the News</a></div>
+</div> <!--end .card-footer-->    </div><!--end .card-->
+
+
+</div> <!-- /#  id="entity_94163" (card-v2) -->
+
+<div id="entity_94164">
+
+    <div class="card text-default">
+      <div class="card-header bg-orange-dark text-light"><h4 class="label">Accomplishments</h4>
+</div>      
+        
+      <div class="card-block padding-sm">
+        <div class="content-area-start"></div>        
+        <p><div class="view view-unlv-tokens-news-center-accomplishment view-id-unlv_tokens_news_center_accomplishment view-display-id-unlv_tokens_news_center_accomplishment_units view-dom-id-330d4d5e10a23a3aca1f4c44e4961b35">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul class="list-unstyled">          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region padding-small">
+<div class="click-region-link"><a href="/news/accomplishments/alexis-sauceda-quintero-yesenia-cuenca-and-kelly-tseng">Notable: Alexis Sauceda-Quintero, Yesenia Cuenca, and Kelly Tseng</a></div>
+<div class="details">Mar. 29, 2019</div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">Notable: Alexis Sauceda-Quintero, Yesenia Cuenca, and Kelly Tseng</div>
+</div></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region padding-small">
+<div class="click-region-link"><a href="/news/accomplishments/simon-jowitt-0">Published: Simon Jowitt</a></div>
+<div class="details">Mar. 26, 2019</div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">Published: Simon Jowitt</div>
+</div></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region padding-small">
+<div class="click-region-link"><a href="/news/accomplishments/artem-gelis-0">Notable: Artem Gelis</a></div>
+<div class="details">Mar. 8, 2019</div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">Notable: Artem Gelis</div>
+</div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></p>
+                        
+        <div class="clearfix"></div>  
+      </div><!--end .card-block-->
+
+       
+
+      <div class="card-footer"><div align="right"><a class="btn btn-xs btn-primary" href="/news/accomplishments/submit" role="button">Submit an Accomplishment</a> <a class="btn btn-xs btn-primary" href="/news/unit/academic/15619/accomplishments" role="button">More Accomplishments</a></div>
+</div> <!--end .card-footer-->    </div><!--end .card-->
+
+
+</div> <!-- /#  id="entity_94164" (card-v2) -->
+
+<div id="entity_94165">
+
+    <div class="card text-default">
+      <div class="card-header bg-orange-dark text-light"><h4 class="label">Experts</h4>
+</div>      
+        
+      <div class="card-block padding-sm">
+        <div class="content-area-start"></div>        
+        <p><div class="view view-unlv-tokens-news-center-experts view-id-unlv_tokens_news_center_experts view-display-id-unlv_tokens_news_center_experts_units_random view-dom-id-0d34f5c45926d79718194302a78eaf86">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul class="list-unstyled">          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region padding-small">
+<div class="click-region-link"><a href="/news/expert/stephen-rowland">Stephen Rowland</a></div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">Stephen Rowland</div>
+<div class="text-muted text-sm"><em>Professor of Geology</em></div>
+
+</div></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region padding-small">
+<div class="click-region-link"><a href="/news/expert/stan-smith">Stan Smith</a></div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">Stan Smith</div>
+<div class="text-muted text-sm"><em>Professor Emeritus</em></div>
+
+</div></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region padding-small">
+<div class="click-region-link"><a href="/news/expert/michael-pravica">Michael Pravica</a></div>
+<div class="h6 clear-margin-top clear-margin-bottom" aria-hidden="true">Michael Pravica</div>
+<div class="text-muted text-sm"><em>Professor, Physics</em></div>
+
+</div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></p>
+                        
+        <div class="clearfix"></div>  
+      </div><!--end .card-block-->
+
+       
+
+      <div class="card-footer"><div align="right"><a class="btn btn-xs btn-primary" href="/news/experts/join" role="button">Join the Directory</a> <a class="btn btn-xs btn-primary" href="/news/unit/academic/15619/experts" role="button">More Experts</a></div>
+</div> <!--end .card-footer-->    </div><!--end .card-->
+
+
+</div> <!-- /#  id="entity_94165" (card-v2) -->
+      
+</div> <!-- /# id="entity_94166" (column) -->
+      
+</div> <!-- /# id="entity_94167" (row) -->
+        
+           
+      </div> <!-- /.container -->
+    </section> <!-- /# id="entity_94168" (section) -->
+          <section  id="entity_94200" class="padding-top-lg padding-bottom-lg bg-gray" role="region" arial-label="Upcoming Events / Helpful Links">
+      <div class="container">
+              
+          
+<div class="row row-padding-top-none row-padding-bottom-none padding-lg" id="entity_94199">
+    
+<div  id="entity_94188" class="col-xs-12 col-sm-6">
+  
+
+<div id="entity_94187">
+
+    <div class="card text-default">
+      <div class="card-header bg-orange-dark text-light"><h4 class="label">Upcoming Events</h4>
+</div>      
+        
+      <div class="card-block padding-sm">
+        <div class="content-area-start"></div>        
+        <p><div class="view view-unlv-tokens-events view-id-unlv_tokens_events view-display-id-embed_rightcolumn event-list view-dom-id-b4f254084e475d87b164584a79b0fddb">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region ">
+<div class="click-region-link"><a href="/event/thesis-defense-zachary-grande?delta=0?delta=0"> <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-09T09:30:00-07:00">Apr</span> <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-09T09:30:00-07:00">09</span>: Thesis Defense: Zachary Grande</a></div>
+
+<div class="event-date" aria-hidden="true" role="presentation">
+<span class="event-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-09T09:30:00-07:00">Apr</span></span>
+<span class="event-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-09T09:30:00-07:00">09</span></span>
+</div>
+
+<div class="description">
+<div class="event-title" aria-hidden="true" role="presentation">
+<div class="title-text">Thesis Defense: Zachary Grande</div>
+</div>
+
+<div class="clearfix"></div>
+
+</div>
+</span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region ">
+<div class="click-region-link"><a href="/event/thesis-defense-jasmine-hinton?delta=0?delta=0"> <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-10T10:30:00-07:00">Apr</span> <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-10T10:30:00-07:00">10</span>: Thesis Defense: Jasmine Hinton</a></div>
+
+<div class="event-date" aria-hidden="true" role="presentation">
+<span class="event-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-10T10:30:00-07:00">Apr</span></span>
+<span class="event-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-10T10:30:00-07:00">10</span></span>
+</div>
+
+<div class="description">
+<div class="event-title" aria-hidden="true" role="presentation">
+<div class="title-text">Thesis Defense: Jasmine Hinton</div>
+</div>
+
+<div class="clearfix"></div>
+
+</div>
+</span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region ">
+<div class="click-region-link"><a href="/event/thesis-defense-jayson-medema?delta=0?delta=0"> <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-11T15:15:00-07:00">Apr</span> <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-11T15:15:00-07:00">11</span>: Thesis Defense: Jayson Medema</a></div>
+
+<div class="event-date" aria-hidden="true" role="presentation">
+<span class="event-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-11T15:15:00-07:00">Apr</span></span>
+<span class="event-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-11T15:15:00-07:00">11</span></span>
+</div>
+
+<div class="description">
+<div class="event-title" aria-hidden="true" role="presentation">
+<div class="title-text">Thesis Defense: Jayson Medema</div>
+</div>
+
+<div class="clearfix"></div>
+
+</div>
+</span>  </div></li>
+          <li class="views-row views-row-4 views-row-even views-row-last">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="click-region ">
+<div class="click-region-link"><a href="/event/dissertation-defense-andrew-j-swift?delta=0?delta=0"> <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-11T16:00:00-07:00">Apr</span> <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-11T16:00:00-07:00">11</span>: Dissertation Defense: Andrew J. Swift</a></div>
+
+<div class="event-date" aria-hidden="true" role="presentation">
+<span class="event-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-11T16:00:00-07:00">Apr</span></span>
+<span class="event-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-11T16:00:00-07:00">11</span></span>
+</div>
+
+<div class="description">
+<div class="event-title" aria-hidden="true" role="presentation">
+<div class="title-text">Dissertation Defense: Andrew J. Swift</div>
+</div>
+
+<div class="clearfix"></div>
+
+</div>
+</span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></p>
+                        
+        <div class="clearfix"></div>  
+      </div><!--end .card-block-->
+
+       
+
+      <div class="card-footer"><div align="right"><a class="btn btn-xs btn-primary" href="/sciences/events" role="button">More Events</a></div>
+</div> <!--end .card-footer-->    </div><!--end .card-->
+
+
+</div> <!-- /#  id="entity_94187" (card-v2) -->
+      
+</div> <!-- /# id="entity_94188" (column) -->
+
+<div  id="entity_94198" class="col-xs-12 col-sm-6">
+  
+
+<div id="entity_94197">
+
+    <div class="card text-default">
+      <div class="card-header bg-orange-dark text-light"><h4 class="label">Helpful Links</h4>
+</div>      
+        
+      <div class="card-block padding-sm">
+        <div class="content-area-start"></div>        
+                
+<div class="paragraphs-items paragraphs-items-field-pg-card-components paragraphs-items-field-pg-card-components-full paragraphs-items-full">
+  
+<ul class="list-group" id="entity_94196">
+
+<li><a class="list-group-item" href="/sciences/science-fair">Beal Bank USA Science Fair</a></li>
+
+<li><a class="list-group-item" href="/sciences/sciencecafe">Science Café Las Vegas</a></li>
+
+<li><a class="list-group-item" href="/sciences/scholarships">Sciences Scholarships</a></li>
+
+<li><a class="list-group-item" href="/sciences/grad-studies">Graduate Studies</a></li>
+
+<li><a class="list-group-item" href="/sciences/degree-worksheets">Degree Worksheets</a></li>
+
+<li><a class="list-group-item" href="/sciences/urop">Undergraduate Research</a></li>
+
+<li><a class="list-group-item" href="/sciences/getting-to-know">Meet our faculty, students, and alumni</a></li>
+</ul> <!-- /#  id="entity_94196" (list-group-links) -->
+</div>
+                
+        <div class="clearfix"></div>  
+      </div><!--end .card-block-->
+
+       
+
+      <div class="card-footer"><p class="text-right clear-margin-bottom"><a class="social-facebook" href="https://www.facebook.com/unlvcollegeofsciences">Facebook</a></p>
+</div> <!--end .card-footer-->    </div><!--end .card-->
+
+
+</div> <!-- /#  id="entity_94197" (card-v2) -->
+      
+</div> <!-- /# id="entity_94198" (column) -->
+      
+</div> <!-- /# id="entity_94199" (row) -->
+        
+           
+      </div> <!-- /.container -->
+    </section> <!-- /# id="entity_94200" (section) -->
+          <section  id="entity_94223" class="padding-top-lg padding-bottom-lg bg-blue-gray-200" role="region" arial-label="High Pressure Science and Engineering Center">
+      <div class="container">
+              
+          
+<div class="row row-padding-top-none row-padding-bottom-none padding-lg" id="entity_94222">
+    
+<div  id="entity_94221" class="col-xs-12">
+  
+<div id="entity_94220">
+    <div class="card text-default">
+      <div class="row">
+        <div class="col-sm-5 card-image">
+          <img class="img-responsive" src="https://www.unlv.edu/sites/default/files/paragraphs/cards-horizontal/IMG_2180-HiPSEC.jpg" alt="HiPSEC">  
+        </div><!--end .col-->
+        <div class="col-sm-7 card-text">
+          <div class="card-block padding-md">
+            <div class="card-block-start"></div>        
+            <h3>High Pressure Science and Engineering Center</h3>
+
+<p>The High Pressure Science and Engineering Center (HiPSEC) is supported by the DOE-NNSA Stewardship Science Academic Alliances. HiPSEC is based at the University of Nevada, Las Vegas (UNLV) and is a multidisciplinary research group consisting of faculty, staff and students of the Physics and Astronomy , Geoscience, Chemistry and Engineering Departments.</p>
+
+            
+<div class="paragraphs-items paragraphs-items-field-pg-card-components paragraphs-items-field-pg-card-components-full paragraphs-items-full">
+  
+<div class="text-left" id="entity_94219">
+    
+<a role="button" class="btn btn-primary btn-default-size btn-block btn-inline-xs" href="https://www.unlv.edu/units/high-pressure-science-and-engineering-center">HiPSEC</a>
+      
+</div> <!-- /# id="entity_94219" (button) -->
+</div>
+                      </div> <!-- card-block -->
+        </div><!--.card-text-->
+      </div><!--end .row-->
+    </div><!--end .card-->
+
+</div> <!-- /#  id="entity_94220" (card-horizontal-v2) -->
+      
+</div> <!-- /# id="entity_94221" (column) -->
+      
+</div> <!-- /# id="entity_94222" (row) -->
+        
+           
+      </div> <!-- /.container -->
+    </section> <!-- /# id="entity_94223" (section) -->
+        <footer>
+          </footer>
+    </article>
+
+</section>
+  </div>
+      
+                          
+         
+ 
+        
+  </div><!-- /#content-main-->
+
+        
+</div><!--end #content-->
+
+  <footer id="footer" role="contentinfo">
+      <div class="region region-footer">
+    <section id="block-block-54" class="block block-block clearfix">
+
+      
+  <nav arial-label="footer links and copyright">
+<div class="container">
+<div class="row">
+
+<div class="col-sm-4">
+<ul class="list-unstyled">
+<li><a href="/about/statements-compliance" title="Compliance">Compliance</a></li>
+<li><a href="/integratedmarketing/services/web-strategy/accessibility" title="Web Accessibility">Web Accessibility</a></li>
+<li><a href="/diversity" title="Diversity">Diversity</a></li>
+<li><a href="/toptier" title="Top Tier">Top Tier</a></li>
+<li><a href="/news" title="News Center">News Center</a></li>
+</ul>
+</div><!--/.col-sm-4-->
+
+<div class="col-sm-4">
+<ul class="list-unstyled">
+<li><a href="/campuslife/our-campus" title="Visit UNLV">Visit UNLV</a></li>
+<li><a href="/jobs" title="Employment">Employment</a></li>
+<li><a href="/maps" title="Campus Maps">Campus Maps</a></li>
+<li><a href="/parking" title="Parking Information">Parking Information</a></li>
+<li><a href="/safety" title="Safety and Emergency">Safety and Emergency</a></li>
+</ul>
+</div><!--/.col-sm-4-->
+
+<div class="col-sm-4">
+<ul class="list-unstyled">
+<li><a href="/directories/contact" title="Contact UNLV">Contact UNLV</a></li>
+<li><address><a href="/maps/campus" title="View Campus Map">University of Nevada, Las Vegas<br />
+4505 S. Maryland Pkwy.<br />
+Las Vegas, NV 89154</a></address></li>
+<li><a href="tel:+17028953011" title="Phone">Phone: 702-895-3011</a></li>
+<li><a href="/info">Campus Notifications</a></li>
+
+</ul>
+</div><!--/.col-sm-4-->
+
+<div class="col-xs-12 text-center">
+<div class="row produced-copy margin-top-sm clear-padding-top">
+<div class="col-sm-8 text-sm-left text-xs-center">
+<ul class="list-inline text-xs"><li><a class="padding-left-xs" href="/about/copyright">©&nbsp;2019&nbsp;UNLV</a></li><li>Produced&nbsp;by&nbsp;<a href="/web">UNLV&nbsp;Web&nbsp;&amp;&nbsp;Digital Strategy</a></li><li><a href="/about/website-privacy" title="Website Privacy Statement">UNLV.edu&nbsp;Privacy&nbsp;Statement</a></li><li><a href="/integratedmarketing/services/web-strategy/feedback">Website&nbsp;Feedback</a></li></ul>
+</div><!--/.col-sm-8-->
+<div class="col-sm-4 text-sm-right text-xs-center social-media-links">
+<ul class="list-inline"><li><a href="https://www.facebook.com/OfficialUNLV" title="Find us on Facebook" aria-label="Find us on Facebook"><span class="sm-footer-facebook"></span></a></li><li><a href="https://www.instagram.com/unlv" title="Find us on Instagram" aria-label="Find us on Instagram"><span class="sm-footer-instagram"></span></a></li><li><a href="https://www.snapchat.com/add/officialunlv" title="Follow us on Snapchat" aria-label="Follow us on Snapchat"><span class="sm-footer-snapchat"></span></a></li><li><a href="https://twitter.com/UNLV" title="Follow us on Twitter" aria-label="Follow us on Twitter"><span class="sm-footer-twitter"></span></a></li><li><a href="https://www.youtube.com/user/UNLV" title="Watch us on YouTube" aria-label="Watch us on YouTube"><span class="sm-footer-youtube"></span></a></li></ul>
+</div><!--/.col-sm-4-->
+</div><!--/.row-->
+</div><!--/.col-sm-12-->
+
+</div><!--/.row-->
+</div><!--/.container-->
+</nav>
+</section>
+  </div>
+  </footer>
+
+<div id="modal-menu-overlay"></div>
+        <noscript>
+        <style type="text/css" media="all">
+          img[data-src] { display: none !important; }
+        </style>
+      </noscript><script src="https://www.unlv.edu/sites/default/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script src="https://www.unlv.edu/sites/default/files/js/js_ObAppr3K2QBDZXGpUSJ_W4SVQIqyQN2AZKtPI3R1DNA.js"></script>
+<script>      (function ($) {
+        Drupal.behaviors.lazyloader = {
+          attach: function (context, settings) {
+            $("img[data-src]").lazyloader({distance: 0, icon: "" });
+          }
+        };
+      }(jQuery));</script>
+<script src="https://www.unlv.edu/sites/default/files/js/js_aKzDdsNbXvqxFqMkF4FAck1krUQ77927cKp7wsUZtY0.js"></script>
+<script src="https://www.unlv.edu/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"49746aa591","applicationID":"29937636","transactionName":"MlJaNUdWWUIAVE1dCwsYeQJBXlhfTllWUAE6R1kGUGhBWARA","queueTime":0,"applicationTime":1109,"atts":"HhVZQw9MSkw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,2125 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><title>
+	U.S. Department of Defense
+</title><meta id="MetaDescription" name="DESCRIPTION" content="Official website for U.S. DEPARTMENT OF DEFENSE" /><meta id="MetaKeywords" name="KEYWORDS" content="Defense,Department,DoD,Secretary,Deputy Secretary,Joint Chief,United States,Military,Government,Pentagon" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/DesktopModules/ArticleCSDashboard/module.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/DesktopModules/SlideShow/module.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/desktopmodules/SlideShow/Templates/DGOV2/template.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Desktopmodules/SharedLibrary/Plugins/Bootstrap/css/bootstrap.min.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/DGOV2/skin.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/DGOV2/container.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Portals/1/portal.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/DGOV2/resources/css/dnn.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Portals/1/Page-Assets/home/home.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Desktopmodules/SharedLibrary/Plugins/font-awesome5/css/all.min.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Desktopmodules/SharedLibrary/Plugins/font-awesome5/css/v4-shims.min.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Desktopmodules/SharedLibrary/Plugins/SocialIcons/css/fa-social-icons.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Desktopmodules/SharedLibrary/Plugins/Skin/SkipNav/css/skipnav.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/desktopmodules/ArticleCS/styles/DefenseGOV2/style.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Desktopmodules/SharedLibrary/Plugins/ColorBox/colorbox.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Desktopmodules/SharedLibrary/Plugins/carouFredSel/base.css?cdv=469" type="text/css" rel="stylesheet"/><link href="/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelementplayer.css?cdv=469" type="text/css" rel="stylesheet"/><script src="/Resources/libraries/jQuery/03_02_01/jquery.js?cdv=469" type="text/javascript"></script><script src="/Resources/libraries/jQuery-Migrate/03_00_00/jquery-migrate.js?cdv=469" type="text/javascript"></script><script src="/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=469" type="text/javascript"></script><script type="text/javascript">
+$( document ).ready(function() {
+	$(function(){
+  $('.video-background').each(function(){
+    var startTime, endTime, fileSize, 
+        minKBPs = 300,
+        xhr = new XMLHttpRequest(),
+        $this = $(this),
+        $video = $this.append('<video autoplay loop muted playsinline></video>').find('video');
+
+    xhr.onreadystatechange = function () {
+      // we only need to know when the request has completed
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        // Use the poster
+        $video.attr('poster',$this.data('poster'));
+        // Here we stop the timer & register end time
+        endTime = (new Date()).getTime();
+        // Also, calculate the file-size which has transferred
+        fileSize = xhr.responseText.length;
+        // Calculate the connection-speed
+        var speed = (fileSize * 8) / ((endTime - startTime)/1000) / 1024;
+        // Report and load
+        if(speed>minKBPs){
+          $video.append($this.find('sources').html());
+        }
+      }
+    }
+
+    // Start the timer
+    startTime = (new Date()).getTime();
+
+    // All set, let's hit it!
+    xhr.open("GET", $this.data('poster') , true);
+    xhr.send();
+  });
+
+});
+});
+</script>
+
+<!-- Open Graph Data -->
+<meta property="og:title" content="U.S. Department of Defense"/>
+<meta property="og:url" content="https://www.defense.gov/"/>
+<meta property="og:type"  content="website" />
+<meta property="og:image" content="https://media.defense.gov/2018/Oct/02/2002047633/900/900/0/181002-D-MA852-001.JPG"/>
+<meta property="og:site_name" content="U.S. Department of Defense"/>
+<meta property="og:description" content="The Defense Department provides the military forces needed to deter war and ensure our nation’s security."/>
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="https://www.defense.gov/"/>
+<meta name="twitter:creator" content="@DeptofDefense" />
+<meta name="twitter:title" content="U.S. Department of Defense" />
+<meta name="twitter:description" content="The Defense Department provides the military forces needed to deter war and ensure our nation’s security." />
+<meta name="twitter:image" content="https://media.defense.gov/2018/Oct/02/2002047633/900/900/0/181002-D-MA852-001.JPG" />
+
+<!-- Verification metatags -->
+<meta name="google-site-verification" content="lcQS9MV5xMisePG-IKaE9ZNfyaMJ9qVLemvuOy3PRFQ" />
+<meta name="msvalidate.01" content="235F405786FAB553A2A8EF5FD13514A7" />
+
+<meta name="msvalidate.01" content="4BAA65E882EAE4403F4FAB3443D34664" />
+
+<meta name="google-site-verification" content="nfNn_S6Ki0r3N9JWs7xQ6wLvXG7aNfgm5yKHnZMobhU" /><link rel='SHORTCUT ICON' href='/Portals/1/favicon.ico?ver=2018-10-02-215543-967' type='image/x-icon' /><meta name='host' content='DMA Public Web' /><meta name='contact' content='pubwebhd@defense.gov' />
+<!--[if IE 8 ]><script type="text/javascript">jQuery("html").addClass("ie ie8");</script><![endif]-->
+<!--[if IE 9 ]><script type="text/javascript">jQuery("html").addClass("ie ie9");</script><![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/Portals/_default/Skins/DGOV2/ie.css" /><![endif]-->
+<!--[if lte IE 8]><script src="/Desktopmodules/SharedLibrary/Plugins/Respond/js/respond.min.js"></script><![endif]-->
+<script  src="https://www.google-analytics.com/ga.js" ></script><script  src="/Desktopmodules/SharedLibrary/Plugins/GoogleAnalytics/Universal-Federated-Analytics-3.1.js?agency=DOD&subagency=DMA&dclink=true"  id="_fed_an_ua_tag" ></script><meta name="viewport" content="width=device-width,initial-scale=1" /></head>
+<body id="Body">
+    
+    <form method="post" action="/" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="rf1M/x3AsEe6ueubqagptj4NZnjJ1KmYwn/8nFGVSm/1JcbNlL/o6lvjyNWKqSrWEA9WatmQLcptc5cUMyjwOX7kp4NBElXyqih2hF+ikkcbAAd7GYGOrqfc+GTgI6Fy/uNX8pKEsHAiavRDKxNT0lfYqk1zVsg1fGsOPn+V+o/EBgXfS7mO4bccXdADLitc4RZMoLSjXtEWNc5nWQaZJNuoRXUAWVlC3u9m0vmciRyZdJ+ZupSEGfCHBoVany/N6+xmEDHc1OhBRrJiXw5PB3SrgpUcy28Rl+NUj8Aw5bPDoMomjaAr7kI/OYv4UDAkFJ3wmZX9ByopYQfwN3dBJJu95c9I10bJT0CnpzoVNdnhq4hb6q589gx/5rM3Tsk5b7DvyviK3XwtUHdPR5HO+ryf6tVIPP+EmyI8aQVWRcOY0TDB1aHRROjscL4nGFFZBho35vuu62xjLS1AUQltKNIPm5JbgB4ak2dGiWQDYH5B4n46P0GTIXlybQh+yKVUa/KTR9AKVtNIhnItXTemLa2zeXeoL6NiUo45NBDbBDX8SxgsvWy/lRMuboHi06Ba21i3db6XVxuMYpPCvnlGQBtOQ5nMGn/9M5IaEpqvvX5ecSmUWCrlKVMGZAZUE5UtaWql+9VcWcyUi6dKBHGtUI5uIpGK/i++4XwvH/2WcQZqKY6GTSAu7DWn6BLmqZt9nKc8a19oOPigM5hOg62vboovGH7QBiyUCtw7iYjYpwWds4zxH02J7sNIBUItafa9XGzeC3wX0n4i0v9xxWx0Hr9SIqd7mjVxeyRJ6SXTGaQg6vhwsyT2J3cHyMcKsrj3zufSDdtk37Pt5PmV096d6zsQ1Ma3EaMtwL6SSG6t8LQkXK1Y3t+M5p4Eil7jXuBC8tCdTrAFjVXz59o6CjSeQrVM6OfH2eUmC0HQLanM/0wGw5pRNjYTrID8soN6kWWcLgW6B4ngrZQ9c/5ovH34hYV/8XCx2W4JjnUxsM5ENFG8oRwdCSBw/XJgoFJnEMpPWPxnXCf5RJKR2L492G3LRnLkhI1Q3jcEm1GmKao2BfbVBv+jHCA821qk8T1dGs/RlCs4eVOpCvVutOVlu2yDdWIqw+On0/u7pja4cxPH4WDXHmGj+8ME0VfU9jXG+FMT42XVrpZBSBLZ5Z15OSgvoOVLoj850Z5roRvv+ASiExOD89V2UcrFpInjDxChCAhjmZZO8FpD7fzUv3wD/xSlKrZXBiG62zNBGLijmOfQO3fK3QYbFOO0Kjwsv7goAI4JiYOvylH1PGkpN67JG+zc12PmE7gNWCFDoPLL5N36fCWa7BH91K4/fcxDiL6N2yg52hFzPe6HlmSu4AIfx7nWypSI82WIPYCr3+6nnFnxSTBaH80oNXetzTw+9VvijpeMXm/sk9MshqUhegvX2bnJv4aJ9AIsY8r1XJY8CqTSk/S7zisR1H43hJBIpgskGJxeGg0mpk1fU3r9wLR+fDrCZGO3ibEueQcLU/h2Lu6bgpL6oZDRqSJRwg1v5vtMMmEvjs/Nrssk5pAtbLRO" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV16vn23mRKJ3YfxgZO6Vg-qfn4DLZzvdN4FsDO3JF6o8Ai9U2w1&amp;t=636765287060000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=NJmAwtEo3IqOv4sUh-Rig0r8ribOsOru6PRUuOPeOUTxaLr0LkqwjUZ1KfN2pxsTzXrhnEn2qPqMmFHAgZnpJORcEUNLaSpc226qJmze-FYKMecKHwPV-k73fvQH1Ku4KKXAUA2&amp;t=2b48f70a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dwY9oWetJoJ4ZjA-1jPcEhP7ER5pj7vUnbl87xIrp5KgCIH7OinCkP3cK37LGan3ayBW32yRZSEgGl2tgZv50n3b6-V5-8OCkx2VKFRvNoTMy9OkcSdmsXHaJpvqsXD5HuMXQgmzxnfjN1aI0&amp;t=2b48f70a" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Ht4Xn311zO1L6HLAfKrAT77NkqT5XzBYmCEj8cKaYDlDh7vnA8CVknpnrlz12zLY1apBqYfP/zHUT6mEYJY4o8ZuFE+vkDF/W9AoNBQ16+0ztTa3" />
+</div><script src="/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelement.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelement-and-player.js?cdv=469" type="text/javascript"></script><script src="/js/dnn.js?cdv=469" type="text/javascript"></script><script src="/js/dnn.modalpopup.js?cdv=469" type="text/javascript"></script><script src="/Portals/_default/Skins/DGOV2/resources/js/skin.js?cdv=469" type="text/javascript"></script><script src="/js/dnncore.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/Bootstrap/js/bootstrap.min.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/Mobile-Detect/mobile-detect.min.js?cdv=469" type="text/javascript"></script><script src="/DesktopModules/ArticleCS/Resources/ArticleCS/js/ArticleCS.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/moment/moment.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/ColorBox/jquery.colorbox.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/TouchSwipe/jquery.touchSwipe.min.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/Cycle/cycle2.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/Cycle/jquery.cycle2.swipe.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/DVIDSAnalytics/DVIDSVideoAnalytics.min.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/carouFredSel/jquery.carouFredSel-6.2.1-packed.js?cdv=469" type="text/javascript"></script><script src="/js/dnn.servicesframework.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/Skin/js/common.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/moment/moment-timezone-with-data.js?cdv=469" type="text/javascript"></script><script src="/Desktopmodules/SharedLibrary/Plugins/image-set-polyfill/image-set-polyfill.js?cdv=469" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 3600, '');
+//]]>
+</script>
+
+        
+        
+        
+
+<!--CDF(Javascript|/Portals/_default/Skins/DGOV2/resources/js/skin.js?cdv=469|DnnBodyProvider|100)-->
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+initializeSkin();
+});
+
+</script>
+
+<script type="text/javascript">
+var skinvars = {"SiteName":"U.S. DEPARTMENT OF DEFENSE","SiteShortName":"Defense.gov","SiteSubTitle":"","aid":"defensegov","IsSecureConnection":true,"IsBackEnd":false,"IsAuthenticated":false,"SearchDomain":"search.defense.gov","SiteUrl":"https://www.defense.gov/","LastLogin":null,"IsLastLoginFail":false,"IncludePiwik":true,"PiwikSiteID":13,"SocialLinks":{"Facebook":{"Url":"","Window":""},"Twitter":{"Url":"","Window":""},"YouTube":{"Url":"","Window":""},"Flickr":{"Url":"","Window":""},"Pintrest":{"Url":"","Window":""},"GooglePlus":{"Url":"","Window":""},"Instagram":{"Url":"","Window":""},"Blog":{"Url":"","Window":""},"RSS":{"Url":"","Window":""},"Podcast":{"Url":"","Window":""},"Email":{"Url":"","Window":""},"LinkedIn":{"Url":"","Window":""}},"SiteLinks":null,"LogoffTimeout":10500000};
+</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","logo":"http://www.defense.gov/Portals/1/Images/logo.png?ver=2018-09-06-224240-263","name":"U.S. DEPARTMENT OF DEFENSE","url":"http://www7.defense.gov/","sameAs":[]}</script>
+
+
+
+<div id="skip-link-holder"><a id="skip-link" href="#skip-target">Skip to main content (Press Enter).</a></div>
+
+
+<header class="top header-main-featured header-main-home" id="header-main">
+    <div class="header-inner">
+        
+        <a class="logo" href="https://www.defense.gov/" target="">
+            <span>U.S. DEPARTMENT OF DEFENSE</span>
+            
+            <img src="/Portals/1/Images/logo.png?ver=2018-09-06-224240-263" alt="U.S. DEPARTMENT OF DEFENSE" title="U.S. DEPARTMENT OF DEFENSE" />
+            
+        </a>
+        
+        <nav>
+            <ul>
+    
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Our-Story/" target="" tabindex="0" aria-expanded="false">Our Story</a>
+    
+        <ul>
+        
+    <li class="parent">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/" target="" tabindex="0" aria-expanded="false">Meet the Team</a>    
+    
+        <ul class="parent">
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Acting-Secretary-of-Defense/" target="" tabindex="0" >Secretary of Defense</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Acting-Secretary-of-Defense/" target="" tabindex="0" >Deputy Secretary of Defense</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Chairman-of-the-Joint-Chiefs-of-Staff/" target="" tabindex="0" >Chairman of the Joint Chiefs of Staff</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Vice-Chairman-of-the-Joint-Chiefs-of-Staff/" target="" tabindex="0" >Vice Chairman of the Joint Chiefs of Staff</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Our-Forces/" target="" tabindex="0" >Our Forces</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Combatant-Commands/" target="" tabindex="0" >Combatant Commands</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/Know-Your-Military/" target="" tabindex="0" >Know Your Military</a>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Ask-Us/" target="" tabindex="0" aria-expanded="false">Ask Us</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/ask-us/listing/" target="" tabindex="0" >Ask Us Listing</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Newsroom/" target="" tabindex="0" aria-expanded="false">Newsroom</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/Today-in-DoD/" target="" tabindex="0" >Today in DOD</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/RSS/" target="" tabindex="0" >RSS</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/Latest/" target="" tabindex="0" >Latest</a>    
+    
+    </li>
+
+    <li class="parent">
+    
+        <a href="https://www.defense.gov/Newsroom/For-the-Media/" target="" tabindex="0" aria-expanded="false">For the Media</a>    
+    
+        <ul class="parent">
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/For-the-Media/Example/" target="" tabindex="0" >Example</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/releases/" target="" tabindex="0" >Releases</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/explore/listing/" target="" tabindex="0" >Explore</a>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/Experience/Listing/" target="" tabindex="0" >Experience</a>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Watch/Video/" target="" tabindex="0" aria-expanded="false">Watch</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Watch/Live-Events/" target="" tabindex="0" >Live Events</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/observe/photo-gallery/" target="" tabindex="0" >Observe</a>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/Engage/Quiz-Listing/" target="" tabindex="0" >Engage</a>
+    
+    </li>
+
+
+    <li class=" top-level active">
+    
+        <a href="https://www.defense.gov/" target="" tabindex="0" >Home</a>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Contact/" target="" tabindex="0" aria-expanded="false">Contact</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Contact/Mailing-Addresses/" target="" tabindex="0" >Mailing Addresses</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Legal-Administrative/" target="" tabindex="0" aria-expanded="false">Legal &amp; Administrative</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Legal-Administrative/Privacy-Security/" target="" tabindex="0" >Privacy &amp; Security</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Legal-Administrative/Links-Disclaimer/" target="" tabindex="0" >Links Disclaimer</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+</ul>
+
+
+        </nav>
+    </div>
+    <div id="nav-drawer">
+        <div id="nav-burger" aria-role="button" aria-label="toggle navigation"><span></span><span></span><span></span><span></span></div>
+        <div class="drawer-inner">
+            <div class="search-wrap">
+                <input type="search" placeholder="Search" id="search-main" name="search-main" /><span class="underline-animation"></span><label for="search-main"><i class="fa fa-search" aria-label="Search"></i> </label>
+                <a href="#" class="skin-search-go">Search</a>
+            </div>
+            <nav>
+                <div class="primary">
+                    <ul>
+    
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Our-Story/" target="" tabindex="0" aria-expanded="false">Our Story</a>
+    
+        <ul>
+        
+    <li class="parent">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/" target="" tabindex="0" aria-expanded="false">Meet the Team</a>    
+    
+        <ul class="parent">
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Acting-Secretary-of-Defense/" target="" tabindex="0" >Secretary of Defense</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Acting-Secretary-of-Defense/" target="" tabindex="0" >Deputy Secretary of Defense</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Chairman-of-the-Joint-Chiefs-of-Staff/" target="" tabindex="0" >Chairman of the Joint Chiefs of Staff</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Vice-Chairman-of-the-Joint-Chiefs-of-Staff/" target="" tabindex="0" >Vice Chairman of the Joint Chiefs of Staff</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Our-Forces/" target="" tabindex="0" >Our Forces</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Combatant-Commands/" target="" tabindex="0" >Combatant Commands</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/Know-Your-Military/" target="" tabindex="0" >Know Your Military</a>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Ask-Us/" target="" tabindex="0" aria-expanded="false">Ask Us</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/ask-us/listing/" target="" tabindex="0" >Ask Us Listing</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Newsroom/" target="" tabindex="0" aria-expanded="false">Newsroom</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/Today-in-DoD/" target="" tabindex="0" >Today in DOD</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/RSS/" target="" tabindex="0" >RSS</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/Latest/" target="" tabindex="0" >Latest</a>    
+    
+    </li>
+
+    <li class="parent">
+    
+        <a href="https://www.defense.gov/Newsroom/For-the-Media/" target="" tabindex="0" aria-expanded="false">For the Media</a>    
+    
+        <ul class="parent">
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/For-the-Media/Example/" target="" tabindex="0" >Example</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/releases/" target="" tabindex="0" >Releases</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/explore/listing/" target="" tabindex="0" >Explore</a>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/Experience/Listing/" target="" tabindex="0" >Experience</a>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Watch/Video/" target="" tabindex="0" aria-expanded="false">Watch</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Watch/Live-Events/" target="" tabindex="0" >Live Events</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/observe/photo-gallery/" target="" tabindex="0" >Observe</a>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/Engage/Quiz-Listing/" target="" tabindex="0" >Engage</a>
+    
+    </li>
+
+
+    <li class=" top-level active">
+    
+        <a href="https://www.defense.gov/" target="" tabindex="0" >Home</a>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Contact/" target="" tabindex="0" aria-expanded="false">Contact</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Contact/Mailing-Addresses/" target="" tabindex="0" >Mailing Addresses</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Legal-Administrative/" target="" tabindex="0" aria-expanded="false">Legal &amp; Administrative</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Legal-Administrative/Privacy-Security/" target="" tabindex="0" >Privacy &amp; Security</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Legal-Administrative/Links-Disclaimer/" target="" tabindex="0" >Links Disclaimer</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+</ul>
+
+
+                </div>
+                <div class="secondary">
+                    <ul>
+    
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Our-Story/" target="" tabindex="0" aria-expanded="false">Our Story</a>
+    
+        <ul>
+        
+    <li class="parent">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/" target="" tabindex="0" aria-expanded="false">Meet the Team</a>    
+    
+        <ul class="parent">
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Acting-Secretary-of-Defense/" target="" tabindex="0" >Secretary of Defense</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Acting-Secretary-of-Defense/" target="" tabindex="0" >Deputy Secretary of Defense</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Chairman-of-the-Joint-Chiefs-of-Staff/" target="" tabindex="0" >Chairman of the Joint Chiefs of Staff</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Meet-the-Team/Vice-Chairman-of-the-Joint-Chiefs-of-Staff/" target="" tabindex="0" >Vice Chairman of the Joint Chiefs of Staff</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Our-Forces/" target="" tabindex="0" >Our Forces</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Our-Story/Combatant-Commands/" target="" tabindex="0" >Combatant Commands</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/Know-Your-Military/" target="" tabindex="0" >Know Your Military</a>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Ask-Us/" target="" tabindex="0" aria-expanded="false">Ask Us</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/ask-us/listing/" target="" tabindex="0" >Ask Us Listing</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Newsroom/" target="" tabindex="0" aria-expanded="false">Newsroom</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/Today-in-DoD/" target="" tabindex="0" >Today in DOD</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/RSS/" target="" tabindex="0" >RSS</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/Latest/" target="" tabindex="0" >Latest</a>    
+    
+    </li>
+
+    <li class="parent">
+    
+        <a href="https://www.defense.gov/Newsroom/For-the-Media/" target="" tabindex="0" aria-expanded="false">For the Media</a>    
+    
+        <ul class="parent">
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/For-the-Media/Example/" target="" tabindex="0" >Example</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Newsroom/releases/" target="" tabindex="0" >Releases</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/explore/listing/" target="" tabindex="0" >Explore</a>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/Experience/Listing/" target="" tabindex="0" >Experience</a>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Watch/Video/" target="" tabindex="0" aria-expanded="false">Watch</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Watch/Live-Events/" target="" tabindex="0" >Live Events</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/observe/photo-gallery/" target="" tabindex="0" >Observe</a>
+    
+    </li>
+
+
+    <li class=" top-level ">
+    
+        <a href="https://www.defense.gov/Engage/Quiz-Listing/" target="" tabindex="0" >Engage</a>
+    
+    </li>
+
+
+    <li class=" top-level active">
+    
+        <a href="https://www.defense.gov/" target="" tabindex="0" >Home</a>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Contact/" target="" tabindex="0" aria-expanded="false">Contact</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Contact/Mailing-Addresses/" target="" tabindex="0" >Mailing Addresses</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+    <li class="parent top-level ">
+    
+        <a href="https://www.defense.gov/Legal-Administrative/" target="" tabindex="0" aria-expanded="false">Legal &amp; Administrative</a>
+    
+        <ul>
+        
+    <li class="">
+    
+        <a href="https://www.defense.gov/Legal-Administrative/Privacy-Security/" target="" tabindex="0" >Privacy &amp; Security</a>    
+    
+    </li>
+
+    <li class="">
+    
+        <a href="https://www.defense.gov/Legal-Administrative/Links-Disclaimer/" target="" tabindex="0" >Links Disclaimer</a>    
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+
+</ul>
+
+
+                </div>
+                <div class="social">
+                    <ul><li><a href="https://twitter.com/DeptofDefense" title="Twitter" target="_blank"><span class="social-icon fa fa-twitter social-link-4"></span></a></li><li><a href="https://www.facebook.com/DeptofDefense" title="Facebook" target="_blank"><span class="social-icon fa fa-facebook social-link-1"></span></a></li><li><a href="https://www.instagram.com/deptofdefense/" title="Instagram" target="_blank"><span class="social-icon fa fa-instagram social-link-3"></span></a></li><li><a href="https://www.youtube.com/deptofdefense" title="YouTube" target="_blank"><span class="social-icon fa fa-youtube social-link-2"></span></a></li></ul>
+
+
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+<p id="skip-target-holder"><a id="skip-target" name="skip-target" class="skip" tabindex="-1" aria-label="Skip Target"></a></p>
+
+
+
+<main>
+    <div id="dnn_ContentPaneFullBleed1"><div class="DnnModule DnnModule-DNN_HTML DnnModule-547"><a name="547"></a>
+<div class="empty-container base-container">
+    <div id="dnn_ctr547_ContentPane"><!-- Start_Module_547 --><div id="dnn_ctr547_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr547_HtmlModule_lblContent" class="Normal">
+		<div class="video-wrap">
+    <div class="bannerWrap">
+        <div class="bannerWrapInner">
+            <h1 class="siteTitle"><span class="leadin">Welcome to</span>Defense.gov</h1>
+            <a class="btn btn-default btn-default-ghost" href="/our-story">Get To Know Us</a> </div>
+    </div>
+    <div class="video-background" data-poster="https://cdn.dvidshub.net/media/frames/video/1901/656212.jpg">
+        <noscript>
+        <img src="https://cdn.dvidshub.net/media/frames/video/1901/656212.jpg" alt="">
+        </noscript>
+        <sources>
+            <source src="https://www.dvidshub.net/video/656212.m3u8" type="application/x-mpegURL" />
+            <source src="https://cdn.dvidshub.net/media/video/1901/DOD_106393189/DOD_106393189-1024x576-1769k.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" />
+        </sources>
+    </div>
+</div>
+	</div>
+
+</div><!-- End_Module_547 --></div>
+</div><!--end of empty container -->
+
+
+</div></div>
+    <div id="content-pane-wrap">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed2"><div class="DnnModule DnnModule-ArticleCSDashboard DnnModule-657"><a name="657"></a>
+<div class="empty-container base-container">
+    <div id="dnn_ctr657_ContentPane"><!-- Start_Module_657 --><div class="slice-angle slice-angle-gray slice-angle-down-top slice-angle-gray-no-page">
+<div class="content-wrap-wide"><div id="dnn_ctr657_ModuleContent" class="DNNModuleContent ModArticleCSDashboardC">
+	<div id="dnn_ctr657_Dashboard_ph">
+
+	</div>
+
+
+</div></div>
+</div><!-- End_Module_657 --></div>
+</div><!--end of empty container -->
+
+
+</div><div class="DnnModule DnnModule-ArticleCSDashboard DnnModule-656"><a name="656"></a>
+<div class="empty-container base-container">
+    <div id="dnn_ctr656_ContentPane"><!-- Start_Module_656 --><div class="slice-angle slice-angle-gray slice-angle-down-top slice-angle-gray-no-page">
+<div class="content-wrap-wide"><div id="dnn_ctr656_ModuleContent" class="DNNModuleContent ModArticleCSDashboardC">
+	<div id="dnn_ctr656_Dashboard_ph">
+		
+<div id="alist" class="alist stories adash">
+    <h2 class="pull-title">Explore</h2>
+    <div class="alist-inner">
+        
+        <div class="item explore-item item-1806688">
+    
+    <div class="poster-outer">
+        <div class="poster dgov-card dgov-card-2 ">
+            <a href='https://www.defense.gov/explore/story/Article/1806688/vice-chairmans-final-uso-tour-visits-eucom-centcom/'  title="Air Force Gen. Paul J. Selva, vice chairman of the Joint Chiefs of Staff, shakes hands with an airman.">
+                
+                <div style="background-image:url('https://media.defense.gov/2019/Apr/01/2002108103/825/780/0/190401-D-SW162-1719C.JPG');">
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="dgov-card dgov-card-4 info info-1806688" data-url="https://www.defense.gov/explore/story/Article/1806688/vice-chairmans-final-uso-tour-visits-eucom-centcom/">
+        <a class="category" href="https://www.defense.gov/Search-Results/Term/2580/know-your-military/"><span>Know Your Military</span></a>
+        <a class="title" href='https://www.defense.gov/explore/story/Article/1806688/vice-chairmans-final-uso-tour-visits-eucom-centcom/' > Vice Chairman’s Final USO Tour Visits Eucom, Centcom</a>
+        <a class="play" href="https://www.defense.gov/explore/story/Article/1806688/vice-chairmans-final-uso-tour-visits-eucom-centcom/">
+            <span class="fa"></span>
+        </a>
+        <div class="bar">
+            <time data-dateago="2019-04-05T14:38:00" data-dateap="April 5, 2019">
+            </time>
+
+            <div class="social">
+                <div class="addthis_toolbox addthis_default_style social-inner" addthis:url="https://www.defense.gov/explore/story/Article/1806688/vice-chairmans-final-uso-tour-visits-eucom-centcom/">
+                    <a class="addthis_button_facebook social-link">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="addthis_button_twitter  social-link">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                </div>
+                <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=">
+                    var addthis_config = {
+                        data_use_flash: false,
+                        data_use_cookies: false,
+                        ui_508_compliant: true
+                    }</script>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</div>
+
+        
+        <div class="item explore-item item-1806452">
+    
+    <div class="poster-outer">
+        <div class="poster dgov-card dgov-card-2 video-wrap-container">
+            <a href='https://www.defense.gov/explore/story/Article/1806452/dod-quickly-joins-mozambique-relief-efforts/'  title="Airmen load bags of food onto an airplane">
+                
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-default.png" class="defaultVideoOverlay">
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-hover.png" class="hoverVideoOverlay">
+                
+                <div style="background-image:url('https://media.defense.gov/2019/Apr/05/2002110116/825/780/0/190329-F-PS957-0145.JPG');">
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="dgov-card dgov-card-4 info info-1806452" data-url="https://www.defense.gov/explore/story/Article/1806452/dod-quickly-joins-mozambique-relief-efforts/">
+        <a class="category" href="https://www.defense.gov/Search-Results/Term/2585/humanitarian-aid/"><span>Humanitarian Aid</span></a>
+        <a class="title" href='https://www.defense.gov/explore/story/Article/1806452/dod-quickly-joins-mozambique-relief-efforts/' > <span class="title-video">Video: </span>DOD Quickly Joins Mozambique Relief Efforts</a>
+        <a class="play" href="https://www.defense.gov/explore/story/Article/1806452/dod-quickly-joins-mozambique-relief-efforts/">
+            <span class="fa"></span>
+        </a>
+        <div class="bar">
+            <time data-dateago="2019-04-05T10:22:00" data-dateap="April 5, 2019">
+            </time>
+
+            <div class="social">
+                <div class="addthis_toolbox addthis_default_style social-inner" addthis:url="https://www.defense.gov/explore/story/Article/1806452/dod-quickly-joins-mozambique-relief-efforts/">
+                    <a class="addthis_button_facebook social-link">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="addthis_button_twitter  social-link">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                </div>
+                <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=">
+                    var addthis_config = {
+                        data_use_flash: false,
+                        data_use_cookies: false,
+                        ui_508_compliant: true
+                    }</script>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</div>
+
+        
+        <div class="item explore-item item-1805390">
+    
+    <div class="poster-outer">
+        <div class="poster dgov-card dgov-card-2 ">
+            <a href='https://www.defense.gov/explore/story/Article/1805390/go-for-broke-army-units-motto-now-a-national-day/'  title="Three Japanese American World War II veterans look toward the distance.">
+                
+                <div style="background-image:url('https://media.defense.gov/2019/Apr/04/2002109634/825/780/0/111217-F-MQ656-178E.JPG');">
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="dgov-card dgov-card-4 info info-1805390" data-url="https://www.defense.gov/explore/story/Article/1805390/go-for-broke-army-units-motto-now-a-national-day/">
+        <a class="category" href="https://www.defense.gov/Search-Results/Term/2580/know-your-military/"><span>Know Your Military</span></a>
+        <a class="title" href='https://www.defense.gov/explore/story/Article/1805390/go-for-broke-army-units-motto-now-a-national-day/' > Go For Broke: Army Unit&#39;s Motto Now a National Day</a>
+        <a class="play" href="https://www.defense.gov/explore/story/Article/1805390/go-for-broke-army-units-motto-now-a-national-day/">
+            <span class="fa"></span>
+        </a>
+        <div class="bar">
+            <time data-dateago="2019-04-04T13:17:00" data-dateap="April 4, 2019">
+            </time>
+
+            <div class="social">
+                <div class="addthis_toolbox addthis_default_style social-inner" addthis:url="https://www.defense.gov/explore/story/Article/1805390/go-for-broke-army-units-motto-now-a-national-day/">
+                    <a class="addthis_button_facebook social-link">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="addthis_button_twitter  social-link">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                </div>
+                <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=">
+                    var addthis_config = {
+                        data_use_flash: false,
+                        data_use_cookies: false,
+                        ui_508_compliant: true
+                    }</script>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</div>
+
+        
+    </div>
+</div>
+<script>
+    /*    $(document).ready(function () {
+            $('.spinner3').fadeOut('fast');
+        });
+        */
+    /* link img and title hover */
+    $('.alist .poster a, .alist .info').hover(function () {
+        $(this).closest('.item').addClass('hover');
+    }, function () {
+        $(this).closest('.item').removeClass('hover');
+    });
+
+    $('.alist .info').click(function (evt) {
+        if (evt.target.className.indexOf("info") !== -1) {
+            var url = $(this).data("url");
+            window.location.href = url;
+        }
+    });
+</script>
+
+
+
+	</div>
+
+
+</div><div class="text-center"><a class="btn btn-primary btn-primary-ghost" href="/explore/listing/">View More</a></div>
+</div>
+</div><!-- End_Module_656 --></div>
+</div><!--end of empty container -->
+
+
+</div></div>
+    <div id="content-pane-wrap2">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane2" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed3"><div class="DnnModule DnnModule-ArticleCSDashboard DnnModule-658"><a name="658"></a>
+<div class="empty-container base-container">
+    <div id="dnn_ctr658_ContentPane"><!-- Start_Module_658 --><div class="slice-angle slice-angle-blue slice-angle-down-top">
+<div class="content-wrap-wide"><div id="dnn_ctr658_ModuleContent" class="DNNModuleContent ModArticleCSDashboardC">
+	<div id="dnn_ctr658_Dashboard_ph">
+		
+<div class="aframe adash also-like">
+    <h2 class="pull-title">Experience</h2>
+    <div class="items">
+        
+        <div class="item item-1794417" data-url="/Experience/honors-for-valor/">
+    <div class="inner">
+        <div class="poster ">
+            
+            <a href='/Experience/honors-for-valor/' >
+            </a>
+            
+
+            <div class="overlay overlay-image">
+            </div>
+            
+            <div class="image" style="background-image: url(https://media.defense.gov/2019/Mar/22/2002104771/825/780/0/190322-D-ID696-001.JPG);">
+                <p class="alt">Honors for Valor - Honors for Valor</p>
+            </div>
+            
+            <div class="info">
+                <div class="overlay overlay-info"></div>
+                <div class="info-text">
+                    <div class="subhead">Interactive</div>
+                    <h3>
+                        <a href="/Experience/honors-for-valor/" class="title" title="Honors for Valor">
+                            Honors for Valor
+                        </a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+        <div class="item item-1733756" data-url="/Experience/2019-Missile-Defense-Review">
+    <div class="inner">
+        <div class="poster ">
+            
+            <a href='/Experience/2019-Missile-Defense-Review' >
+            </a>
+            
+
+            <div class="overlay overlay-image">
+            </div>
+            
+            <div class="image" style="background-image: url(https://media.defense.gov/2019/Jan/16/2002080494/825/780/0/190116-D-ZZ999-105.JPG);">
+                <p class="alt">2019 Missile Defense Review - 2019 Missile Defense Review</p>
+            </div>
+            
+            <div class="info">
+                <div class="overlay overlay-info"></div>
+                <div class="info-text">
+                    <div class="subhead">Interactive</div>
+                    <h3>
+                        <a href="/Experience/2019-Missile-Defense-Review" class="title" title="Missile Defense Review">
+                            Missile Defense Review
+                        </a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+    </div>
+</div>
+
+<script type="text/javascript">
+    /* link img and title hover */
+    $('.adash.also-like .poster a').hover(function () {
+        $(this).closest('.item').addClass('hover');
+    }, function () {
+        $(this).closest('.item').removeClass('hover');
+    });
+
+    $('.adash.also-like .item').click(function (evt) {
+        if (evt.target.className.indexOf("info") !== -1) {
+            var url = $(this).data("url");
+            window.location.href = url;
+        }
+    });
+
+
+</script>
+
+	</div>
+
+
+</div><div class="text-center"><a class="btn btn-default btn-default-ghost" href="/Experience/Listing/">View More</a></div>
+</div>
+</div><!-- End_Module_658 --></div>
+</div><!--end of empty container -->
+
+
+</div></div>
+    <div id="content-pane-wrap3">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane3" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed4"><div class="DnnModule DnnModule-SlideShow DnnModule-662"><a name="662"></a>
+
+<section class="dgov-carousel carousel-wrap-mask dgov-carousel-watch">
+    <div class="carousel-wrap content-wrap-wide">
+        <h1 class="pull-title"><span class="highlight">Watch:</span> <span id="dnn_ctr662_dnnTitle_titleLabel" class="Head">60 Second Snapshot</span>
+
+
+</h1>
+        <div id="dnn_ctr662_ContentPane"><!-- Start_Module_662 --><div id="dnn_ctr662_ModuleContent" class="DNNModuleContent ModSlideShowC">
+	
+<div class="carousel">
+    
+    <div class="slide-container">
+        <div class="image-wrap  video-wrap-container">
+            <a href="/watch/video?videoid=670295" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://cdn.dvidshub.net/media/frames/video/1904/670295.jpg)"></div>
+                <img alt="A barber shaves a new recruit&#39;s head with an electric razor as other recruits are seen in a mirror." src="https://cdn.dvidshub.net/media/frames/video/1904/670295.jpg" class="" />
+                
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-default.png" class="defaultVideoOverlay">
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-hover.png" class="hoverVideoOverlay">
+                
+                <div class="slide-title">The Fort Jackson Fade</div>
+                <div class="video-duration">1:00</div>
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/watch/video?videoid=670295" target="_self">
+                <div class="mobile-slide-title">The Fort Jackson Fade</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  video-wrap-container">
+            <a href="/watch/video?videoid=657147" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://cdn.dvidshub.net/media/frames/video/1901/657147.jpg)"></div>
+                <img alt="Soliders crouch in the woods. " src="https://cdn.dvidshub.net/media/frames/video/1901/657147.jpg" class="" />
+                
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-default.png" class="defaultVideoOverlay">
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-hover.png" class="hoverVideoOverlay">
+                
+                <div class="slide-title">Troops, Tanks and Targets</div>
+                <div class="video-duration">1:00</div>
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/watch/video?videoid=657147" target="_self">
+                <div class="mobile-slide-title">Troops, Tanks and Targets</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  video-wrap-container">
+            <a href="/watch/video?videoid=661055" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://cdn.dvidshub.net/media/frames/video/1902/661055.jpg)"></div>
+                <img alt="Service members train in snowy conditions. 
+
+" src="https://cdn.dvidshub.net/media/frames/video/1902/661055.jpg" class="" />
+                
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-default.png" class="defaultVideoOverlay">
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-hover.png" class="hoverVideoOverlay">
+                
+                <div class="slide-title">Deadly Beauty</div>
+                <div class="video-duration">1:00</div>
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/watch/video?videoid=661055" target="_self">
+                <div class="mobile-slide-title">Deadly Beauty</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  video-wrap-container">
+            <a href="/watch/video?videoid=653319" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://cdn.dvidshub.net/media/frames/video/1901/653319.jpg)"></div>
+                <img alt="Boxing is a long-standing requirement for new students at the U.S. Naval Academy. It is also a centuries-old naval tradition. It teaches individuals about who they are and how they will react to stressful situations.  Leaders can&#39;t panic in stressful situations. They have to know how to take punches." src="https://cdn.dvidshub.net/media/frames/video/1901/653319.jpg" class="" />
+                
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-default.png" class="defaultVideoOverlay">
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-hover.png" class="hoverVideoOverlay">
+                
+                <div class="slide-title">Punched in the Face</div>
+                <div class="video-duration">1:00</div>
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/watch/video?videoid=653319" target="_self">
+                <div class="mobile-slide-title">Punched in the Face</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  video-wrap-container">
+            <a href="/watch/video?videoid=658600" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://cdn.dvidshub.net/media/frames/video/1902/658600.jpg)"></div>
+                <img alt="A U.S. F-16 Fighting Falcon aircraft taxis at an air base in the Philippines. " src="https://cdn.dvidshub.net/media/frames/video/1902/658600.jpg" class="" />
+                
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-default.png" class="defaultVideoOverlay">
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-hover.png" class="hoverVideoOverlay">
+                
+                <div class="slide-title">Train Together, Fight Together</div>
+                <div class="video-duration">1:00</div>
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/watch/video?videoid=658600" target="_self">
+                <div class="mobile-slide-title">Train Together, Fight Together</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  video-wrap-container">
+            <a href="/watch/video?videoid=657918" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://cdn.dvidshub.net/media/frames/video/1902/657918.jpg)"></div>
+                <img alt="Marines carry a raft into the ocean for an exercise. " src="https://cdn.dvidshub.net/media/frames/video/1902/657918.jpg" class="" />
+                
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-default.png" class="defaultVideoOverlay">
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-hover.png" class="hoverVideoOverlay">
+                
+                <div class="slide-title">Better Together</div>
+                <div class="video-duration">1:00</div>
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/watch/video?videoid=657918" target="_self">
+                <div class="mobile-slide-title">Better Together</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  video-wrap-container">
+            <a href="/watch/video?videoid=657923" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://cdn.dvidshub.net/media/frames/video/1902/657923.jpg)"></div>
+                <img alt="A military working dog wearing sunglasses is pictured." src="https://cdn.dvidshub.net/media/frames/video/1902/657923.jpg" class="" />
+                
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-default.png" class="defaultVideoOverlay">
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-hover.png" class="hoverVideoOverlay">
+                
+                <div class="slide-title">Good Doggie!</div>
+                <div class="video-duration">1:00</div>
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/watch/video?videoid=657923" target="_self">
+                <div class="mobile-slide-title">Good Doggie!</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  video-wrap-container">
+            <a href="/watch/video?videoid=657289" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://cdn.dvidshub.net/media/frames/video/1901/657289.jpg)"></div>
+                <img alt="Army Reserve soldiers train alongside civilian first responders at Homestead-Miami Speedway in Florida. " src="https://cdn.dvidshub.net/media/frames/video/1901/657289.jpg" class="" />
+                
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-default.png" class="defaultVideoOverlay">
+                <img src="/Portals/_default/Skins/DGOV2/Resources/img/play-hover.png" class="hoverVideoOverlay">
+                
+                <div class="slide-title">Teaming up, Saving Lives</div>
+                <div class="video-duration">1:00</div>
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/watch/video?videoid=657289" target="_self">
+                <div class="mobile-slide-title">Teaming up, Saving Lives</div>
+            </a>
+        </div>
+    </div>
+    
+    
+    <div class="last-slide image-wrap">
+        <a class="zoom-bg" href="/Watch/Video/dvpcc/false/?dvpTag=60%20Sec%20Snapshot">
+            <div class="plus"></div>
+            <h2>View More</h2>
+        </a>
+    </div>
+    
+</div>
+
+<div class="text-center">
+    <a href="/Watch/Video/dvpcc/false/?dvpTag=60%20Sec%20Snapshot" class="btn btn-default btn-default-ghost">More Photos</a>
+</div>
+
+
+<script type="text/javascript">
+    $(function () {
+        var $container = $('#dnn_ctr662_ModuleContent'),
+            breakpoint = 1025; //actually kicks in the next pixel down
+        /*variations in mores between the two carousels*/
+        $container.closest('.dgov-carousel-observe').find('.last-slide').remove();
+        $container.closest('.dgov-carousel-watch').find('.text-center').remove();
+        $container.find('.carousel').slick({
+            infinite: false,
+            adaptiveHeight: false,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            swipeToSlide: true,
+            prevArrow: '<i class="fa fa-chevron-left carousel-previous"></i>',
+            nextArrow: '<i class="fa fa-chevron-right carousel-next"></i>',
+            responsive: [
+                {
+                    infinite: false,
+                    breakpoint: breakpoint,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '32px',
+                    }
+                }
+            ]
+        });
+        $container.find('.slick-slide').on('click', function (e) {
+            var $this = $(this);
+            const currentClass = 'slick-current'; // was 'slick-active' which is not set in mobile atm for some reason (centermode?)
+            const activeClass = 'slick-active';
+            const refSelector = "." + currentClass + ":eq(0)";
+            if (!$this.hasClass(currentClass) && !$this.hasClass(activeClass)) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                if ($this.index() > $container.find(refSelector).index()) {
+                    //$container.find('.carousel-next').click();
+                    $container.find('.carousel').slick("slickNext");
+                } else {
+                    //$container.find('.carousel-previous').click();
+                    $container.find('.carousel').slick("slickPrev");
+                }
+            }
+        });
+
+        // used to make all slides the same height, so that title section of slide is
+        // the same height in mobile.
+        $container.find('.carousel').on('setPosition', function () {
+            $(this).find('.slick-slide').height('auto');
+            var slickTrack = $(this).find('.slick-track');
+            var slickTrackHeight = $(slickTrack).height();
+            $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
+        });
+    });
+</script>
+
+</div><!-- End_Module_662 --></div>
+    </div>
+</section>
+
+
+</div></div>
+    <div id="content-pane-wrap4">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane4" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed5"><div class="DnnModule DnnModule-DNN_HTML DnnModule-551"><a name="551"></a>
+<div class="empty-container base-container">
+    <div id="dnn_ctr551_ContentPane"><!-- Start_Module_551 --><div id="dnn_ctr551_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr551_HtmlModule_lblContent" class="Normal">
+		<div class="content-wrap-wide knowYourMilitary">
+    <div class="content">
+        <h2>Know Your Military</h2>
+        <p>Discover the new #KnowYourMil showcasing the men and women who serve in your military &mdash; who they are, what they do and why they do it.</p>
+        <a class="btn btn-default btn-default-ghost" href="/know-your-military">Discover</a> </div>
+    <div style="clear:both;"></div>
+</div>
+	</div>
+
+</div><!-- End_Module_551 --></div>
+</div><!--end of empty container -->
+
+
+</div></div>
+    <div id="content-pane-wrap5">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane5" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed6"><div class="DnnModule DnnModule-SlideShow DnnModule-763"><a name="763"></a>
+
+<section class="dgov-carousel carousel-wrap-mask dgov-carousel-observe">
+    <div class="carousel-wrap content-wrap-wide">
+        <h1 class="pull-title"><span class="highlight">Observe:</span> <span id="dnn_ctr763_dnnTitle_titleLabel" class="Head">Top Photos</span>
+
+
+</h1>
+        <div id="dnn_ctr763_ContentPane"><!-- Start_Module_763 --><div id="dnn_ctr763_ModuleContent" class="DNNModuleContent ModSlideShowC">
+	
+<div class="carousel">
+    
+    <div class="slide-container">
+        <div class="image-wrap  ">
+            <a href="/observe/photo-gallery?igphoto=2002110073" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Apr/05/2002110073/900/510/0/190327-N-OW019-1127C.JPG)"></div>
+                <img alt="A ships fires its machine gun." src="https://media.defense.gov/2019/Apr/05/2002110073/900/510/0/190327-N-OW019-1127C.JPG" class="" />
+                
+                <div class="slide-title">Machine Gunfire</div>
+                
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/observe/photo-gallery?igphoto=2002110073" target="_self">
+                <div class="mobile-slide-title">Machine Gunfire</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  ">
+            <a href="/observe/photo-gallery?igphoto=2002109309" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Apr/02/2002109309/900/510/0/190327-M-PH977-1363.JPG)"></div>
+                <img alt="Two kneeling Marines work on breaching barbed wire amid a cloud of yellow smoke." src="https://media.defense.gov/2019/Apr/02/2002109309/900/510/0/190327-M-PH977-1363.JPG" class="" />
+                
+                <div class="slide-title">Smoke Screen</div>
+                
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/observe/photo-gallery?igphoto=2002109309" target="_self">
+                <div class="mobile-slide-title">Smoke Screen</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  ">
+            <a href="/observe/photo-gallery?igphoto=2002109877" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Apr/04/2002109877/900/510/0/190329-N-IO414-1123C.JPG)"></div>
+                <img alt="Bioluminescence glows in the wake of a ship." src="https://media.defense.gov/2019/Apr/04/2002109877/900/510/0/190329-N-IO414-1123C.JPG" class="" />
+                
+                <div class="slide-title">Wild Wake</div>
+                
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/observe/photo-gallery?igphoto=2002109877" target="_self">
+                <div class="mobile-slide-title">Wild Wake</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  ">
+            <a href="/observe/photo-gallery?igphoto=2002109716" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Apr/04/2002109716/900/510/0/190403-F-SX095-006.JPG)"></div>
+                <img alt="An Air Force honor guard member, shown in closeup, smiles while holding a weapon in front of the center of his face." src="https://media.defense.gov/2019/Apr/04/2002109716/900/510/0/190403-F-SX095-006.JPG" class="" />
+                
+                <div class="slide-title">Smile Symmetry</div>
+                
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/observe/photo-gallery?igphoto=2002109716" target="_self">
+                <div class="mobile-slide-title">Smile Symmetry</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  ">
+            <a href="/observe/photo-gallery?igphoto=2002109967" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Apr/04/2002109967/900/510/0/190404-N-AZ808-1089C.JPG)"></div>
+                <img alt="A group of sailors sit in a half circle in  front of three students with cardboard pieces between." src="https://media.defense.gov/2019/Apr/04/2002109967/900/510/0/190404-N-AZ808-1089C.JPG" class="" />
+                
+                <div class="slide-title">Cardboard Creativity</div>
+                
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/observe/photo-gallery?igphoto=2002109967" target="_self">
+                <div class="mobile-slide-title">Cardboard Creativity</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  ">
+            <a href="/observe/photo-gallery?igphoto=2002109869" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Apr/04/2002109869/900/510/0/190329-Z-CG859-1902A.JPG)"></div>
+                <img alt="A sailor signals an aircrew in a helicopter on a military ship at twilight." src="https://media.defense.gov/2019/Apr/04/2002109869/900/510/0/190329-Z-CG859-1902A.JPG" class="" />
+                
+                <div class="slide-title">Sailor Signals</div>
+                
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/observe/photo-gallery?igphoto=2002109869" target="_self">
+                <div class="mobile-slide-title">Sailor Signals</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  ">
+            <a href="/observe/photo-gallery?igphoto=2002109953" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Apr/04/2002109953/900/510/0/190326-F-ON660-0408C.JPG)"></div>
+                <img alt="Three airmen hold a fire hose as it sprays water onto a fire." src="https://media.defense.gov/2019/Apr/04/2002109953/900/510/0/190326-F-ON660-0408C.JPG" class="" />
+                
+                <div class="slide-title">Fire Crew</div>
+                
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/observe/photo-gallery?igphoto=2002109953" target="_self">
+                <div class="mobile-slide-title">Fire Crew</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  ">
+            <a href="/observe/photo-gallery?igphoto=2002110072" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Apr/05/2002110072/900/510/0/190402-N-UY393-0146C.JPG)"></div>
+                <img alt="Sailors dance with a student." src="https://media.defense.gov/2019/Apr/05/2002110072/900/510/0/190402-N-UY393-0146C.JPG" class="" />
+                
+                <div class="slide-title">Malaysian Dance</div>
+                
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/observe/photo-gallery?igphoto=2002110072" target="_self">
+                <div class="mobile-slide-title">Malaysian Dance</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  ">
+            <a href="/observe/photo-gallery?igphoto=2002108844" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Apr/02/2002108844/900/510/0/190325-N-UI104-0300C.JPG)"></div>
+                <img alt="Two sailors look out a window towards a parked helicopter." src="https://media.defense.gov/2019/Apr/02/2002108844/900/510/0/190325-N-UI104-0300C.JPG" class="" />
+                
+                <div class="slide-title">Flight Views</div>
+                
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/observe/photo-gallery?igphoto=2002108844" target="_self">
+                <div class="mobile-slide-title">Flight Views</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="slide-container">
+        <div class="image-wrap  ">
+            <a href="/observe/photo-gallery?igphoto=2002105974" target="_self">
+                <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Mar/26/2002105974/900/510/0/190319-M-ST406-1005C.JPG)"></div>
+                <img alt="Two Marines walk through dessert with a mountain in the background." src="https://media.defense.gov/2019/Mar/26/2002105974/900/510/0/190319-M-ST406-1005C.JPG" class="" />
+                
+                <div class="slide-title">Patrol Practice</div>
+                
+            </a>
+        </div>
+        <div class="mobile-slide-title-container">
+            <a href="/observe/photo-gallery?igphoto=2002105974" target="_self">
+                <div class="mobile-slide-title">Patrol Practice</div>
+            </a>
+        </div>
+    </div>
+    
+    
+</div>
+
+
+<script type="text/javascript">
+    $(function () {
+        var $container = $('#dnn_ctr763_ModuleContent'),
+            breakpoint = 1025; //actually kicks in the next pixel down
+        /*variations in mores between the two carousels*/
+        $container.closest('.dgov-carousel-observe').find('.last-slide').remove();
+        $container.closest('.dgov-carousel-watch').find('.text-center').remove();
+        $container.find('.carousel').slick({
+            infinite: false,
+            adaptiveHeight: false,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            swipeToSlide: true,
+            prevArrow: '<i class="fa fa-chevron-left carousel-previous"></i>',
+            nextArrow: '<i class="fa fa-chevron-right carousel-next"></i>',
+            responsive: [
+                {
+                    infinite: false,
+                    breakpoint: breakpoint,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '32px',
+                    }
+                }
+            ]
+        });
+        $container.find('.slick-slide').on('click', function (e) {
+            var $this = $(this);
+            const currentClass = 'slick-current'; // was 'slick-active' which is not set in mobile atm for some reason (centermode?)
+            const activeClass = 'slick-active';
+            const refSelector = "." + currentClass + ":eq(0)";
+            if (!$this.hasClass(currentClass) && !$this.hasClass(activeClass)) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                if ($this.index() > $container.find(refSelector).index()) {
+                    //$container.find('.carousel-next').click();
+                    $container.find('.carousel').slick("slickNext");
+                } else {
+                    //$container.find('.carousel-previous').click();
+                    $container.find('.carousel').slick("slickPrev");
+                }
+            }
+        });
+
+        // used to make all slides the same height, so that title section of slide is
+        // the same height in mobile.
+        $container.find('.carousel').on('setPosition', function () {
+            $(this).find('.slick-slide').height('auto');
+            var slickTrack = $(this).find('.slick-track');
+            var slickTrackHeight = $(slickTrack).height();
+            $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
+        });
+    });
+</script>
+
+</div><div class="text-center"><a class="btn btn-default btn-default-ghost" href="/observe/photo-gallery/">More Photos</a></div><!-- End_Module_763 --></div>
+    </div>
+</section>
+
+
+</div></div>
+    <div id="content-pane-wrap6">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane6" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed7"><div class="DnnModule DnnModule-ArticleCSDashboard DnnModule-760"><a name="760"></a>
+<div class="empty-container base-container">
+    <div id="dnn_ctr760_ContentPane"><!-- Start_Module_760 --><div id="dnn_ctr760_ModuleContent" class="DNNModuleContent ModArticleCSDashboardC">
+	<div id="dnn_ctr760_Dashboard_ph">
+		
+
+<section id="module-760" class="dgov-carousel carousel-wrap-mask dgov-carousel-engage">
+    <div class="carousel-wrap content-wrap-wide">
+        <h1 class="pull-title">Engage: <span class="Head">Test Your Wit</span></h1>
+        <div class="carousel">
+            
+            
+            <div class="item-1651925">
+                <figure>
+                    <div class="image-wrap dgov-card dgov-card-2 ">
+                        <a class="" href="https://www.defense.gov/Engage/Quiz/Article/1651925/how-do-you-rank-on-ranks/">
+                            <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2018/Oct/02/2002047320/825/780/0/180803-M-RL017-739.JPG)"></div>
+                            <img alt="A hand reaches in to remove the rank insignia from a green Marine Corps uniform." src="https://media.defense.gov/2018/Oct/02/2002047320/825/780/0/180803-M-RL017-739.JPG" />
+                            
+                            
+                        </a>
+                    </div>
+                    <figcaption class="info dgov-card dgov-card-4">
+                        <a class="category" href="https://www.defense.gov/Search-Results/Term/2580/know-your-military/"><span>Know Your Military</span></a>
+                        <a class="title" href="https://www.defense.gov/Engage/Quiz/Article/1651925/how-do-you-rank-on-ranks/"><h2>Quiz: How Do You Rank on Ranks?</h2></a>
+                        <span class="quiz-question-count">8 questions</span>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            
+            
+            <div class="item-1721635">
+                <figure>
+                    <div class="image-wrap dgov-card dgov-card-2 ">
+                        <a class="" href="https://www.defense.gov/Engage/Quiz/Article/1721635/power-of-the-pushup-think-you-could-pass-a-military-fitness-test/">
+                            <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Jan/03/2002076902/825/780/0/181104-A-LK885-0084C.JPG)"></div>
+                            <img alt="An Army reserve soldier does a push up." src="https://media.defense.gov/2019/Jan/03/2002076902/825/780/0/181104-A-LK885-0084C.JPG" />
+                            
+                            
+                        </a>
+                    </div>
+                    <figcaption class="info dgov-card dgov-card-4">
+                        <a class="category" href="https://www.defense.gov/Search-Results/Term/2580/know-your-military/"><span>Know Your Military</span></a>
+                        <a class="title" href="https://www.defense.gov/Engage/Quiz/Article/1721635/power-of-the-pushup-think-you-could-pass-a-military-fitness-test/"><h2>Quiz: Pushup Power! Think You Could Pass a Military Fitness Test?</h2></a>
+                        <span class="quiz-question-count">4 questions</span>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            
+            
+            <div class="item-1648559">
+                <figure>
+                    <div class="image-wrap dgov-card dgov-card-2 ">
+                        <a class="" href="https://www.defense.gov/Engage/Quiz/Article/1648559/dont-throw-away-your-shot/">
+                            <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2018/Sep/28/2002046109/825/780/0/180921-D-EE902-1016.JPG)"></div>
+                            <img alt="A missile fires during an exercise from a vehicle mount." src="https://media.defense.gov/2018/Sep/28/2002046109/825/780/0/180921-D-EE902-1016.JPG" />
+                            
+                            
+                        </a>
+                    </div>
+                    <figcaption class="info dgov-card dgov-card-4">
+                        <a class="category" href="https://www.defense.gov/Search-Results/Term/2581/lethality/"><span>Lethality</span></a>
+                        <a class="title" href="https://www.defense.gov/Engage/Quiz/Article/1648559/dont-throw-away-your-shot/"><h2>Quiz: Don’t Throw Away Your Shot!</h2></a>
+                        <span class="quiz-question-count">10 questions</span>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            
+            
+            <div class="item-1778674">
+                <figure>
+                    <div class="image-wrap dgov-card dgov-card-2 ">
+                        <a class="" href="https://www.defense.gov/Engage/Quiz/Article/1778674/higher-further-faster-test-your-superhero-knowledge/">
+                            <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Mar/07/2002097472/825/780/0/170713-D-ZZ999-0010C.JPG)"></div>
+                            <img alt="Brie Larson gets ready to fly" src="https://media.defense.gov/2019/Mar/07/2002097472/825/780/0/170713-D-ZZ999-0010C.JPG" />
+                            
+                            
+                        </a>
+                    </div>
+                    <figcaption class="info dgov-card dgov-card-4">
+                        <a class="category" href="https://www.defense.gov/Search-Results/Term/2580/know-your-military/"><span>Know Your Military</span></a>
+                        <a class="title" href="https://www.defense.gov/Engage/Quiz/Article/1778674/higher-further-faster-test-your-superhero-knowledge/"><h2>Quiz: Higher! Further! Faster! — Test Your Superhero Knowledge</h2></a>
+                        <span class="quiz-question-count">4 questions</span>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            
+            
+            <div class="item-1742124">
+                <figure>
+                    <div class="image-wrap dgov-card dgov-card-2 ">
+                        <a class="" href="https://www.defense.gov/Engage/Quiz/Article/1742124/this-quiz-will-self-destruct-after-4-questions/">
+                            <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Jan/29/2002084065/825/780/0/170801-D-DB155-003.JPG)"></div>
+                            <img alt="EOD tech places rope on unmanned aircraft" src="https://media.defense.gov/2019/Jan/29/2002084065/825/780/0/170801-D-DB155-003.JPG" />
+                            
+                            
+                        </a>
+                    </div>
+                    <figcaption class="info dgov-card dgov-card-4">
+                        <a class="category" href="https://www.defense.gov/Search-Results/Term/2581/lethality/"><span>Lethality</span></a>
+                        <a class="title" href="https://www.defense.gov/Engage/Quiz/Article/1742124/this-quiz-will-self-destruct-after-4-questions/"><h2>Quiz: This Quiz Will Self-Destruct After 4 Questions ...</h2></a>
+                        <span class="quiz-question-count">4 questions</span>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            
+            
+            <div class="item-1757834">
+                <figure>
+                    <div class="image-wrap dgov-card dgov-card-2 ">
+                        <a class="" href="https://www.defense.gov/Engage/Quiz/Article/1757834/test-your-knowledge-of-our-first-presidents-military-prowess/">
+                            <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Feb/14/2002089788/825/780/0/181210-O-ZZ999-022A.JPG)"></div>
+                            <img alt="George Washington crossing river with Continental Army in 1776." src="https://media.defense.gov/2019/Feb/14/2002089788/825/780/0/181210-O-ZZ999-022A.JPG" />
+                            
+                            
+                        </a>
+                    </div>
+                    <figcaption class="info dgov-card dgov-card-4">
+                        <a class="category" href="https://www.defense.gov/Search-Results/Term/2580/know-your-military/"><span>Know Your Military</span></a>
+                        <a class="title" href="https://www.defense.gov/Engage/Quiz/Article/1757834/test-your-knowledge-of-our-first-presidents-military-prowess/"><h2>Quiz: Test Your Knowledge of Our First President&#39;s Military Prowess</h2></a>
+                        <span class="quiz-question-count">4 questions</span>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            
+            
+            <div class="item-1729677">
+                <figure>
+                    <div class="image-wrap dgov-card dgov-card-2 ">
+                        <a class="" href="https://www.defense.gov/Engage/Quiz/Article/1729677/bombs-over-baghdad-test-your-desert-storm-knowledge/">
+                            <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2019/Jan/11/2002078705/825/780/0/130412-F-AS123-005C.JPG)"></div>
+                            <img alt="F-16 Fighting Falcons and F-15 Eagles flying during Desert Storm" src="https://media.defense.gov/2019/Jan/11/2002078705/825/780/0/130412-F-AS123-005C.JPG" />
+                            
+                            
+                        </a>
+                    </div>
+                    <figcaption class="info dgov-card dgov-card-4">
+                        <a class="category" href="https://www.defense.gov/Search-Results/Term/2581/lethality/"><span>Lethality</span></a>
+                        <a class="title" href="https://www.defense.gov/Engage/Quiz/Article/1729677/bombs-over-baghdad-test-your-desert-storm-knowledge/"><h2>Quiz: Bombs Over Baghdad — Test Your Desert Storm Knowledge</h2></a>
+                        <span class="quiz-question-count">5 questions</span>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            
+            
+            <div class="item-1696813">
+                <figure>
+                    <div class="image-wrap dgov-card dgov-card-2 ">
+                        <a class="" href="https://www.defense.gov/Engage/Quiz/Article/1696813/pssst-charlie-october-delta-echo-over-how-well-do-you-know-your-code-talker-tra/">
+                            <div class="zoom-bg image-replacement" style="background-image: url(https://media.defense.gov/2018/Nov/21/2002065703/825/780/0/131105-M-SS662-033.JPG)"></div>
+                            <img alt="Code talkers" src="https://media.defense.gov/2018/Nov/21/2002065703/825/780/0/131105-M-SS662-033.JPG" />
+                            
+                            
+                        </a>
+                    </div>
+                    <figcaption class="info dgov-card dgov-card-4">
+                        <a class="category" href="https://www.defense.gov/Search-Results/Term/2582/partnerships/"><span>Partnerships</span></a>
+                        <a class="title" href="https://www.defense.gov/Engage/Quiz/Article/1696813/pssst-charlie-october-delta-echo-over-how-well-do-you-know-your-code-talker-tra/"><h2>Quiz: How Well Do You Know Your Code Talker Translations?</h2></a>
+                        <span class="quiz-question-count">4 questions</span>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            
+            [hasmoreurl]
+            <div class="last-slide image-wrap dgov-card dgov-card-2">
+                <div>
+                    <a class="zoom-bg" href="/Engage/Quiz-Listing/">
+                        <div class="plus"></div>
+                        <h2>View More</h2>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+
+    $(function () {
+        var $container = $('#module-760'),
+            $captions = $container.find('figcaption');
+        $container.find('.carousel').slick({
+            infinite: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            swipeToSlide: true,
+            prevArrow: '<i class="fa fa-chevron-left carousel-previous"></i>',
+            nextArrow: '<i class="fa fa-chevron-right carousel-next"></i>',
+            responsive: [
+                {
+                    infinite: false,
+                    breakpoint: 1025,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '32px'
+                    }
+                },
+                {
+                    breakpoint: 450,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '18px'
+                    }
+                }
+            ]
+        });
+        $container.find('.slick-slide').on('click', function (e) {
+            var $this = $(this);
+            if (!$this.hasClass('slick-current') && !$this.hasClass('slick-active')) {
+                e.preventDefault();
+                e.stopPropagation();
+                if ($this.index() > $container.find('.slick-current:eq(0)').index()) {
+                    //$container.find('.carousel-next').click();
+                    $container.find('.carousel').slick('slickNext');
+
+                } else {
+                    //$container.find('.carousel-previous').click();
+                    $container.find('.carousel').slick('slickPrev');
+                }
+            }
+        });
+        function setCaptionHeights() {
+            var h = 0;
+            $captions.css('min-height', 'auto');
+            $captions.each(function () { h = $(this).outerHeight() > h ? $(this).outerHeight() : h; }).css('min-height', h + 'px');
+        }
+        setCaptionHeights();
+
+    });
+</script>
+
+
+
+	</div>
+
+
+</div><!-- End_Module_760 --></div>
+</div><!--end of empty container -->
+
+
+</div></div>
+    <div id="content-pane-wrap7">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane7" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed8" class="DNNEmptyPane"></div>
+    <div id="content-pane-wrap8">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane8" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed9" class="DNNEmptyPane"></div>
+    <div id="content-pane-wrap9">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane9" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed10" class="DNNEmptyPane"></div>
+    <div id="content-pane-wrap10">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane10" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed11" class="DNNEmptyPane"></div>
+    <div id="content-pane-wrap11">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane11" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+    <div id="dnn_ContentPaneFullBleed12" class="DNNEmptyPane"></div>
+    <div id="content-pane-wrap12">
+        <div class="content-wrap-wide">
+            <div id="dnn_ContentPane12" class="DNNEmptyPane"></div>
+        </div>
+    </div>
+</main>
+
+
+<section class="footer-search">
+    <div class="slice-angle slice-angle-footer-search slice-angle-down-top">
+        <div class="footer-search-wrap content-wrap">
+            <h1>I want to find...</h1>
+            <div class="footer-search-input-wrap">
+                <input type="search" class="usagov-search-autocomplete" autocomplete="off" name="footer-search" placeholder="Search" value="" />
+                <button type="button" class="skin-search-go" aria-label="Search" ><i class="fa fa-search"></i></button>
+            </div>
+            <h2>Featured Searches:</h2>
+            <div class="search-popular-tags">
+                <ul><li><a href="/Our-Story/#priorities" title="Priorities"><span class="text text-link-15">Priorities</span></a></li><li><a href="/Search-Results/Tag/47488/" title="Cyber"><span class="text text-link-9">Cyber</span></a></li><li><a href="/Newsroom/Today-in-DoD/" title="Today in DOD"><span class="text text-link-10">Today in DOD</span></a></li><li><a href="/Search-Results/Tag/46952/" title="NATO"><span class="text text-link-11">NATO</span></a></li><li><a href="/Our-Story/#history" title="History"><span class="text text-link-16">History</span></a></li></ul>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script type="text/javascript">
+    var usasearch_config = {
+        siteHandle: skinvars.aid,
+        autoSubmitOnSelect: false,
+    }
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "//search.usa.gov/javascripts/remote.loader.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+    
+    const queryInput = $("input[name=footer-search],input[name=search-main]").on("keyup", function (e) {
+        if (e.keyCode == 13) {
+            submitSearch($(this));
+        }
+    });
+
+    $("input[name=footer-search] ~ button, input[name=search-main] ~ button").on("click", function (e) {
+        e.stopImmediatePropagation();
+        submitSearch($(this));
+    });
+
+    function submitSearch($this) {
+        const query =  $this ? ( $this.val() || $this.parent().find('input').val()) : "" ;
+        const affiliate = skinvars.aid;
+        window.location = "//search.usa.gov/search?query=" + query + "&affiliate=" + affiliate + "&utf8=%26%23x2713%3B";
+    }
+</script>
+
+
+
+
+
+
+<footer id="footer-main">
+    <div class="utility">
+        <ul><li><a href="/Legal-Administrative/" title="Legal &amp; Administrative"><span class="text text-link-12">Legal & Administrative</span></a></li><li><a href="/Site-Index/" title="Site Map"><span class="text text-link-13">Site Map</span></a></li><li><a href="/contact" title="Contact"><span class="text text-link-14">Contact</span></a></li></ul>
+
+
+    </div>
+
+    <div class="social">
+        <ul><li><a href="https://twitter.com/DeptofDefense" title="Twitter" target="_blank"><span class="social-icon fa fa-twitter social-link-5"></span></a></li><li><a href="https://www.facebook.com/DeptofDefense" title="Facebook" target="_blank"><span class="social-icon fa fa-facebook social-link-6"></span></a></li><li><a href="https://www.instagram.com/deptofdefense/" title="Instagram" target="_blank"><span class="social-icon fa fa-instagram social-link-8"></span></a></li><li><a href="https://www.youtube.com/deptofdefense" title="YouTube" target="_blank"><span class="social-icon fa fa-youtube social-link-7"></span></a></li></ul>
+
+
+    </div>
+
+</footer>
+
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`,`sf_siteRoot`:`/`,`sf_tabId`:`71`}" />
+        
+    </form>
+    <!--CDF(Javascript|/js/dnncore.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Css|/Portals/1/Page-Assets/home/home.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/js/dnn.modalpopup.js?cdv=469|DnnBodyProvider|50)--><!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=469|DnnPageHeaderProvider|5)--><!--CDF(Css|/Portals/_default/Skins/DGOV2/skin.css?cdv=469|DnnPageHeaderProvider|15)--><!--CDF(Css|/Portals/_default/Containers/DGOV2/container.css?cdv=469|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/DGOV2/container.css?cdv=469|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/ArticleCSDashboard/module.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/ArticleCSDashboard/module.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/DGOV2/container.css?cdv=469|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/ArticleCSDashboard/module.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/ArticleCSDashboard/module.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/DGOV2/container.css?cdv=469|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/ArticleCSDashboard/module.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/ArticleCSDashboard/module.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Css|/desktopmodules/SlideShow/Templates/DGOV2/template.css?cdv=469|DnnPageHeaderProvider|11)--><!--CDF(Css|/Portals/_default/Containers/DGOV2/container.css?cdv=469|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/SlideShow/module.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/DGOV2/container.css?cdv=469|DnnPageHeaderProvider|25)--><!--CDF(Css|/desktopmodules/SlideShow/Templates/DGOV2/template.css?cdv=469|DnnPageHeaderProvider|11)--><!--CDF(Css|/Portals/_default/Containers/DGOV2/container.css?cdv=469|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/SlideShow/module.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/DGOV2/container.css?cdv=469|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/ArticleCSDashboard/module.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/ArticleCSDashboard/module.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/1/portal.css?cdv=469|DnnPageHeaderProvider|35)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Bootstrap/js/bootstrap.min.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/Bootstrap/css/bootstrap.min.css?cdv=469|DnnPageHeaderProvider|14)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Skin/js/common.js?cdv=469|DnnBodyProvider|101)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Mobile-Detect/mobile-detect.min.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/font-awesome5/css/all.min.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/font-awesome5/css/v4-shims.min.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/SocialIcons/css/fa-social-icons.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/Skin/SkipNav/css/skipnav.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Css|/desktopmodules/ArticleCS/styles/DefenseGOV2/style.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/DesktopModules/ArticleCS/Resources/ArticleCS/js/ArticleCS.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/moment/moment.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/moment/moment-timezone-with-data.js?cdv=469|DnnBodyProvider|101)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/image-set-polyfill/image-set-polyfill.js?cdv=469|DnnBodyProvider|101)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/ColorBox/colorbox.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/ColorBox/jquery.colorbox.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Css|/desktopmodules/ArticleCS/styles/DefenseGOV2/style.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/DesktopModules/ArticleCS/Resources/ArticleCS/js/ArticleCS.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/moment/moment.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/moment/moment-timezone-with-data.js?cdv=469|DnnBodyProvider|101)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/image-set-polyfill/image-set-polyfill.js?cdv=469|DnnBodyProvider|101)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/ColorBox/colorbox.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/ColorBox/jquery.colorbox.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Css|/desktopmodules/ArticleCS/styles/DefenseGOV2/style.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/DesktopModules/ArticleCS/Resources/ArticleCS/js/ArticleCS.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/moment/moment.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/moment/moment-timezone-with-data.js?cdv=469|DnnBodyProvider|101)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/image-set-polyfill/image-set-polyfill.js?cdv=469|DnnBodyProvider|101)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/ColorBox/colorbox.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/ColorBox/jquery.colorbox.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/TouchSwipe/jquery.touchSwipe.min.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Cycle/cycle2.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Cycle/jquery.cycle2.swipe.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/DVIDSAnalytics/DVIDSVideoAnalytics.min.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/carouFredSel/jquery.carouFredSel-6.2.1-packed.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/carouFredSel/base.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelement.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelement-and-player.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelementplayer.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/TouchSwipe/jquery.touchSwipe.min.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Cycle/cycle2.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Cycle/jquery.cycle2.swipe.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/DVIDSAnalytics/DVIDSVideoAnalytics.min.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/carouFredSel/jquery.carouFredSel-6.2.1-packed.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/carouFredSel/base.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelement.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelement-and-player.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelementplayer.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/TouchSwipe/jquery.touchSwipe.min.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Cycle/cycle2.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Cycle/jquery.cycle2.swipe.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/DVIDSAnalytics/DVIDSVideoAnalytics.min.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/carouFredSel/jquery.carouFredSel-6.2.1-packed.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/carouFredSel/base.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelement.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelement-and-player.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelementplayer.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/TouchSwipe/jquery.touchSwipe.min.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Cycle/cycle2.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Cycle/jquery.cycle2.swipe.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/DVIDSAnalytics/DVIDSVideoAnalytics.min.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/carouFredSel/jquery.carouFredSel-6.2.1-packed.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/carouFredSel/base.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelement.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelement-and-player.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/MediaElement4.2.9/mediaelementplayer.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Css|/desktopmodules/ArticleCS/styles/DefenseGOV2/style.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/DesktopModules/ArticleCS/Resources/ArticleCS/js/ArticleCS.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/moment/moment.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/moment/moment-timezone-with-data.js?cdv=469|DnnBodyProvider|101)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/image-set-polyfill/image-set-polyfill.js?cdv=469|DnnBodyProvider|101)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/ColorBox/colorbox.css?cdv=469|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/ColorBox/jquery.colorbox.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.js?cdv=469|DnnBodyProvider|10)--><!--CDF(Css|/Desktopmodules/SharedLibrary/Plugins/Slick/1.9.0/slick.min.css?cdv=469|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/js/dnn.js?cdv=469|DnnBodyProvider|12)--><!--CDF(Javascript|/js/dnn.servicesframework.js?cdv=469|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/libraries/jQuery/03_02_01/jquery.js?cdv=469|DnnPageHeaderProvider|5)--><!--CDF(Javascript|/Resources/libraries/jQuery-Migrate/03_00_00/jquery-migrate.js?cdv=469|DnnPageHeaderProvider|6)--><!--CDF(Javascript|/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=469|DnnPageHeaderProvider|10)-->
+    
+</body>
+</html>
